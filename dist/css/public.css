@@ -73,7 +73,7 @@ body>div {
 }
 
 /* flex */
-.dif {
+.dif  .flex-base{
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;

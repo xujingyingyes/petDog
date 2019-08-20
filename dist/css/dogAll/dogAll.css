@@ -1,0 +1,28 @@
+
+@charset "utf-8";
+
+ 
+.banner-box{
+    height: 200px;
+    width: 100%;
+    background: #ff0;
+}
+.section-content .section-title{
+    padding: 40px 0;
+    text-align: center;
+}
+.section-content .section-title h2{
+    font-weight: bolder;
+    color:#333;
+}
+.section-content .section-title .tit{
+    /* word-spacing: 20px; */
+    color:#666;
+}
+
+.content{
+    
+}
+.shape-section{
+    background: #fff;
+}
