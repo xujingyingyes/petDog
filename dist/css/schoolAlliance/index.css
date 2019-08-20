@@ -1,0 +1,52 @@
+.input_btn{
+	width: 100px;
+	float: left;
+	height: 56px;
+	background: url(../img/zimusuoyin/input_btn.png);
+	border: none;
+}
+.one .center input{
+	height: 56px;
+	font-size: 18px;
+	box-sizing: border-box;
+	padding-left: 10px;
+	width: 500px;
+	outline: none;
+	float: left;
+	border:1px solid #999 ;
+}
+
+.one .center{
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.one .center p{
+	font-size: 20px;
+}
+.change_ul{
+	width: 1200px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+.change_ul li{
+	width: 20%;
+	display: inline-block;
+	border-radius: 5px;
+	margin: 20px 0;
+	text-align: center;
+}
+.change_ul li span{
+	padding: 10px 20px;
+	text-align: center;
+	display: inline-block;
+	background: #f5f5f5;
+}
+.list_title{
+	color: #bf2a30;
+	font-weight: bold;
+	font-size: 30px;
+	margin-top: 28px;
+}  
