@@ -84,12 +84,12 @@ $(function() {
         },
         init: function() {
             if (inited) return;
-            setHeader();
+              // setHeader();
             if ((location.pathname.match(/info/))) {
                 setNav();
             }
-            setFooter();
-            setStair();
+           // setFooter();
+           // setStair();
             setService();
         }
     };
