@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <% include ./partials/head %>
+</head>
+
+<body class="container">
+    <% include ./partials/header %>
+        <div id="main">
+            <div class="margin">
+                <div class="title-box">
+                    <p class="name">
+                        <%= detail.title %>
+                    </p>
+                    <p class="date"><%= new Date(parseInt(detail.updateTime)).toLocaleDateString() %></p>
+                </div>
+                <div class="content">
+                    <div class="detail">
+                        <%- detail.content %>
+                    </div>
+                </div>
+            </div>
+            <div class="back-box">
+                <a href="javascript:" onclick="history.back()" id="reback"><button class="back-btn">返回列表页</button></a>
+            </div>
+
+        </div>
+
+        <footer>
+            <% include ./partials/footer %>
+        </footer>
+
+</body>
+
+</html>

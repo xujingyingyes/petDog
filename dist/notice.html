@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        if (location.protocol === 'http:' && location.host === 'www.sy8.com') {
+            location.protocol = "https"
+        }
+    </script>
+    <meta charset="UTF-8">
+    <title>平台公告</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="keyworks" content="商赢金服，互联网金融，网络理财，短期理财，投资理财，安全可靠的理财产品，商赢投资，商赢借款，商赢金服.">
+    <meta name="description" content="商赢金服（www.sy8.com）是商赢集团旗下重点打造的投融资一键式智能平台。公司以先进的金融科技体系，成熟的服务管理理念，围绕产品搭建、用户细分、智能配资、风控保障四大领域，为客户提供全方位的投融资一键式智能综合服务">
+    <meta content="always" name="referrer">
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/lightbox.min.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/notice.css">
+</head>
+<body>
+<div class="notice  margin" id="platform">
+    <div class="content-box">
+        <div class="title">平台公告</div>
+        <div class="white-line">
+            <p class="red"></p>
+        </div>
+        <ul class="notice-info artlist">
+            <li>暂无内容</li>
+        </ul>
+        <div class="page">
+            <ul class="pagination" id="pages">
+                <li>暂无内容</li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+<div id="stair"></div>
+<script src="js/jquery/dist/jquery.min.js"></script>
+<!--[if lte IE 9]>
+<script src="js/jquery/xdomain.js"></script>
+<![endif]-->
+<script src="js/plugins.js"></script>
+<script src="js/common.js"></script>
+<script>
+    $(function() {
+        var $root = $('html,body');
+        var resultCount, pageSize = 20;
+        var currentPage = 1;
+        var inited;
+        init(currentPage);
+
+        function init(currentPage) {
+            $.ajax({
+                url: $$.Webapi.notice,
+                data: {
+                    iPage: currentPage
+                },
+                success: function(content) {
+                    if (content.resCode == "0000") {
+                        resultCount = content.resultCount;
+                        getHTML(content.resultList, ".notice-info");
+                        setPage();
+                    }
+                }
+            });
+        }
+
+        function setPage() {
+            if (inited) {
+                return
+            }
+            $('#pages').jqPaginator({
+                totalPages: Math.ceil(resultCount / pageSize),
+                visiblePages: pageSize,
+                currentPage: currentPage,
+                first: '<li class="first"><a href="javascript:void(0);">首页<\/a><\/li>',
+                prev: '<li class="prev"><a href="javascript:void(0);"><i class="arrow arrow2"><\/i>上一页<\/a><\/li>',
+                next: '<li class="next"><a href="javascript:void(0);">下一页<i class="arrow arrow3"><\/i><\/a><\/li>',
+                last: '<li class="last"><a href="javascript:void(0);">末页<\/a><\/li>',
+                page: '<li class="page"><a href="javascript:void(0);">{{page}}<\/a><\/li>',
+                onPageChange: function(num, type) {
+                    currentPage = num;
+                    if (!inited) {
+                        inited = true;
+                    } else {
+                        init(currentPage);
+                    }
+                }
+            });
+        }
+
+        function getHTML(resList, wraper) {
+            var artlist = [];
+            var $ul = $(wraper);
+            if (resList) {
+                var _data;
+                // for (var i = 0, len = resList.length; i < len; i++) {
+                //     _data = new Date(resList[i].updateTime);
+                //     artlist.push('<li><div class="new-mark icon-laba"></div> <a class="tit" href="/sy_details.html?col=noticedetail&from=notice.html&id=' + resList[i].id + '">' + resList[i].title + '</a><div class="clearfix hong"> <p class="fl des">' +  resList[i].shortContent + ' </p><span class="fr">' + _data.getFullYear() + '-' + (_data.getMonth() + 1) + '-' + _data.getDate() + '</span></div></li>')
+                //    //artlist.push('<li><div class="new-mark"></div> <a class="tit" href="/sy_details.html?col=noticedetail&from=aboutus.html$notices&id=' + resList[i].id + '">' + resList[i].title + '</a><div class="clearfix hong"> ' + resList[i].shortContent + ' <span class="fr">' + _data.getFullYear() + '-' + (_data.getMonth() + 1) + '-' + _data.getDate() + '</span></div></li>')
+                // }
+
+                  for (var i = 0, len = resList.length; i < len; i++) {
+                    _data = new Date( parseInt(resList[i].showTime));
+                      var mm=parseInt(_data.getMonth() + 1)>9 ?parseInt(_data.getMonth() + 1):'0'+parseInt(_data.getMonth() + 1);
+                      var dd=parseInt(_data.getDate())>9 ? parseInt(_data.getDate()):'0'+parseInt(_data.getDate());
+                    artlist.push('<li><div class="new-mark icon-laba"></div> <div class="clearfix con"><a class="tit fl" href="/notice_details.html?col=noticedetail&from=notice.html&id=' + resList[i].id + '">' + resList[i].title + '</a><span class="fr time">' + _data.getFullYear() + '-' + mm + '-' + dd + '</span></div></li>')
+                }
+            }
+            return $ul.html(artlist.join(''));
+        }
+    })
+</script>
+<script src="https://s4.cnzz.com/z_stat.php?id=1261104169&web_id=1261104169" language="JavaScript"></script>
+
+</body>
+</html>

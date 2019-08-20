@@ -1,0 +1,61 @@
+
+/********************审核信息***********************/
+.margin > div.w.audit-information {
+    width: 1200px;
+    height: 460px;
+}
+.margin > div.w.audit-information > ul {
+    width: 2400px;
+    height: 460px;
+}
+
+.audit-information > ul li {
+    width: 1200px;
+    height: 100%;
+}
+.audit-info-1 {
+    background: url("../image/audit-information-bg-2016.png") no-repeat;
+
+}
+.audit-info-2 {
+    background: url("../image/audit-information-bg-2017.jpg") no-repeat;
+
+}
+.audit-information a {
+    display: block;
+    width: 265px;
+    height: 66px;
+    position: absolute;
+    top: 261px;
+    left: 175px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+}
+/*箭头*/
+.w100p {width: 100%}
+
+.arrow-box {
+    position: relative;
+}
+
+.left-arrow, .right-arrow {
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 230px;
+    margin-top: -21px;
+    cursor: pointer;
+}
+
+.left-arrow {
+    left: 20px;
+    background-image: url("../image/info/left_arrow.png");
+}
+
+.right-arrow {
+    right: 20px;
+    background-image: url("../image/info/right_arrow.png");
+}

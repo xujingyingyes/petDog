@@ -1,0 +1,19 @@
+{
+  "name": "express-news-page",
+  "version": "1.0.0",
+  "description": "sy8 financial news",
+  "author": "jankergg <jankergg@gmail.com>",
+  "private": true,
+  "scripts": {
+    "dev": "node serve.js dev",
+    "start": "node serve.js prod",
+    "pre": "node serve.js pre",
+    "test": "node serve.js test"
+  },
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.14.0",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {}
+}

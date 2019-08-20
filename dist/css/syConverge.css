@@ -1,0 +1,267 @@
+@charset "utf-8";
+.margin{
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 1200px;
+    height: 100%;
+}
+#container{
+    height: 400px;
+    width: 100%;
+    margin:0 auto;
+    min-width:1200px;
+    position: relative;
+}
+.slideBox {
+    position: relative;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 400px
+}
+
+.slideBox .hd {
+    height: 30px;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    margin-left: -210px;
+    bottom: 5px;
+    z-index: 1
+}
+
+.slideBox .hd ul {
+    margin: 0 auto;
+    overflow: hidden;
+    width: 420px;
+    text-align: center
+}
+
+.slideBox .hd ul li {
+    display: inline-block;
+    margin-left: 2px;
+    margin-right: 2px;
+    cursor: pointer;
+    background: url("../image/pagination.png") no-repeat center;
+    position: static;
+    *zoom: 1;
+    width: 13px;
+    height: 12px;
+}
+
+.slideBox .hd ul li.on {
+    background: url("../image/pagination-active.png") no-repeat center
+}
+
+.slideBox .bd {
+    position: relative;
+    height: 100%;
+    z-index: 0;
+    margin: 0 auto
+}
+
+#slideBox .bd a.a1 {
+    background-color: #f54444;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.slideBox .bd li,
+.slideBox .bd a {
+    display: block;
+    width: 100%;
+    height: 400px
+}
+
+.slideBox .bd a img {
+    display: block
+}
+
+
+#tab-change{
+    width: 100%;
+    background: #fafafa;
+}
+ .btn-group{
+    width: 100%;
+    height: 180px;
+    background: #fdfdfd;
+    margin-bottom: 40px;
+    box-shadow: 0 0 12px rgba(58,58,58,.15);
+}
+.btn-group .tab-btn{
+    box-sizing: border-box;
+    width: 25%;
+    height: 180px;
+    padding-top: 40px;
+    text-align: center;
+    font-size:18px;
+    font-weight:normal;
+    position: relative;
+    cursor: pointer;
+}
+.selected:after {
+    content: ' ';
+    display: block;
+    height: 2px;
+    width: 30px;
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+    margin-left: -15px;
+    background: #c13f5b;
+}
+.btn-group .tab-btn b {
+    display:block;
+    padding-top:15px;
+}
+.tab-btn .note{
+    width: 106px;
+    height: 36px;
+    background: none;
+    text-align: center;
+    color:#c13f5b;
+    border: solid 1px #c13f5b;
+    font-size: 14px;
+    line-height: 36px;
+    position: absolute;
+    border-radius:0 4px 4px;
+    right: 0;
+    top: 40px;
+    display: none;
+}
+#tab-change .note .jiao {
+    width: 15px;
+    height:15px;
+    background: url("../image/sy-tab.png") no-repeat -75px -295px;
+    position: absolute;
+    left: -8px;
+    top: -2px;
+}
+
+
+
+#tab-change .btn-group .tab-btn span{
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 0 auto;
+}
+#tab-change .btn-group .tab-btn p{
+    margin-top: 18px;
+}
+
+ .btn-group .selected b{color:#bf434f;}
+/*tab点击变色*/
+.btn-group .selected .icon-syxs:before{
+    color:#bf434f;
+}
+ .btn-group .selected .icon-jrdk:before{
+    color:#bf434f;
+}
+ .btn-group .selected .icon-syjr:before{
+    color:#bf434f;
+}
+ .btn-group .selected .icon-mhr:before{
+    color:#bf434f;
+}
+#tab-change .btn-group .show-it:hover .note{
+    display: block;
+}
+
+
+/*图片列表*/
+.panel{
+    background: #fafafa;
+}
+.syhlist {
+    display:block;overflow:hidden;zoom:1;margin-right:-22px;
+}
+
+.syhlist li{
+    height: 268px;
+    width: 285px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    background: #fff;
+    cursor: pointer;
+}
+.syhlist li:hover{
+    box-shadow:1px 10px 10px rgba(58,58,58,.3);
+}
+.syhlist li:hover .tit{
+    color:#bf434f;
+}
+.syhlist li b{color:#3a3a3a}
+.syhlist .det{
+    height: 30px;
+    padding-right: 15px;
+    color:#9a9a9a;
+    padding-left:10px;
+    line-height: 30px;
+    font-size: 14px;
+}
+.syhlist .liulan{
+     height: 30px;
+    vertical-align: middle;
+    line-height: 30px;
+    
+}
+ 
+.icon-liulan:before {
+  content: "\e90d";
+  font-size: 16px;
+}
+.syhlist .first{
+    position: relative;
+    height: 268px;
+    width: 590px;
+    background: #eaeaea;
+    margin-bottom:20px;
+    margin-right:20px;
+}
+.syhlist .first img{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+.syhlist .first .mask{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 16%;
+    width: 100%;
+    background: rgba(0,0,0,.4);
+
+}
+.syhlist .first .mask p{
+    font-size: 18px;
+    padding:0;
+    line-height:2.4;
+    color:#fff;
+    text-align: center;
+}
+.syhlist li img{
+    height: 160px;
+    width: 100%;
+    display: block;
+}
+.syhlist li .tit{
+    height: 62px;
+    display:block;
+    padding: 0px 10px;
+    font-size:16px;
+    font-weight:normal;
+    line-height:24px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.syhlist li p{
+    width: 100%;
+    padding: 0px 15px;
+    font-size:14px;
+    line-height:48px;
+    color:#9a9a9a;
+}
+

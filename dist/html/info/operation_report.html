@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script>
+        if (location.protocol === 'http:' && location.host === 'www.sy8.com') {
+            location.protocol = "https"
+        }
+    </script>
+    <meta charset="UTF-8">
+    <title>运营报告-商赢金服</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="keyworks" content="商赢金服，互联网金融，网络理财，短期理财，投资理财，安全可靠的理财产品，商赢投资，商赢借款，商赢金服.">
+    <meta name="description"
+          content="商赢金服（www.sy8.com）是商赢集团旗下重点打造的投融资一键式智能平台。公司以先进的金融科技体系，成熟的服务管理理念，围绕产品搭建、用户细分、智能配资、风控保障四大领域，为客户提供全方位的投融资一键式智能综合服务">
+    <meta content="always" name="referrer">
+    <link rel="shortcut icon" href="../../favicon.ico"/>
+    <link rel="stylesheet" href="../../css/reset.css">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/lightbox.min.css">
+    <link rel="stylesheet" href="../../css/common.css?t=20171214">
+    <link rel="stylesheet" href="../../css/aboutus.css">
+    <link rel="stylesheet" href="../../css/abouts_ln.css">
+</head>
+
+<body>
+<div id="main">
+    <div class="margin" id="operationReport">
+        <div class="w">
+            <div class="clearfix total-data">
+                <div class="fl wp50">
+                    <h2> 平台运营数据</h2>
+                    <p id="dateday" class="dateday">
+                    </p>
+                    <script id="deadline" type="text/html">
+                        <span>数据截止: {{ dataCountTime }}</span>
+                    </script>
+                </div>
+                <div class="fl wp50 pt40"><img class="img-margin" src="../../image/computer.png" alt=""></div>
+            </div>
+        </div>
+        <div class="w">
+            <div class="title"> <span>平台数据</span></div>
+            <div class="ptb40">
+                <div id="dd-line1" class="total-data-detail clearfix"></div>
+                <script id="dd-tmp1" type="text/html">
+                    <div class="fl tc">
+                        <p>{{ totalDealAmt }}</p>
+                        <p class="des">累计成交金额(元)</p>
+                    </div>
+                    <div class="fl tc">
+                        <p>{{ totalDealCount }}</p>
+                        <p class="des">累计成交笔数</p>
+                    </div>
+                    <div class="fl tc">
+                        <p>{{ loanAmt }}</p>
+                        <p class="des">借贷余额(元)</p>
+                    </div>
+                </script>
+                <div id="dd-line2" class="total-data-detail clearfix"></div>
+                <script id="dd-tmp2" type="text/html">
+                    <div class="fl tc">
+                        <p>{{ loanCount }}</p>
+                        <p class="des">借贷余额笔数</p>
+                    </div>
+                    <div class="fl tc">
+                        <p>{{ currInvestCount }}</p>
+                        <p class="des">当前出借人数量</p>
+                    </div>
+                    <div class="fl tc">
+                        <p>{{ totalInvestCount }}</p>
+                        <p class="des">累计出借人数量</p>
+                    </div>
+                </script>
+                <div id="dd-line3" class="total-data-detail clearfix"></div>
+                <script id="dd-tmp3" type="text/html">
+                    <div class="fl tc">
+                        <p>{{ totalLoanCount }}</p>
+                        <p class="des">累计借款人数量</p>
+                    </div>
+                    <div class="fl tc">
+                        <p>{{ currLoanCount }}</p>
+                        <p class="des">当前借款人数量</p>
+                    </div>
+                    <div class="fl tc">
+                        <p>{{ fristTenLoanAmt  }}%</p>
+                        <p class="des">前十大借款人待还金额占比</p>
+                    </div>
+                </script>
+                <div id="dd-line4" class="total-data-detail clearfix"></div>
+                <script id="dd-tmp4" type="text/html">
+                    <div class="fl tc">
+                        <p>{{ maxLoanAmt }}%</p>
+                        <p class="des">最大单一借款人待还金额占比</p>
+                    </div>
+                    <div class="fl tc">
+                        <p>{{ relateLoanAmt }}</p>
+                        <p class="des">关联关系借款余额(元)</p>
+                    </div>
+                    <div class="fl tc">
+                        <p>{{ relateLoanCount }}</p>
+                        <p class="des">关联关系借款余额笔数</p>
+                    </div>
+                </script>
+                <div id="dd-line5" class="total-data-detail clearfix"></div>
+                <script id="dd-tmp5" type="text/html">
+                    <div class="fl tc">
+                        <p>{{ overdueAmt }}</p>
+                        <p class="des">逾期金额(元)</p>
+                    </div>
+                    <div class="fl tc">
+                        <p>{{ overdueCount }}</p>
+                        <p class="des">逾期笔数</p>
+                    </div>
+                    <div class="fl tc">
+                        <p>{{ overdueNinetyAmt }}</p>
+                        <p class="des">逾期90天(不含)以上金额(元)</p>
+                    </div>
+                </script>
+                <div id="dd-line6" class="total-data-detail clearfix"></div>
+                <script id="dd-tmp6" type="text/html">
+                    <div class="fl tc">
+                        <p>{{ overdueNinetyCount }}</p>
+                        <p class="des">逾期90天(不含)以上笔数</p>
+                    </div>
+                    <div class="fl tc">
+                        <p>{{ proOverdueRate }}</p>
+                        <p class="des">项目逾期率</p>
+                    </div>
+                    <div class="fl tc">
+                        <p>{{ overdueAmtRate }}</p>
+                        <p class="des">金额逾期率</p>
+                    </div>
+                </script>
+            </div>
+        </div>
+        <div class="w">
+            <div class="title"> <span>收费标准</span></div>
+            <div class="ptb40 plr10p">
+                <div class="clearfix">
+                    <div class="fl w3">
+                        <div class="clearfix">
+                            <div class="icon-recharge fee-icon fl"></div>
+                            <div class="fl"><p class="fee-name">充值手续费</p><p class="t-9a">对出借人与借款人暂时免费</p></div>
+                        </div>
+                    </div>
+                     <div class="fl w3">
+                        <div class="clearfix pl16p">
+                            <div class="icon-Withdrawals fee-icon fl"></div>
+                            <div class="fl"><p class="fee-name">提现手续费</p><p class="t-9a">对出借人与借款人暂时免费</p></div>
+                        </div>
+                    </div>
+                    <div class="fl w3">
+                        <div class="clearfix pl32p">
+                            <div class="icon-lend fee-icon fl"></div>
+                            <div class="fl"><p class="fee-name">出借人收费标准</p><p class="t-9a">暂不收取</p></div>
+                        </div>
+                    </div>
+                    <div class="fl w3">
+                        <div class="clearfix">   
+                            <div class="icon-loan fee-icon fl"></div>
+                            <div class="fl"><p class="fee-name">借款人收费标准</p><p class="t-9a">见下表</p></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pb20">
+                    <table>
+                            <tbody>
+                                <tr>
+                                    <td colspan="4" class="table-tit"> 借款人收费标准</td>
+                                </tr>
+                                <tr>
+                                    <td class="th">借款期限(天)</td>
+                                    <td class="th">借款利率(年化)</td>
+                                    <td class="th">平台综合管理费(年化)</td>
+                                    <td class="th">说明</td>
+                                </tr>
+                                <tr class="bgfff">
+                                    <td>0-30</td>
+                                    <td>6.00%</td>
+                                    <td>7.20%</td>
+                                    <td rowspan="6"> <p class="pb10">收费金额：借款金额</p><p>收费方式：按月收取</p></td>
+                                </tr>
+                                <tr>
+                                    <td>31-60</td>
+                                    <td>6.50%</td>
+                                    <td>6.70%</td>
+                                </tr>
+                                <tr class="bgfff">
+                                    <td>61-90</td>
+                                    <td>7.00%</td>
+                                    <td>6.20%</td>
+                                </tr>
+                                <tr>
+                                    <td>91-120</td>
+                                    <td>7.00%</td>
+                                    <td>6.20%</td>
+                                </tr>
+                                <tr class="bgfff">
+                                    <td>121-150</td>
+                                    <td>7.50%</td>
+                                    <td>5.70%</td>
+                                </tr>
+                                <tr>
+                                    <td>151-180</td>
+                                    <td>8.00%</td>
+                                    <td>5.20%</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                </div>
+            </div>
+        </div>
+        <div class="w">
+            <div class="title"> <span>历史年化说明</span></div>
+            <div class="nianhua clearfix ptb40">
+                <div class="fl wp50">
+                    <img class="chart-img" src="../../image/chart.png" alt="" width="397">
+                </div>
+                <div class="fl wp50">
+                    <div class="clearfix">
+                        <div class="fl nianhua-des wp50"><p class="p1">14.1%</p><p class="p2">最高历史年化收益率</p></div>
+                        <div class="fl  nianhua-des wp50"><p class="p1">8.7%</p><p class="p2">平均历史年化收益率</p></div>
+                        <div class="fl nianhua-des wp50"><p class="p1">6.5～14.1%</p><p class="p2">历史年化收益率范围</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w">
+            <div class="title"> <span>男女用户比例</span></div>
+            <div class="people-box ofh">
+                <div class="fl people ofh">
+                    <span class="man fl"></span>
+                    <span class="f22 fl">男性</span>
+                </div>
+                <div class="canvas-box fl">
+                    <div class="my-canvas">
+                        <p class="abs woman-num t-fff f16 tc">37%</p>
+                        <p class="abs man-num t-fff f16 tc">63%</p>
+                        <canvas class="canvas-child" id="canvas-graduate-1" height="190" width="190"></canvas>
+                        <canvas class="canvas-child" id="canvas-graduate-2" height="190" width="190"></canvas>
+                    </div>
+                </div>
+                <div class="fl people ofh">
+                    <span class="woman fl"></span>
+                    <span class="f22 fl">女性</span>
+                </div>
+            </div>
+        </div>
+        <div class="w">
+            <div class="title"><span>用户地域分布</span></div>
+            <div class="ptb50">
+                <div class="clearfix">
+                    <img class="fl spread-img" src="../../image/spread.png" alt="" width="543">
+                    <div class="fl pt10p">
+                        <p class="spread-data"><span class="lump" style="background: #FE8989"></span><span>广东</span><span>38%</span></p>
+                        <p class="spread-data"><span class="lump" style="background: #63B7FF"></span><span>上海</span><span>36%</span></p>
+                        <p class="spread-data"><span class="lump" style="background: #9BA9F8"></span><span>江苏</span><span>8%</span></p>
+                        <p class="spread-data"><span class="lump" style="background: #FFD08A"></span><span>四川</span><span>3%</span></p>
+                        <p class="spread-data"><span class="lump" style="background: #8BEBDF"></span><span>浙江</span><span>3%</span></p>
+                        <p class="spread-data"><span class="lump" style="background: #EBEBEB"></span><span>其他</span><span>12%</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div id="stair"></div>
+<script src="../../js/jquery/dist/jquery.min.js"></script>
+<script src="../../js/plugins.js?t=20171214"></script>
+<script src="../../js/common.js?t=20171214"></script>
+<script src="../../js/operation-report.js">
+</script>
+<script src="https://s4.cnzz.com/z_stat.php?id=1261104169&web_id=1261104169" language="JavaScript"></script>
+
+</body>
+
+</html>

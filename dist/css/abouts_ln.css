@@ -1,0 +1,416 @@
+/* 银行存管 */
+.depository-reason {
+    font-size: 16px;
+    color: #6A6A6A;
+    letter-spacing: 0;
+    line-height: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: solid 2px #F0EFF5;
+}
+.img-margin{
+    display: block;
+    margin: 0 auto;
+}
+
+.part{
+    padding: 25px 0;
+}
+.part-detail{
+    font-size: 16px;
+    color: #9A9A9A;
+    letter-spacing: 0;
+    line-height: 30px;
+    width: 530px;
+}
+.f-6a{
+    color:#6a6a6a;
+}
+.f-3a{
+    color:#3a3a3a;
+}
+.f-9a{
+    color:#9a9a9a;
+}
+.t-fff { color: #fff }
+
+.mb50{
+    margin-bottom:50px;
+}
+.pl40{
+    padding-left: 60px;
+}
+.pb40{
+    padding-bottom: 40px;
+}
+.pb30{
+    padding-bottom: 30px;
+}
+.pb10{
+    padding-bottom: 10px;
+}
+.pb20{
+    padding-bottom: 20px;
+}
+.pt40{
+    padding-top: 40px;
+}
+.pt40{
+    padding-top: 40px;
+}
+.plr10p{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.hide {display: none}
+.tar {
+    text-align: right;
+}
+.total-data{
+    height: 400px;
+    width: 100%;
+    background: url("../image/data-bg.png") no-repeat bottom;
+}
+.wp50{
+    width: 50%;
+}
+.total-data h2{
+    font-size: 42px;
+    color: #3A3A3A;
+    margin-top: 15%;
+    text-align: center;
+}
+.total-data .dateday{
+    padding-top: 20px;
+    font-size: 24px;
+    color: #9A9A9A;
+    line-height: 28px;
+    text-align: center;
+}
+.dateday span{
+    position: relative;
+}
+.dateday span:after{
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 2px;
+    background: #9A9A9A;
+    top:-10px;
+    left:3px;
+}
+
+.total-data-detail{
+    padding: 20px 0;
+}
+.total-data-detail .fl{
+    width: 33.33%;
+    font-size: 32px;
+    color: #3A3A3A;
+}
+.total-data-detail .des{
+    font-size: 18px;
+    color: #9A9A9A;
+    line-height: 40px;
+}
+
+.fee-icon{
+    font-size: 50px;
+    padding-right: 10px;
+    color:#BF434F;
+}
+.fee-name{
+    font-size: 18px;
+    color:#3a3a3a;
+    line-height: 30px;
+}
+.w3{
+    width: 33.33%;
+    padding-bottom: 40px;
+}
+.pl32p{
+    padding-left: 32%;
+}
+.pl16p{
+    padding-left: 16%;
+
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    -webkit-padding-start: 0;
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    box-sizing: border-box;
+    background: #fff2f2;
+    border: 1px solid #EDC9C9;
+}
+table .th {
+    height: 60px;
+    border: 1px solid #EDC9C9;
+    text-align: center;
+    color: #6c6c6c;
+    font-size: 16px;
+}
+table td {
+    border: 1px solid #EDC9C9;
+    height: 50px;
+    text-align: center;
+    color: #3c3c3c;
+    font-weight: normal;
+}
+.bgfff{
+    background: #fff;
+}
+.table-tit{
+    font-size: 20px;
+    color: #6C6C6C;
+    height: 60px;
+}
+.financing{
+    padding: 80px 0;
+}
+.financing .finance-ring{
+    width: 45%;
+}
+.financing .finance-ratio{
+    width: 55%;
+}
+.finance-ring #ring{
+    margin: 0 auto;
+    width: 260px;
+    height: 260px;   
+}
+.finance-ratio .ratio{
+    width: 80%;
+    margin: 0 auto;
+    height: 26px;
+    line-height: 26px;
+}
+.ratio span{
+    width: 50px;
+    padding: 0 13px;
+    font-size: 14px;
+    color: #6A6A6A;
+}
+.finance-ratio .progress{
+    width: 200px;
+    height: 8px;
+    background: #F1F1F1;
+    border-radius: 100px;
+    overflow: hidden;
+    margin-top:8px;
+}
+
+.ratio .value1{ background: #D26532; height: 100%;width: 75px;}
+.ratio .value2{ background: #F17337; height: 100%;width: 40px;}
+.ratio .value3{ background: #F17337; height: 100%;width: 36px;}
+.ratio .value4{ background: #FF7E40; height: 100%;width: 32px;}
+.ratio .value5{ background: #FF8D57; height: 100%;width: 30px;}
+.ratio .value6{ background: #FF9E70; height: 100%;width: 28px;}
+.ratio .value7{ background: #FCA981; height: 100%;width: 27px;}
+.ratio .value8{ background: #FFB997; height: 100%;width: 25px;}
+.ratio .value9{ background: #FFC3A6; height: 100%;width: 23px;}
+.ratio .value10{ background: #FCD0BA; height: 100%;width: 23px;}
+.ratio .value11{ background: #FBE2D0; height: 100%;width: 130px;}
+
+.ptb40{
+    padding-top:40px;
+    padding-bottom: 40px;
+}
+.ptb50{
+    padding-top:50px;
+    padding-bottom: 50px;
+}
+.nianhua{
+    padding: 50px 50px;
+}
+.chart-img{
+    width: 397px;
+    height: 219px;
+    display: block;
+    margin: 0 auto;
+}
+.nianhua-des{
+    padding-top: 30px;
+}
+.nianhua-des .p1{
+   font-size: 32px;
+   color: #3A3A3A;
+   text-align: center;
+}
+.nianhua-des .p2{
+    font-size: 18px;
+    color: #9A9A9A;
+    line-height: 40px;
+    text-align: center;
+}
+.ratio-box{
+    box-sizing: content-box;
+    height: 60px;
+    padding-left: 10%;
+    padding: 20px 20px 10px 10%;
+}
+.ratio-box .man-ratio{
+    width: 520px;
+    height: 60px;
+    background: url('../image/man-ratio.png') no-repeat center;
+    background-size: 520px 30px;
+    font-size: 24px;
+    color: #fff;
+    line-height: 60px;
+    text-indent: 10px;
+}
+.ratio-box .woman-ratio{
+    width: 320px;
+    height: 60px;
+    background: url('../image/woman-ratio.png') no-repeat center;
+    background-size: 320px 30px;
+    font-size: 24px;
+    color: #fff;
+    line-height: 60px;
+    text-indent: 10px;
+}
+.ratio-box span{
+    height: 60px;
+    line-height: 60px;
+    font-size: 20px;
+    color: #6A6A6A;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.ratio-box img{
+    width: 54px;
+    height: 60px;
+}
+.spread-img{
+    margin-left: 10%;
+    width: 543px;
+    height: 448px;
+}
+.spread-data{
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    color: #6A6A6A;
+    padding-left: 150px;
+}
+.pt10p{
+    padding-top: 10%;
+}
+.spread-data .lump{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-radius: 2px;
+    vertical-align: middle;
+}
+.spread-data span{
+    margin: 0 10px;
+}
+/* 法律法规 */
+.law-head{
+    padding: 40px 30px 30px 30px;
+    font-size: 18px;
+    color: #3A3A3A;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    font-weight: bold;
+    font-weight: 600;
+}
+.law-head .subhead{
+    padding-top: 10px;
+    font-size: 15px;
+    color: #6A6A6A;
+    text-align: center;
+}
+.substance{
+    padding: 30px 30px 40px 30px;
+    font-size: 14px;
+    color: #6A6A6A;
+    line-height: 30px;
+}
+.source{
+    color: #3A3A3A;
+    text-align: right;
+}
+.update-time{
+    color: #6A6A6A;
+    text-align: right;
+}
+.rules{
+    padding: 10px 0;
+}
+
+.canvas-box {
+    width: 190px;
+    height: 190px;
+    position: relative;
+ }
+
+.canvas-box.show-bg {
+    background: url("../image/info/people-bg.png") no-repeat center / 100% auto;
+}
+
+.canvas-box .man-num,
+.canvas-box .woman-num {
+    width: 50%;
+    height: 95px;
+    line-height: 95px;
+    z-index: 1;
+}
+
+.canvas-box .man-num {
+    left: 0;
+    top: 35%;
+    text-indent: 1em;
+}
+
+.canvas-box .woman-num {
+    right: 0;
+    top: 15%;
+}
+
+.canvas-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.people-box {
+    width: 580px;
+    padding: 37px 0 27px;
+    margin: 0 auto;
+}
+
+.people-box .people {
+    width: 195px;
+    height: 190px;
+    line-height: 190px;
+}
+
+.people-box .man, .people-box .woman {
+    width: 30px;
+    height: 30px;
+    margin-top: 80px;
+    margin-right: 20px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.people-box .man {
+    background-image: linear-gradient(-180deg, #6A9DDD 0%, #588CD4 100%);
+}
+
+.people-box .woman {
+    margin-left: 68px;
+    background: linear-gradient(-180deg, #EBA4A4 0%, #ED8A8A 100%);
+}

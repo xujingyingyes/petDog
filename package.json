@@ -1,0 +1,19 @@
+{
+  "name": "sy8web",
+  "version": "2.3.2",
+  "license": "",
+  "scripts": {
+    "start": "node serve.js",
+    "loc": "http-server -p 9000 -o"
+  },
+  "private": true,
+  "dependencies": {
+    "animate.css": "^3.5.2",
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "jquery": "^3.2.1"
+  },
+  "devDependencies": {
+    "static-server": "^2.0.4"
+  }
+}

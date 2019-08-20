@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <% include ./partials/head %>
+</head>
+
+<body class="container">
+    <% include ./partials/header %>
+
+        <div class="notice  margin" id="platform">
+            <div class="content-box">
+                <div class="title">理财资讯</div>
+                <div class="white-line">
+                    <p class="red"></p>
+                </div>
+                <ul class="notice-info artlist">
+                    <% list.forEach((item) => { %>
+                        <li>
+                            <a class="tit" href="<%= process.argv[2]!='dev'?'/seo':'' %>/detail/<%= item.id %>">
+                                <%= item.title %>
+                                <span class="fr"><%= new Date(parseInt(item.updateTime)).toLocaleDateString() %></span>
+                            </a>
+                        </li>
+                        <% }) %>
+                </ul>
+                <div class="page">
+                    <ul class="pagination" id="pages">
+                        <% for(var i=1;i<size;i++) { %>
+                            <li> <a href="/list/<%= i %>">第 <%= i %>页 </a></li>
+                            <% } %>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+
+        <footer>
+            <% include ./partials/footer %>
+        </footer>
+
+</body>
+
+</html>
