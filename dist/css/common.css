@@ -654,58 +654,6 @@ body>div.stair {
     z-index:99999
 }
 
-   
-/*停机维护页*/
-.blanck{
-    height: 110px;
-    background: #fafafa;
-}
-#showOther{
-    width: 100%;
-    background: #fafafa;
-    padding-bottom: 40px;
-    position: absolute;
-    top:110px;
-    left: 0;
-    bottom:68px;
-}
-#showOther .margin{
-     background: #fff;
-     padding-top: 120px;
-}
-#showOther .tingji{
-    display: block;
-    margin: 0 auto;
-    margin-top: 20px;
-}
-#showOther .details{
-   text-align: center;
-   line-height: 2.2;
-   margin-top: 50px;
-
-}
-#showOther .reason{
-    font-size: 24px;
-    font-weight: bold;
-
-}
-#showOther .note{
-    font-size: 14px;
-}
-.maintenance-foot{
-    width: 100%;
-    position: absolute;
-    left: 0;
-    bottom:0;
-}
-.maintenance-head{
-    height: 80px;
-}
-#back a.underline:hover{
-    cursor: pointer;
-    text-decoration: underline;
-    color: #fff;
-}
 
 
 /*公共样式*/
@@ -742,7 +690,6 @@ body>div.stair {
 
 .m0auto { margin: 0 auto; }
 .mt30 { margin-top: 30px }
-
 
 
 .pointer {
