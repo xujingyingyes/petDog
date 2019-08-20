@@ -1,10 +1,30 @@
-*,p{
-	margin: 0;
-	padding: 0;
+*,i{
+	font-style:normal
+}
+button{
+	border: none;
 }
 ul{list-style: none;}
 html,body{
 	font-family: "微软雅黑";
+}
+.t-333{
+	color: #333333;
+}
+.t-999{
+	color: #999999;
+}
+.t-a30{
+	color: #bf2a30;
+}
+.t-2525{
+	color: #dd2525;
+}
+.t-size16{
+	font-size: 16px;
+}
+.t-size14{
+	font-size: 14px;
 }
 .logo{
 	width: 230px;
@@ -50,4 +70,9 @@ header{
 }
 .nav .active a .nav_line{
 	display: block !important;
+}
+.slideshow-wrapper{
+	height: 540px;
+	background: orange;
+	color: #fff;
 }
