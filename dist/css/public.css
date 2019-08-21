@@ -77,7 +77,7 @@ body>div {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
-    display: flex;
+	display: flex;
 }
 
 .flex1 {
@@ -200,6 +200,12 @@ div{
 }
 .t-size14{
 	font-size: 14px;
+}
+/* 公共的button */
+.more-btn{
+	border-radius: 25px;
+	background: #bf2a30;
+	color: #fff;
 }
 .logo{
 	width: 230px;
