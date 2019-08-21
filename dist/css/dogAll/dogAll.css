@@ -1,0 +1,100 @@
+
+@charset "utf-8";
+
+ 
+.banner-box{
+    height: 240px;
+    width: 100%;
+    background: #ff0;
+}
+.section-content .section-title{
+    padding: 40px 0;
+    text-align: center;
+}
+.section-content .section-title h2{
+    font-weight: bolder;
+    color:#333;
+}
+.section-content .section-title .tit{
+    /* word-spacing: 20px; */
+    color:#666;
+}
+
+/* 体型 */
+.shape-section{
+    background: #fff;
+}
+
+.shape-list {
+    padding-bottom: 30px;
+}
+.shape-list .items{
+    padding: 4px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.shape-list .items:hover{
+   background: #f00;
+   color:#fff;
+   cursor: pointer;
+}
+.shape-list .head p{
+   text-align: center;
+}
+.shape-list .more-btn{
+    width: 80px;
+    padding: 4px 10px;
+    color:#fff;
+    background: #f00;
+    text-align: center;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+/* 字母 */
+.alphabet-section{
+    background: #dfdfdf;
+}
+.content .search-box span{
+    font-weight: bold;
+    padding: 0 5px;
+    cursor: pointer;
+} 
+.content .search-box span:hover{
+    color:#f00;
+    font-weight: bolder;
+} 
+.alphabet-list {
+    flex-wrap:  wrap;
+
+}
+.alphabet-list .items{
+    width: 200px;
+    height: 200px;
+    border-radius: 6px;
+    overflow: hidden;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    background: #f5f5d5;
+}
+.recommend-tit{
+    height: 40px;
+    line-height: 40px;
+    color:#f00;
+}
+.alphabet-list .items .name{
+    position: absolute;
+    left:0;
+    bottom: 0;
+    width: 100%;
+    height: 36px;
+    overflow: hidden;
+    background: rgba(0,0,0,.3);
+    line-height: 36px;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+   
+}
+
