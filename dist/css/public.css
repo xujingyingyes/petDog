@@ -181,6 +181,9 @@ div{
 .t-333{
 	color: #333333;
 }
+.t-666{
+    color: #666666;
+}
 .t-999{
 	color: #999999;
 }
@@ -268,9 +271,14 @@ div{
 	font-weight: 400;
 	font-size: 26px;
 }
-
-
-
+/* 背景图居中 */
+.bg-center{
+	background-position: center;
+}
+/* 背景图 inherit */
+.bg-inherit{
+    background-position: inherit;
+}
 /* 底部 */
 .footer-box{
     background: #9D242B;
