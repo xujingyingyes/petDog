@@ -29,7 +29,9 @@
     color:#666;
 }
 .shape-list .items{
-    padding: 4px 10px;
+    padding: 0 10px;
+    height: 35px;
+    line-height: 35px;
     border-radius: 5px;
     cursor: pointer;
 }
@@ -99,6 +101,29 @@
     color: #fff;
     border-radius: 10px;
     text-align: center;
-   
 }
+
+/* 功能 */
+.function-list {
+    padding-bottom: 60px;
+}
+.function-list .items{
+    width:130px;
+    height:40px;
+    line-height: 40px;
+    border-radius:5px;
+    color:#444444;
+    margin-right:90px;
+    cursor: pointer;
+    text-align: center;
+}
+.function-list .items:last-child{
+    margin-right:0;
+}
+.function-list .items:hover{
+    background:#BF2A30;
+    color:#fff;
+    
+}
+
 
