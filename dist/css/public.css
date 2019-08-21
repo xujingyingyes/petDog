@@ -72,7 +72,6 @@ div{
 .clearfix{
     *zoom:1;/*IE/7/6*/
 }
-.clearfix{*zoom:1;}
 .fl{
     float: left;
 }
@@ -191,11 +190,14 @@ div{
 .t-2525{
 	color: #dd2525;
 }
+.t-242{
+    color: #9D242B;
+}
 .t-size16{
 	font-size: 16px;
 }
 .t-size14{
-	font-size: 14px;
+    font-size: 14px;
 }
 /* 公共的button */
 .more-btn{
@@ -254,7 +256,8 @@ div{
 /* 公共的title居中的css 上中文，下英文 */
 .detail-title{
 	text-align: center;
-	letter-spacing: 8px;
+    letter-spacing: 8px;
+    margin-bottom: 40px;
 }
 .dt-en{
 	font-weight: bold;

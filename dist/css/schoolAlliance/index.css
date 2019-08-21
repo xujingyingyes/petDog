@@ -3,11 +3,13 @@
 	overflow-x: hidden; 
 } 
 .detail-content{
-	margin-top:30px;
-	height: 1260px;
+	padding:30px 0;
 }
+.dl-family{
+	font-family: MicrosoftYaHei;
+}
+/* card */
 .detail-list{
-	/* justify-content: space-around; */
 	flex-wrap: wrap;
 	margin: 20px 0;
 }
@@ -29,28 +31,214 @@
 	height: 100%;
 	border-radius: 10px;
 }
+/* card 的info */
 .detail-list .list-info .dl-content{
-	padding: 15px 20px 15px 30px;
+	padding-top: 20px;
 }
+/* card的第一行 */
 .dl-content .dl-float{
 	position: relative;
+	font-size: 18px;
 }
 .dl-float .dl-right{
 	position: absolute;
-	right: 15%;
+	right: 5%;
 }
 .dl-content p{
 	line-height: 20px;
+	padding: 10px 10px;
 }
 .dl-content .dl-title{
 	font-weight: 500;
 }
-
+/* card的btn */
 .dl-content p  .connect-btn{
-	height: 33px;
-	width: 114px;
-	margin-left: 85px;
+	width:113px;
+	height:33px;
+	margin-left: 35%;
+	border-radius: 17px!important;
 }
 .dl-content .dl-money{
-	font-weight: 500;
+	font-weight: bold;
+}
+.dl-content .t-size14{
+	font-weight: 400;
+}
+/* 查看更多 */
+.see-detail{
+	margin-top: 40px;
+}
+.see-detail .see-more{
+	width:170px;
+	height:50px;
+	font-size:22px;
+}
+/* 热门学校-city */
+.detail-city{
+	width:1200px;
+	height:225px;
+	background:rgba(245,245,245,1);
+	flex-direction: column;
+	padding: 20px;
+}
+.detail-city .flex-base{
+	
+}
+.flex-base .dc-left, 
+.flex-base .dc-right{
+	flex: 1;
+}
+.detail-city li{
+	font-size:18px;
+	font-weight:400;
+	line-height:30px;
+	margin-bottom: 30px;
+}
+.detail-city li .dc-title,
+.detail-city li .dc-all,
+.detail-city li .dc-city{
+	width: 60px;
+}
+.detail-city li .dc-all,
+.detail-city li .dc-city{
+	margin-right: 10px;
+}
+
+/* 课程介绍card  入门 初级 中 高*/
+.detail-card{
+	flex-wrap: wrap;
+}
+.detail-card .card-info{
+	width: 45%;
+	margin:0 20px 20px 0;
+	height: 586px;
+	/* opacity:0.52; */
+	border-radius:5px;
+	background: #9D242B;
+}
+.detail-card .card-info:nth-child(1){
+	opacity:0.52;
+}
+.detail-card .card-info:nth-child(2){
+	opacity:0.73;
+}
+.detail-card .card-info:nth-child(3){
+	opacity:0.9;
+}
+.card-info .dc-title{
+	color: #ffffff;
+	font-size:57px;
+	padding: 30px 0 0 0;
+	font-weight: bold;
+}
+.card-info .dc-icon{
+	/* width:51px; */
+	height:45px;
+	color: #ffffff;
+	padding: 20px 0;
+}
+.card-info .dc-content{
+	font-size: 10px;
+	line-height: 20px;
+	color: #FEFDFD;
+	padding: 10px 34px 39px 29px;
+}
+.dc-content p{
+	line-height: 23px;
+}
+/* 证书介绍 */
+.case-margin{
+	margin: 0 auto;
+    box-sizing: border-box;
+	width: 1200px;
+	min-width: 1000px;
+}
+.detail-success{
+	width: 100%;
+	background: #F5F5F5;
+	height: 776px;
+}
+.detail-success .ds-case{
+	height: 100%;
+    padding: 40px 0;
+}
+.ds-case .case-info{
+	border-radius:5px;
+	background: #ffffff;
+	box-shadow:0px 3px 11px 1px #f9f9f9;
+	width: 23%;
+	height: 100%;
+	margin-right: 2%;
+}
+.case-info .case-img{
+	height: 581px;
+	background: #ccc;
+	/* 363px 218px */
+}
+.case-info .case-title{
+	margin-top: 40px;
+	padding: 10px 0;
+	font-size:30px;
+	font-weight:400;
+}
+/* 成功案例 */
+.detail-pic{
+	flex-wrap: wrap;
+}
+.detail-pic .pic-info{
+	letter-spacing: 8px;
+	font-weight:bold;
+	height: 286px;
+	width: 33%;
+}
+.detail-pic .pic-info:nth-child(even){
+	background:rgba(157,36,43,1);
+}
+.detail-pic .pic-info:nth-child(odd){
+	background: #ccc;
+}
+.pic-info .dp-up{
+	width: 0;
+    height: 0;
+    border: 23px solid transparent;
+    border-bottom: 50px solid rgba(157,36,43,1);
+}
+.pic-info .dp-down{
+	width: 0;
+    height: 0;
+    border: 23px solid transparent;
+    border-top: 50px solid rgba(157,36,43,1);
+}
+.pic-info .pic-content{
+	flex-direction: column;
+	color: #ffffff;
+}
+.pic-info .dp-title{
+	font-size: 24px;
+}
+.pic-info .dp-des{
+	font-size: 16px;
+}
+.dp-left,
+.dp-right,
+.dp-top{
+	position: relative;
+}
+.dp-left .dp-up{
+	bottom: -13px;
+    left: 57px;
+}
+.dp-right .dp-up{
+	bottom: -13px;
+    right: 57px;
+}
+.dp-top .dp-down{
+	top: -13px;
+    left: 78px;
+}
+/* bottom: -13px;
+    right: 57px; */
+.dp-up,
+.dp-down{
+	position: absolute;
 }
