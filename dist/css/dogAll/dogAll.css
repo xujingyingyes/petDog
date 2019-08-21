@@ -16,8 +16,7 @@
     color:#333;
 }
 .section-content .section-title .tit{
-    /* word-spacing: 20px; */
-    color:#666;
+    color:#999;
 }
 
 /* 体型 */
@@ -27,6 +26,7 @@
 
 .shape-list {
     padding-bottom: 30px;
+    color:#666;
 }
 .shape-list .items{
     padding: 4px 10px;
@@ -34,7 +34,7 @@
     cursor: pointer;
 }
 .shape-list .items:hover{
-   background: #f00;
+   background: #BF2A30;
    color:#fff;
    cursor: pointer;
 }
@@ -42,12 +42,13 @@
    text-align: center;
 }
 .shape-list .more-btn{
-    width: 80px;
-    padding: 4px 10px;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    background: #BF2A30;
+    line-height: 40px;
     color:#fff;
-    background: #f00;
     text-align: center;
-    border-radius: 30px;
     cursor: pointer;
 }
 
@@ -61,7 +62,7 @@
     cursor: pointer;
 } 
 .content .search-box span:hover{
-    color:#f00;
+    color:#BF2A30;
     font-weight: bolder;
 } 
 .alphabet-list {
@@ -69,11 +70,10 @@
 
 }
 .alphabet-list .items{
-    width: 200px;
+    width: 285px;
     height: 250px;
     border-radius: 6px;
     overflow: hidden;
-    margin-right: 20px;
     margin-bottom: 20px;
     position: relative;
     background: #f5f5d5;
@@ -81,7 +81,7 @@
 .recommend-tit{
     height: 40px;
     line-height: 40px;
-    color:#f00;
+    color:#BF2A30;
 }
 .alphabet-list .items .name{
     position: absolute;
