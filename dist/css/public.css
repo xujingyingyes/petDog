@@ -35,7 +35,7 @@ input[type='checkbox']:checked:after{content:'\2713';font-size:20px;border:solid
 body>div {
     min-width: 1200px;
 }
-
+/* 网页内容1200px居中 */
 .margin-auto {
     margin: 0 auto;
     box-sizing: border-box;
