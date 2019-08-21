@@ -2,6 +2,69 @@
 	overflow: scroll;
 	overflow-x: hidden; 
 } 
+.slideshow-wrapper{
+
+}
+.slideshow-wrapper .sw-content{
+
+}
+.sw-content .sw-content-left{
+	position: absolute;
+	width:40px;
+	height:40px;
+	background:rgba(0,0,0,1);
+	opacity:0.48;
+	border-radius:50%;
+	top: 39%;
+    right: 10%;
+}
+.sw-content .sw-img{
+	background-image: url(../../image/schoolAlliance/school_alliance_dog.png);
+    width: 40%;
+    height: 100%;
+    background-position: center;
+}
+.sw-content .sw-text{
+	position: relative;
+	flex: 1;
+    padding: 150px 0 0 0;
+}
+.sw-content .sw-qr-code{
+	position: absolute;
+	color: #ffffff;
+	font-size:12px;
+	right: 13%;
+    top: 15%;
+}
+.sw-qr-code .sw-qr-code-text{
+	margin-top: 5px;
+}
+.sw-text .sw-title{
+	font-size: 48px;
+    font-weight: bold;
+    color: rgba(255,255,255,1);
+    line-height: 30px;
+    padding: 40px 0;
+}
+.sw-text .sw-des{
+	flex-wrap: wrap;
+	padding-left: 50px;
+}
+.sw-des .sw-des-title{
+	width: 50%;
+	height: 100px;
+    margin-bottom: 20px;
+}
+.sw-des-title .sw-des-left{
+
+}
+.sw-des-title .sw-des-right{
+	font-size: 18px;
+    font-weight: bold;
+    color: rgba(255,255,255,1);
+	line-height: 30px;
+	margin-left: 20px;
+}
 .detail-content{
 	padding:30px 0;
 }
@@ -172,7 +235,7 @@
 }
 .case-info .case-img{
 	height: 581px;
-	background: #ccc;
+	flex-direction: column;
 	/* 363px 218px */
 }
 .case-info .case-title{
@@ -193,9 +256,6 @@
 }
 .detail-pic .pic-info:nth-child(even){
 	background:rgba(157,36,43,1);
-}
-.detail-pic .pic-info:nth-child(odd){
-	background: #ccc;
 }
 .pic-info .dp-up{
 	width: 0;
@@ -223,6 +283,24 @@
 .dp-right,
 .dp-top{
 	position: relative;
+}
+.dp-left{
+	background-image: url(../../image/schoolAlliance/case_dog.png);
+    width: 40%;
+    height: 100%;
+    background-position: center;
+}
+.dp-right{
+	background-image: url(../../image/schoolAlliance/case_dog.png);
+    width: 40%;
+    height: 100%;
+    background-position: center;
+}
+.dp-top{
+	background-image: url(../../image/schoolAlliance/case_dog.png);
+    width: 40%;
+    height: 100%;
+    background-position: center;
 }
 .dp-left .dp-up{
 	bottom: -13px;

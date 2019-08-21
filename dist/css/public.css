@@ -250,7 +250,7 @@ div{
 /* 导航下面的轮播图 */
 .slideshow-wrapper{
 	height: 540px;
-	background: orange;
+	background: #FF9C01;
 	color: #fff;
 }
 /* 公共的title居中的css 上中文，下英文 */
