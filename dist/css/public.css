@@ -73,7 +73,7 @@ body>div {
 }
 
 /* flex */
-.dif {
+.dif, .flex-base{
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -87,20 +87,20 @@ body>div {
     flex: 1;
 }
 
-.fac {
+.fac, .align-center{
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
 }
 
-.jcb {
+.jcb, .justify-between{
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
     justify-content: space-between;
 }
-.jca {
+.jca, .justify-around{
     -webkit-box-pack: justify;
     -webkit-justify-content: space-around;
     -ms-flex-pack: justify;
