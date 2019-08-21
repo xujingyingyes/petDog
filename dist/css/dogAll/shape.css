@@ -19,6 +19,9 @@
     width: 100px;
     height: 56px;
     background: #BF2A30;
+    color:#fff;
+    text-align: center;
+    line-height: 56px;
 }
 
 .nav-list .nav-bar{
