@@ -1,0 +1,55 @@
+.school-alliance{
+	overflow: scroll;
+	overflow-x: hidden; 
+} 
+.detail-content{
+	margin-top:30px;
+	height: 1260px;
+}
+.detail-list{
+	display: flex;
+}
+.detail-list .list-info{
+	height: 465px;
+	width: 350px;
+	border-radius: 10px;
+	background: #fff;
+	box-shadow:0px 3px 11px 1px #f9f9f9;
+	flex:1;
+}
+.list-info .dl-img{
+	height: 264px;
+	width: 350px;
+}
+.dl-img img{
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+}
+.list-info .dl-content{
+	padding: 15px 20px 15px 30px;
+}
+.dl-content p{
+	line-height: 20px;
+}
+.dl-content .dl-float{
+	display: flex;
+	justify-content: space-between;
+}
+.dl-content .dl-title{
+	font-weight: 500;
+}
+.dl-content p .dl-right{
+	text-align: right;
+}
+.dl-content p  .contact-us{
+	height: 33px;
+	width: 114px;
+	border-radius: 25px;
+	background: #bf2a30;
+	color: #fff;
+	margin-left: 85px;
+}
+.dl-content .dl-money{
+	font-weight: 500;
+}
