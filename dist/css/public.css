@@ -47,8 +47,8 @@ div{
 .margin-auto {
     margin: 0 auto;
     box-sizing: border-box;
-    width: 1200px;
     height: 100%;
+    width: 1200px;
     min-width: 1000px;
 }
 .margin0-auto {
@@ -101,7 +101,12 @@ div{
     -ms-flex-align: center;
     align-items: center;
 }
-
+.justify-center{
+    -webkit-box-pack: justify;
+    -webkit-justify-content: center;
+    -ms-flex-pack: justify;
+    justify-content: center;
+}
 .justify-between{
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
@@ -258,6 +263,61 @@ div{
 .dt-english{
 	font-weight: 400;
 	font-size: 26px;
+}
+
+
+
+/* 底部 */
+.footer-box{
+    background: #9D242B;
+    height: 328px;
+    margin-top: 30px;
+}
+.footer-box  .footer-content{
+    width: 1000px;
+    margin: 0 auto;
+    color:#fff;
+    
+}
+.footer-content .dh {
+    padding: 30px 0;
+    border-bottom: 1px solid #fff;
+}
+.footer-content .dh .items{
+    width: 333.33%;
+}
+.footer-content .dh .item:last-child{
+    text-align: right;
+}
+.footer-content .items .note {
+    padding-left:55px;
+    font-size:20px;
+    font-weight: bold;
+}
+.footer-content .db .about-box{
+    color:#fff;
+    padding-top: 30px;
+}
+.footer-content .db .about-box span{
+    margin-right: 40px;
+    color:#fff;
+}
+.footer-content .flex1 {
+    text-align: right;
+}
+.footer-content .code-box{
+    display: inline-block;
+    width: 140px;
+    padding-top: 30px;
+    text-align: center;
+    color:#fff;
+}
+.footer-content .code-box .code-img{
+    margin-bottom: 20px;
+}
+.footer-content .df{
+    padding-top: 30px;
+    text-align: center;
 }
 
 
