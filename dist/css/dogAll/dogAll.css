@@ -3,7 +3,7 @@
 
  
 .banner-box{
-    height: 240px;
+    height: 538px;
     width: 100%;
     background: #ff0;
 }
@@ -16,8 +16,7 @@
     color:#333;
 }
 .section-content .section-title .tit{
-    /* word-spacing: 20px; */
-    color:#666;
+    color:#999;
 }
 
 /* 体型 */
@@ -27,14 +26,17 @@
 
 .shape-list {
     padding-bottom: 30px;
+    color:#666;
 }
 .shape-list .items{
-    padding: 4px 10px;
+    padding: 0 10px;
+    height: 35px;
+    line-height: 35px;
     border-radius: 5px;
     cursor: pointer;
 }
 .shape-list .items:hover{
-   background: #f00;
+   background: #BF2A30;
    color:#fff;
    cursor: pointer;
 }
@@ -42,18 +44,19 @@
    text-align: center;
 }
 .shape-list .more-btn{
-    width: 80px;
-    padding: 4px 10px;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    background: #BF2A30;
+    line-height: 40px;
     color:#fff;
-    background: #f00;
     text-align: center;
-    border-radius: 30px;
     cursor: pointer;
 }
 
 /* 字母 */
 .alphabet-section{
-    background: #dfdfdf;
+    background: #F2F2F2;
 }
 .content .search-box span{
     font-weight: bold;
@@ -61,27 +64,30 @@
     cursor: pointer;
 } 
 .content .search-box span:hover{
-    color:#f00;
+    color:#BF2A30;
     font-weight: bolder;
 } 
 .alphabet-list {
     flex-wrap:  wrap;
-
 }
 .alphabet-list .items{
-    width: 200px;
+    width: 285px;
     height: 250px;
     border-radius: 6px;
     overflow: hidden;
-    margin-right: 20px;
     margin-bottom: 20px;
     position: relative;
     background: #f5f5d5;
+    margin-right: 20px;
 }
+.alphabet-list .items:last-child{
+    margin-right: 0;
+}
+
 .recommend-tit{
     height: 40px;
     line-height: 40px;
-    color:#f00;
+    color:#BF2A30;
 }
 .alphabet-list .items .name{
     position: absolute;
@@ -90,11 +96,34 @@
     width: 100%;
     height: 36px;
     overflow: hidden;
-    background: rgba(0,0,0,.3);
+    background:rgba(0,0,0,0.5);
     line-height: 36px;
     color: #fff;
-    border-radius: 5px;
+    border-radius: 10px;
     text-align: center;
-   
 }
+
+/* 功能 */
+.function-list {
+    padding-bottom: 60px;
+}
+.function-list .items{
+    width:130px;
+    height:40px;
+    line-height: 40px;
+    border-radius:5px;
+    color:#444444;
+    margin-right:90px;
+    cursor: pointer;
+    text-align: center;
+}
+.function-list .items:last-child{
+    margin-right:0;
+}
+.function-list .items:hover{
+    background:#BF2A30;
+    color:#fff;
+    
+}
+
 

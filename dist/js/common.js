@@ -90,7 +90,7 @@ $(function() {
             }
            // setFooter();
            // setStair();
-            setService();
+            //setService();
         }
     };
 
