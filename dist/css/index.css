@@ -1,22 +1,29 @@
 .home {
   font-family: MicrosoftYaHei;
 }
+.home .bg1 {
+  background: #fff;
+}
+.home .bg2 {
+  background: #f2f2f2;
+}
 .home .last-item-right {
   margin-right: 0;
 }
 .home img {
   max-width: 100%;
+  display: block;
 }
 .home .wrap {
   width: 1200px;
   margin: 0 auto;
 }
-.home .bannar {
-  height: 538px;
+.home .bannar img {
+  margin: 0 auto;
 }
 .home .cat {
   height: 250px;
-  background: url(../image/index-cat-bg.png) no-repeat;
+  background: url(../image/index/index-cat-bg.png) repeat;
 }
 .home .cat .cat-item {
   padding-top: 59px;
@@ -26,7 +33,6 @@
   margin-bottom: 30px;
   width: 79px;
   height: 79px;
-  background: #fff;
   margin: 0 auto 30px;
 }
 .home .cat .cat-item dd {
@@ -41,16 +47,18 @@
 }
 .home .part .common-box .box-tit {
   margin-bottom: 38px;
+  text-align: center;
 }
 .home .part .common-box .box-tit em {
   display: block;
-  margin-bottom: 24px;
+  width: 40px;
+  margin: 0 auto 24px;
 }
 .home .part .common-box .box-tit h3 {
   font-size: 36px;
   font-family: MicrosoftYaHei;
   font-weight: bold;
-  color: #333333;
+  color: #333;
   line-height: 30px;
   margin-bottom: 18px;
 }
@@ -60,6 +68,9 @@
   font-weight: 400;
   color: #999999;
   line-height: 30px;
+}
+.home .part .common-box .box-cnt {
+  margin-bottom: 70px;
 }
 .home .part .common-box .box-cnt .card {
   width: 382px;
@@ -72,8 +83,12 @@
   height: 263px;
   overflow: hidden;
 }
+.home .part .common-box .box-cnt .card .card-cover img {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
 .home .part .common-box .box-cnt .card h2 {
-  padding: 20px 0 16px 0;
+  padding: 20px 20px 16px 0;
   font-size: 24px;
   font-family: MicrosoftYaHei;
   font-weight: 400;
@@ -91,9 +106,14 @@
   width: 12px;
   height: 7px;
   margin-right: 8px;
+  display: block;
+}
+.home .part .common-box .box-cnt .card h2 span i {
+  margin-top: 6px;
+  margin-right: 8px;
 }
 .home .part .common-box .box-cnt .card .card-cat h4 {
-  padding: 24px 0 21px 0;
+  padding: 24px 21px 21px 21px;
 }
 .home .part .common-box .box-cnt .card .card-cat h4 i {
   width: 19px;
@@ -106,9 +126,19 @@
   font-weight: 400;
   color: #333333;
 }
+.home .part .common-box .box-cnt .card .card-cat h5 {
+  font-size: 14px;
+  padding: 19px 20px 21px 20px;
+}
+.home .part .common-box .box-cnt .card .card-cat h5 i {
+  width: 17px;
+  height: 17px;
+  margin-right: 10px;
+}
 .home .part .common-box .box-cnt .card .card-cat .cat-list {
   padding-left: 21px;
   margin-right: -19px;
+  padding-bottom: 20px;
 }
 .home .part .common-box .box-cnt .card .card-cat .cat-list .list-item {
   margin-right: 19px;
@@ -125,6 +155,171 @@
   color: #333333;
   text-align: center;
 }
+.home .part .common-box .box-cnt .card .card-cat .cat-detail {
+  padding: 21px;
+}
+.home .part .common-box .box-cnt .card .card-cat .cat-detail dd {
+  font-size: 14px;
+  color: #333;
+}
 .home .part .common-box .box-cnt .last-card {
   margin-right: 0;
+}
+.home .part .common-box .box-cnt .school-left {
+  width: 386px;
+  margin-right: 20px;
+}
+.home .part .common-box .box-cnt .school-left .card {
+  width: 100%;
+  margin-right: 0;
+}
+.home .part .common-box .box-cnt .school-left .card .card-cover {
+  height: 533px;
+}
+.home .part .common-box .box-cnt .school-left .card h2 {
+  font-size: 18px;
+  color: #1C1C1C;
+}
+.home .part .common-box .box-cnt .school-right {
+  width: 794px;
+}
+.home .part .common-box .box-cnt .school-right .card-group {
+  margin-bottom: 24px;
+}
+.home .part .common-box .box-cnt .school-right .card-group .card {
+  width: 387px;
+  margin-right: 0;
+}
+.home .part .common-box .box-cnt .school-right .card-group .card .card-cover {
+  height: 190px;
+  overflow: hidden;
+}
+.home .part .common-box .box-cnt .school-right .card-group .card h2 {
+  font-size: 18px;
+  color: #1C1C1C;
+}
+.home .part .common-box .box-cnt .play-wrap a {
+  width: 40px;
+  height: 40px;
+}
+.home .part .common-box .box-cnt .play-wrap .photo-play .play-box {
+  width: 284px;
+  height: 295px;
+  background: #fff;
+  position: relative;
+  z-index: 1;
+  margin-top: 142px;
+  padding-top: 142px;
+  margin-right: 19px;
+}
+.home .part .common-box .box-cnt .play-wrap .photo-play .play-box .cover {
+  width: 284px;
+  height: 284px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: -142px;
+}
+.home .part .common-box .box-cnt .play-wrap .photo-play .play-box .info {
+  padding: 20px 10px 0 10px;
+}
+.home .part .common-box .box-cnt .play-wrap .photo-play .play-box .info dl {
+  margin-bottom: 17px;
+}
+.home .part .common-box .box-cnt .play-wrap .photo-play .play-box .info dl dt {
+  margin-right: 3px;
+}
+.home .part .common-box .box-cnt .play-wrap .photo-play .play-box .info dl dd {
+  font-size: 16px;
+  line-height: 17px;
+  color: #1C1C1C;
+}
+.home .part .common-box .box-cnt .play-wrap .photo-play .play-box-last {
+  margin-right: 0;
+}
+.home .part .common-box .box-bottom .more-btn {
+  width: 170px;
+  height: 50px;
+  text-align: center;
+  font-size: 22px;
+  line-height: 50px;
+  margin: 0 auto;
+  display: block;
+}
+.home .part .hot-school .box-cnt .card {
+  -webkit-box-shadow: 0 5px 17px #fafafa;
+          box-shadow: 0 5px 17px #fafafa;
+}
+.home .footer {
+  text-align: center;
+  background: #fff;
+}
+.home .footer .footer-logo {
+  background: #dbdbdb;
+}
+.home .footer .footer-logo p {
+  margin: 0 auto;
+}
+.home .footer .footer-info {
+  color: #929292;
+  padding-top: 40px;
+}
+.home .footer .footer-info .info-link {
+  margin-bottom: 30px;
+}
+.home .footer .footer-info .info-link a {
+  padding: 0 46px;
+  border-right: 1px solid #929292;
+}
+.home .footer .footer-info p {
+  margin-bottom: 15px;
+}
+.index-fixed-left {
+  width: 202px;
+  background: #fcf7f7;
+  position: fixed;
+  left: 0;
+  top: 10%;
+  z-index: 10;
+}
+.index-fixed-left .left-pic {
+  position: absolute;
+  z-index: 1;
+  top: -54px;
+}
+.index-fixed-left ul {
+  padding: 21px 20px 0 20px;
+}
+.index-fixed-left ul li {
+  width: 160px;
+  height: 160px;
+  margin-bottom: 20px;
+}
+.index-fixed-left ul li img {
+  border-radius: 5px;
+}
+.index-fixed-right {
+  width: 202px;
+  background: #fcf7f7;
+  position: fixed;
+  right: 0;
+  top: 10%;
+  z-index: 10;
+}
+.index-fixed-right .right-pic {
+  position: absolute;
+  z-index: 1;
+  top: -42px;
+  left: 36px;
+}
+.index-fixed-right ul {
+  padding: 21px 20px 0 20px;
+}
+.index-fixed-right ul li {
+  width: 160px;
+  height: 160px;
+  margin-bottom: 20px;
+}
+.index-fixed-right ul li img {
+  border-radius: 5px;
 }
