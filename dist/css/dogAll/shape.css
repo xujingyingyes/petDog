@@ -1,0 +1,90 @@
+
+@charset "utf-8";
+
+.search-box  .search{
+   padding-top: 20px;
+   font-size:18px;
+   line-height: 56px;
+}
+.search-box .search-input{
+    width: 460px;
+    height: 56px;
+    padding-left:15px;
+    box-sizing: border-box;
+    border:1px solid rgba(153,153,153,1);
+    color:#999;
+    font-size:18px;
+}
+.search-box  .label{
+    width: 100px;
+    height: 56px;
+    background: #BF2A30;
+}
+
+.nav-list .nav-bar{
+    padding: 0 10px;
+    height:30px;
+    line-height:30px;
+    border-radius:5px;
+    color:#333;
+    cursor: pointer;
+}
+.nav-list{
+    padding-left:20px;
+    padding-top:35px;
+    padding-bottom: 45px;
+}
+.nav-list .nav-bar.active{
+    background:#BF2A30;
+    color:#fff;
+}
+.data-list{
+    width: 100%;
+}
+.data-list .items{
+    display: block;
+    box-sizing: border-box;
+    width:379px;
+    height:440px;
+    box-shadow: 0 0 3px rgba(124,124,124,0.26);
+    padding: 30px 30px;
+    background:rgba(255,255,255,1);
+    border-radius:5px;
+    float: left;
+    margin-right: 38px;
+    margin-bottom: 20px;
+}
+.data-list .items:last-child{
+    margin-right: 0;
+}
+.data-list .items img{
+   display: block;
+   margin:0 auto;
+   width:220px;
+   height:250px;
+}
+.data-list .items h2{
+    padding-top: 20px;
+    font-size:24px;
+    color:#333333;
+}
+.data-list .items .english-name{
+    font-size:18px;
+    color:#999999;
+    line-height: 30px;
+}
+.data-list .items .kind{
+    font-size:18px;
+    color:#666666;
+    line-height: 30px;
+}
+.data-list .items .price{
+    font-size:18px;
+    color:#666666;
+    line-height: 30px;
+}
+.data-list .items .price span{
+    font-size:18px;
+    color:#BF2A30;
+    font-weight: bold;
+}

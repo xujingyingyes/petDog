@@ -47,8 +47,8 @@ div{
 .margin-auto {
     margin: 0 auto;
     box-sizing: border-box;
-    width: 1200px;
     height: 100%;
+    width: 1200px;
     min-width: 1000px;
 }
 .margin0-auto {
@@ -72,7 +72,6 @@ div{
 .clearfix{
     *zoom:1;/*IE/7/6*/
 }
-.clearfix{*zoom:1;}
 .fl{
     float: left;
 }
@@ -101,7 +100,12 @@ div{
     -ms-flex-align: center;
     align-items: center;
 }
-
+.justify-center{
+    -webkit-box-pack: justify;
+    -webkit-justify-content: center;
+    -ms-flex-pack: justify;
+    justify-content: center;
+}
 .justify-between{
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
@@ -186,11 +190,14 @@ div{
 .t-2525{
 	color: #dd2525;
 }
+.t-242{
+    color: #9D242B;
+}
 .t-size16{
 	font-size: 16px;
 }
 .t-size14{
-	font-size: 14px;
+    font-size: 14px;
 }
 /* 公共的button */
 .more-btn{
@@ -249,7 +256,8 @@ div{
 /* 公共的title居中的css 上中文，下英文 */
 .detail-title{
 	text-align: center;
-	letter-spacing: 8px;
+    letter-spacing: 8px;
+    margin-bottom: 40px;
 }
 .dt-en{
 	font-weight: bold;
@@ -258,6 +266,61 @@ div{
 .dt-english{
 	font-weight: 400;
 	font-size: 26px;
+}
+
+
+
+/* 底部 */
+.footer-box{
+    background: #9D242B;
+    height: 328px;
+    margin-top: 30px;
+}
+.footer-box  .footer-content{
+    width: 1000px;
+    margin: 0 auto;
+    color:#fff;
+    
+}
+.footer-content .dh {
+    padding: 30px 0;
+    border-bottom: 1px solid #fff;
+}
+.footer-content .dh .items{
+    width: 333.33%;
+}
+.footer-content .dh .item:last-child{
+    text-align: right;
+}
+.footer-content .items .note {
+    padding-left:20px;
+    font-size:20px;
+    font-weight: bold;
+}
+.footer-content .db .about-box{
+    color:#fff;
+    padding-top: 30px;
+}
+.footer-content .db .about-box span{
+    margin-right: 40px;
+    color:#fff;
+}
+.footer-content .flex1 {
+    text-align: right;
+}
+.footer-content .code-box{
+    display: inline-block;
+    width: 140px;
+    padding-top: 30px;
+    text-align: center;
+    color:#fff;
+}
+.footer-content .code-box .code-img{
+    margin-bottom: 20px;
+}
+.footer-content .df{
+    padding-top: 20px;
+    text-align: center;
 }
 
 

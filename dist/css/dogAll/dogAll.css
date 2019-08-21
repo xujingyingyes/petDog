@@ -5,18 +5,27 @@
 .banner-box{
     height: 538px;
     width: 100%;
-    background: #ff0;
+    background: #666666;
 }
-.section-content .section-title{
+.section-title{
     padding: 40px 0;
     text-align: center;
 }
-.section-content .section-title h2{
+.section-title .title-icon{
+    text-align: center;
+    vertical-align: middle;
+    padding-bottom: 20px;
+}
+.section-title h2{
+    font-size:36px;
     font-weight: bolder;
     color:#333;
+    font-size:36px;
 }
-.section-content .section-title .tit{
+.section-title .tit{
+    font-size:24px;
     color:#999;
+    padding: 10px 0;
 }
 
 /* 体型 */
@@ -32,6 +41,7 @@
     padding: 0 10px;
     height: 35px;
     line-height: 35px;
+    font-size:18px;
     border-radius: 5px;
     cursor: pointer;
 }
@@ -40,21 +50,24 @@
    color:#fff;
    cursor: pointer;
 }
-.shape-list .head p{
+.shape-list .head .kind{
    text-align: center;
+   font-size:16px;
+   padding-top: 10px;
 }
 .shape-list .more-btn{
     width: 150px;
     height: 40px;
     border-radius: 20px;
     background: #BF2A30;
+    font-size:20px;
     line-height: 40px;
     color:#fff;
     text-align: center;
     cursor: pointer;
 }
 
-/* 字母 */
+/* 字母索引 */
 .alphabet-section{
     background: #F2F2F2;
 }
@@ -62,15 +75,17 @@
     font-weight: bold;
     padding: 0 5px;
     cursor: pointer;
+    margin-right:20px;
 } 
 .content .search-box span:hover{
     color:#BF2A30;
     font-weight: bolder;
 } 
-.alphabet-list {
+.alphabet-list,.ranking-list {
     flex-wrap:  wrap;
 }
-.alphabet-list .items{
+.alphabet-list .items, 
+.ranking-list .items{
     width: 285px;
     height: 250px;
     border-radius: 6px;
@@ -80,16 +95,19 @@
     background: #f5f5d5;
     margin-right: 20px;
 }
-.alphabet-list .items:last-child{
+.alphabet-list .items:last-child,
+.ranking-list .items:last-child{
     margin-right: 0;
 }
 
 .recommend-tit{
-    height: 40px;
+    padding: 20px;
     line-height: 40px;
+    font-size:24px;
     color:#BF2A30;
 }
-.alphabet-list .items .name{
+.alphabet-list .items .name,
+.ranking-list .items .name{
     position: absolute;
     left:0;
     bottom: 0;
@@ -97,33 +115,41 @@
     height: 36px;
     overflow: hidden;
     background:rgba(0,0,0,0.5);
+    font-size:18px;
     line-height: 36px;
     color: #fff;
-    border-radius: 10px;
     text-align: center;
 }
 
 /* 功能 */
-.function-list {
+.function-list,.features-list {
     padding-bottom: 60px;
+    background: #fff;
+    font-size:24px;
 }
-.function-list .items{
+.function-list .items,
+.features-list .items{
     width:130px;
     height:40px;
     line-height: 40px;
     border-radius:5px;
+    font-size:24px;
     color:#444444;
     margin-right:90px;
     cursor: pointer;
     text-align: center;
 }
-.function-list .items:last-child{
+.function-list .items:last-child,
+.features-list .items:last-child{
     margin-right:0;
 }
-.function-list .items:hover{
+.function-list .items:hover,
+.features-list .items:hover{
     background:#BF2A30;
     color:#fff;
-    
 }
 
+.ranking-section{
+    background: #F2F2F2;
+}
 
