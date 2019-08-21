@@ -3,7 +3,7 @@
 
  
 .banner-box{
-    height: 240px;
+    height: 538px;
     width: 100%;
     background: #ff0;
 }
@@ -67,7 +67,6 @@
 } 
 .alphabet-list {
     flex-wrap:  wrap;
-
 }
 .alphabet-list .items{
     width: 285px;
@@ -77,7 +76,12 @@
     margin-bottom: 20px;
     position: relative;
     background: #f5f5d5;
+    margin-right: 20px;
 }
+.alphabet-list .items:last-child{
+    margin-right: 0;
+}
+
 .recommend-tit{
     height: 40px;
     line-height: 40px;
