@@ -42,14 +42,17 @@
     width: 100%;
 }
 .data-list .items{
+    display: block;
+    box-sizing: border-box;
     width:379px;
-    height:437px;
+    height:440px;
     box-shadow: 0 0 3px rgba(124,124,124,0.26);
-    padding: 15px 30px;
+    padding: 30px 30px;
     background:rgba(255,255,255,1);
     border-radius:5px;
     float: left;
     margin-right: 38px;
+    margin-bottom: 20px;
 }
 .data-list .items:last-child{
     margin-right: 0;
@@ -58,10 +61,10 @@
    display: block;
    margin:0 auto;
    width:220px;
-   height:239px;
+   height:250px;
 }
 .data-list .items h2{
-    padding-top: 10px;
+    padding-top: 20px;
     font-size:24px;
     color:#333333;
 }
@@ -78,6 +81,7 @@
 .data-list .items .price{
     font-size:18px;
     color:#666666;
+    line-height: 30px;
 }
 .data-list .items .price span{
     font-size:18px;
