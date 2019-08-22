@@ -296,10 +296,10 @@ div{
     border-bottom: 1px solid #fff;
 }
 .footer-content .dh .items{
-    width: 333.33%;
+    width: 33.33%;
 }
-.footer-content .dh .item:last-child{
-    text-align: right;
+.footer-content .dh .items:last-child .flex-base{
+    justify-content:flex-end;
 }
 .footer-content .items .note {
     padding-left:20px;
