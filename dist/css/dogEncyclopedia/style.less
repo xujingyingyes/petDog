@@ -1,0 +1,189 @@
+.reset-tansform() {
+  transform: skewY(10deg) translate(0px, 170px);
+}
+.reset-tansform2() {
+  transform: skewY(-10deg) translate(0px, 170px);
+}
+.margin-auto {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.li-style {
+  font-size: 14px;
+  line-height: 30px;
+  p:nth-of-type(1) {
+    font-weight: 500;
+  }
+  li {
+    font-weight: 500;
+    &::before {
+      content: "\2022";
+      color: #cc3333;
+      font-weight: bold;
+      display: inline-block;
+    }
+  }
+}
+
+.dogEncyclopedia {
+  img {
+    display: block;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  .banner {
+    width: 100%;
+  }
+  .content-wrapper {
+    width: 100%;
+    overflow: hidden;
+    .content1 {
+      height: 945px+516px;
+      background-color: #fdf6e6;
+      .top-content {
+        height: 610px;
+        background-color: #fff;
+        transform: skewY(-10deg) translate(0px, -170px);
+        position: relative;
+        .content {
+          .margin-auto();
+          .reset-tansform();
+          .title {
+            margin-top: 40px;
+          }
+          img {
+            float: left;
+            margin-top: 13px;
+          }
+          ul {
+            float: left;
+            width: 285px;
+            margin: 90px 0 0 14px;
+            .li-style();
+          }
+        }
+      }
+      .content-right {
+        .margin-auto();
+        margin-top: -120px;
+        .wrapper {
+          float: right;
+          .title {
+            padding-right: 40px;
+          }
+          img {
+            margin-top: 30px;
+            margin-right: -40px;
+            float: right;
+          }
+        }
+        ul {
+          float: right;
+          width: 280px;
+          margin-right: -100px;
+          margin-top: 180px;
+          .li-style();
+        }
+      }
+      .content-left {
+        .margin-auto();
+        margin-top: 20px;
+        img {
+          float: left;
+          margin-top: 135px;
+          margin-left: -120px;
+        }
+        ul {
+          float: left;
+          width: 360px;
+          margin-top: 102px;
+          .li-style();
+        }
+      }
+    }
+    .content2 {
+      overflow: hidden;
+      height: 997px + 516px;
+      background-color: #fdf6e6;
+      .top-content {
+        height: 660px;
+        background-color: #fff;
+        transform: skewY(10deg) translate(0px, -170px);
+        .content {
+          .margin-auto();
+          .reset-tansform2();
+          margin-top: 40px;
+          .wrapper {
+            float: right;
+            img {
+              float: right;
+              margin-top: 14px;
+            }
+            .title {
+              padding-right: 40px;
+            }
+          }
+          ul {
+            float: right;
+            width: 280px;
+            margin-right: -100px;
+            margin-top: 180px;
+            .li-style();
+          }
+        }
+      }
+      .content-left {
+        .margin-auto();
+        margin-top: -120px;
+        .wrapper {
+          img {
+            float: left;
+            margin-top: 30px;
+          }
+          ul {
+            float: left;
+            margin-top: 102px;
+            margin-left: 23px;
+            .li-style();
+          }
+        }
+      }
+      .content-right {
+        .wrapper {
+          float: right;
+          img {
+            margin-top: 147px;
+          }
+          .title {
+            padding-right: 40px;
+          }
+        }
+        ul {
+          float: right;
+          margin-top: 135px;
+          .li-style();
+        }
+      }
+    }
+    .title {
+      p {
+        line-height: 1;
+      }
+      p:nth-child(1) {
+        font-weight: 400;
+        color: #bf2a30;
+        font-size: 18px;
+      }
+      p:nth-child(2) {
+        color: #fa8f92;
+        font-size: 14px;
+        margin-top: 15px;
+      }
+      a {
+        color: inherit;
+      }
+    }
+  }
+}
