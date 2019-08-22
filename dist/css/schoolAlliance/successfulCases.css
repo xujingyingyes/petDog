@@ -1,3 +1,4 @@
+/* 成功案例 */
 .successful-cases{
 	overflow: scroll;
 	overflow-x: hidden; 
@@ -41,7 +42,8 @@
 	width:31%;
 	margin-right: 2%;
 	height:397px;
-	border-radius:10px;
+    border-radius:10px;
+    float: left;
 }
 /* 成功学员 */
 .sc-trainees{
@@ -73,6 +75,7 @@
 	height:545px;
     border-radius:10px;
     position: relative;
+    float: left;
 }
 .info-case .info-case-img{
     position: absolute;
