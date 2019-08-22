@@ -314,7 +314,10 @@ div{
     margin-right: 40px;
     color:#fff;
 }
-.footer-content .flex1 {
+.footer-content .flex1.fl {
+    text-align: left;
+}
+.footer-content .flex1.fr {
     text-align: right;
 }
 .footer-content .code-box{
