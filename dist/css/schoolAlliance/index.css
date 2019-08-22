@@ -12,11 +12,17 @@
 	position: absolute;
 	width:40px;
 	height:40px;
-	background:rgba(0,0,0,1);
-	opacity:0.48;
-	border-radius:50%;
 	top: 39%;
-    right: 10%;
+	left: 10%;
+	background-image: url(../../image/schoolAlliance/switch-left.png);
+}
+.sw-content .sw-content-right{
+	position: absolute;
+	width:40px;
+	height:40px;
+	top: 39%;
+	right: 10%;
+	background-image: url(../../image/schoolAlliance/switch-right.png);
 }
 .sw-content .sw-img{
 	background-image: url(../../image/schoolAlliance/school_alliance_dog.png);
