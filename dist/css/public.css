@@ -298,6 +298,7 @@ div{
 }
 .footer-content .dh .items{
     width: 33.33%;
+    float: left;
 }
 .footer-content .dh .items:last-child .flex-base{
     justify-content:flex-end;
