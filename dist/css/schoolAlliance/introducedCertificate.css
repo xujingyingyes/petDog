@@ -1,3 +1,4 @@
+/* 证书介绍 */
 .introduced-certificate{
 	overflow: scroll;
 	overflow-x: hidden; 
@@ -22,6 +23,7 @@
     height:580px;
     position: relative;
     margin: 0 4% 40px 0;
+    float: left;
 }
 .info-list .list-img{
     padding: 48px 50px;
@@ -31,11 +33,13 @@
     height:230px;
     border-radius:5px;
     z-index: -3;
+    float: left;
 }
 .list-img .img-right{
     width:159px;
     height:231px;
     border-radius:5px;
+    float: left;
 }
 /* 图片边框bg */
 .info-list .list-bg-img{

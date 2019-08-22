@@ -25,6 +25,7 @@
 	width: 31%;
 	margin-right: 2%;
 	margin-bottom: 30px;
+	float: left;
 }
 .info-list .list-img{
 	width:100%;
@@ -41,6 +42,7 @@
 	text-align: right;
 	padding-right: 60px;
 	cursor: pointer;
+	padding: 0px 60px 30px 0;
 }
 .list-btn .more-btn{
 	width:94px;
@@ -62,10 +64,12 @@
 	width:358px;
 	height:338px;
 	border-radius:5px;
+	float: left;
 }
 .ms-des-introduce .introduce-right{
 	margin-left: 60px;
 	padding: 30px 0 0 0;
+	float: left;
 }
 .introduce-right .right-title{
 	font-size:18px;
@@ -141,9 +145,11 @@
 	width:50%;
 	height:603px;
 	border-radius:5px;
+	float: left;
 }
 .detail-info .info-des{
 	padding: 36px 50px;
+	float: left;
 }
 .info-des .info-des-title{
 	font-size:18px;
@@ -173,4 +179,5 @@
 	margin-right: 2%;
 	height:286px;
 	border-radius:5px;
+	float: left;
 }

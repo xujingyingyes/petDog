@@ -12,22 +12,30 @@
 	position: absolute;
 	width:40px;
 	height:40px;
-	background:rgba(0,0,0,1);
-	opacity:0.48;
-	border-radius:50%;
 	top: 39%;
-    right: 10%;
+	left: 10%;
+	background-image: url(../../image/schoolAlliance/switch-left.png);
+}
+.sw-content .sw-content-right{
+	position: absolute;
+	width:40px;
+	height:40px;
+	top: 39%;
+	right: 10%;
+	background-image: url(../../image/schoolAlliance/switch-right.png);
 }
 .sw-content .sw-img{
 	background-image: url(../../image/schoolAlliance/school_alliance_dog.png);
     width: 40%;
     height: 100%;
-    background-position: center;
+	background-position: center;
+	float: left;
 }
 .sw-content .sw-text{
 	position: relative;
 	flex: 1;
-    padding: 150px 0 0 0;
+	padding: 150px 0 0 0;
+	float: left;
 }
 .sw-content .sw-qr-code{
 	position: absolute;
@@ -84,6 +92,7 @@
 	box-shadow:0px 3px 11px 1px #f9f9f9;
 	margin-bottom: 20px;
 	margin: 0 40px 20px 0;
+	float: left;
 }
 .list-info .dl-img{
 	height: 264px;
@@ -150,6 +159,7 @@
 .flex-base .dc-left, 
 .flex-base .dc-right{
 	flex: 1;
+	float: left;
 }
 .detail-city li{
 	font-size:18px;
@@ -185,7 +195,7 @@
 	width: 45%;
 	margin:0 20px 20px 0;
 	height: 586px;
-	/* opacity:0.52; */
+	float: left;
 	border-radius:5px;
 	background: #9D242B;
 }
@@ -242,6 +252,7 @@
 	width: 23%;
 	height: 100%;
 	margin-right: 2%;
+	float: left;
 }
 .case-info .case-img{
 	height: 581px;
@@ -263,6 +274,7 @@
 	font-weight:bold;
 	height: 286px;
 	width: 33%;
+	float: left;
 }
 .detail-pic .pic-info:nth-child(even){
 	background:rgba(157,36,43,1);
