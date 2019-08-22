@@ -1,0 +1,89 @@
+.popular-school{
+	overflow: scroll;
+	overflow-x: hidden; 
+	color: #333333;
+} 
+.ps-des .ps-des-history{
+	font-size:18px;
+	font-weight: 400;
+	padding: 20px 0;
+	letter-spacing: 2px;
+}
+/* 热门学校-city */
+.detail-city{
+	width:1200px;
+	height:225px;
+	background:rgba(245,245,245,1);
+	flex-direction: column;
+	padding: 20px 0;
+}
+.detail-city .flex-base{
+	
+}
+.flex-base .dc-left, 
+.flex-base .dc-right{
+	flex: 1;
+}
+.detail-city li{
+	font-size:18px;
+	font-weight:400;
+	line-height:30px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+}
+.detail-city li .dc-title,
+.detail-city li .dc-all,
+.detail-city li .dc-city{
+	width: 45px;
+	text-align: center;
+}
+.dc-city-width{
+	width: 60px!important;
+}
+.detail-city li .dc-all,
+.detail-city li .dc-city{
+	margin-right: 10px;
+}
+.active-city{
+    height: 30px;
+    background: rgba(191,42,48,1);
+	border-radius: 5px;
+	color: #ffffff;
+}
+/* 热门学校list */
+.ps-des .ps-des-info{
+	margin-top: 60px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.ps-des-info .info-list{
+    box-shadow:0px 3px 11px 1px #f9f9f9;
+	width: 31%;
+	/* margin-right: 2%; */
+	margin-bottom: 30px;
+}
+.info-list .list-img{
+	width:100%;
+	height:282px;
+	border-radius:5px;
+}
+.info-list .list-des{
+	padding: 50px 54px 30px 54px;
+	font-size:16px;
+	font-weight: 400;
+	line-height: 30px;
+}
+.info-list .list-btn{
+	text-align: right;
+	padding-right: 60px;
+	cursor: pointer;
+}
+.list-btn .more-btn{
+	width:94px;
+	height:27px;
+	border-radius: 14px!important;
+}
+.list-btn a{
+	color: #ffffff;
+	font-size: 12px;
+}

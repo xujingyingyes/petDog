@@ -222,6 +222,7 @@ div{
 	box-shadow: 0px 1px 3px #ddd;
 }
 .header-list{
+    cursor: pointer;
 	width: 795px;
     display: flex;
     justify-content: space-between;
