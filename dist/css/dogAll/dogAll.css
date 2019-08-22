@@ -3,9 +3,16 @@
 
  
 .banner-box{
-    height: 538px;
     width: 100%;
+    /* height: 538px; */
+    overflow: hidden;
     background: #666666;
+    /* background: url('../../image/dogAll/banner.png') no-repeat center; */
+}
+.banner-box .banner-pic{
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
 }
 .section-title{
     padding: 40px 0;
