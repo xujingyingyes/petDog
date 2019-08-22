@@ -48,3 +48,27 @@
     border-radius:5px;
     color:#fff;
 }
+
+.data-list .list-items{
+    margin-bottom: 20px;
+}
+.data-list .list-items .img-box{
+    width:284px;
+    height:220px;
+    border-radius:5px;
+    background:#F5F5F5;
+}
+.data-list .list-items .details{
+    height:220px;
+    margin-left: 20px;
+}
+.list-items .details .title{
+    height:220px;
+    margin-left: 20px;
+    font-size:24px;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    color:#333;
+    line-height:30px;
+}
+
