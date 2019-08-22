@@ -83,7 +83,7 @@
 	background: #fff;
 	box-shadow:0px 3px 11px 1px #f9f9f9;
 	margin-bottom: 20px;
-	margin: 0 20px 20px 0;
+	margin: 0 40px 20px 0;
 }
 .list-info .dl-img{
 	height: 264px;
@@ -142,7 +142,7 @@
 	height:225px;
 	background:rgba(245,245,245,1);
 	flex-direction: column;
-	padding: 20px;
+	padding: 20px 0;
 }
 .detail-city .flex-base{
 	
@@ -156,17 +156,27 @@
 	font-weight:400;
 	line-height:30px;
 	margin-bottom: 30px;
+	padding-left: 20px;
 }
 .detail-city li .dc-title,
 .detail-city li .dc-all,
 .detail-city li .dc-city{
-	width: 60px;
+	width: 45px;
+	text-align: center;
+}
+.dc-city-width{
+	width: 60px!important;
 }
 .detail-city li .dc-all,
 .detail-city li .dc-city{
 	margin-right: 10px;
 }
-
+.active-city{
+    height: 30px;
+    background: rgba(191,42,48,1);
+	border-radius: 5px;
+	color: #ffffff;
+}
 /* 课程介绍card  入门 初级 中 高*/
 .detail-card{
 	flex-wrap: wrap;
