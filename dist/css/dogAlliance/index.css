@@ -194,11 +194,15 @@
 }
 .dogAlliance-index .banner-btn .left {
   left: 0;
+  position: absolute;
+  top: 40%;
 }
 .dogAlliance-index .banner-btn .right {
   right: 0;
+  position: absolute;
+  top: 40%;
 }
-.dogAlliance-index .banner-btn img {
+.dogAlliance-index .banner-btn .erweima {
   width: 128px;
   float: right;
 }
