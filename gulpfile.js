@@ -84,7 +84,7 @@ gulp.task('html', function () {
     return gulp.src(['./dist/html/**/*.html','./dist/*.html'])
         .pipe(rev())
         .pipe(htmlmin(htmlOptions))
-        .pipe(gulp.dest('./dist0/templates'))
+        .pipe(gulp.dest('./dist0/html'))
         .pipe(notify({message: 'html task ok'}));
 });
 
@@ -107,7 +107,7 @@ gulp.task('minifycss', function () {
         //.pipe(gulp.dest('dist/css'))
         //.pipe(rename({suffix: '.min'}))
         .pipe(minifycss(cssOption))
-        .pipe(gulp.dest('./dist0/css-gulp'))
+        .pipe(gulp.dest('./dist0/css'))
         .pipe(notify({message: 'css task ok'}));
 });
 
