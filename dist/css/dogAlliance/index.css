@@ -1,0 +1,424 @@
+.mt0 {
+  margin-top: 0!important;
+}
+.server-ensure .container {
+  overflow: hidden;
+}
+.server-ensure .container .top-promise {
+  width: 1200px;
+  height: 500px;
+  background: #bf2a30;
+  border-radius: 10px;
+  margin-top: 109px;
+  text-align: center;
+  overflow: hidden;
+}
+.server-ensure .container .top-promise .title-tips {
+  font-size: 50px;
+  font-family: MicrosoftYaHei;
+  font-weight: 400;
+  color: #ffffff;
+  margin-top: 72px;
+  line-height: 30px;
+}
+.server-ensure .container .top-promise .title-des {
+  font-size: 24px;
+  font-family: MicrosoftYaHei;
+  font-weight: 400;
+  color: #ffffff;
+  margin-top: 21px;
+  line-height: 30px;
+}
+.server-ensure .container .top-promise .title-english {
+  font-size: 14px;
+  font-family: MicrosoftYaHei;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 30px;
+}
+.server-ensure .container .top-promise .ensure-list {
+  box-sizing: border-box;
+  margin: 47px 60px 60px;
+  background-color: #fff;
+  padding: 56px 0 40px 0;
+  height: 200px;
+  background: #ffffff;
+  border-radius: 10px;
+}
+.server-ensure .container .top-promise .ensure-list li img {
+  width: 62px;
+  height: 62px;
+}
+.server-ensure .container .top-promise .ensure-list li p {
+  margin-top: 17px;
+  font-size: 24px;
+  font-family: MicrosoftYaHei;
+  font-weight: 400;
+  color: #333333;
+  line-height: 30px;
+}
+.server-ensure .container .top-tips {
+  width: 100%;
+  margin: 96px 0 120px;
+}
+.server-ensure .container .top-tips .tips-items {
+  width: 552px;
+  text-align: center;
+}
+.server-ensure .container .top-tips .tips-items img {
+  height: 225px;
+}
+.server-ensure .container .top-tips .tips-items p {
+  font-size: 24px;
+  margin-top: 50px;
+  font-family: MicrosoftYaHei;
+  font-weight: 400;
+  color: #333333;
+  line-height: 36px;
+}
+.server-ensure .rules {
+  background: #f2f2f2;
+}
+.server-ensure .rules .rules-title {
+  text-align: center;
+  overflow: hidden;
+  padding: 60px 0 70px;
+  box-sizing: border-box;
+}
+.server-ensure .rules .rules-title img {
+  width: 38px;
+}
+.server-ensure .rules .rules-title h3 {
+  font-size: 36px;
+  font-family: MicrosoftYaHei;
+  font-weight: bold;
+  color: #333333;
+  line-height: 30px;
+  margin: 23px 0 17px;
+}
+.server-ensure .rules .rules-title p {
+  font-size: 24px;
+  font-family: MicrosoftYaHei;
+  font-weight: 400;
+  color: #999999;
+  line-height: 30px;
+}
+.server-ensure .rules .rules-items {
+  color: #333333;
+  line-height: 36px;
+  font-size: 24px;
+}
+.server-ensure .rules .rules-items h3 {
+  font-family: MicrosoftYaHei-Bold;
+  font-weight: Bold;
+  margin-bottom: 40px;
+}
+.server-ensure .rules .rules-items p {
+  margin-left: 50px;
+  font-family: MicrosoftYaHei;
+  font-weight: Regular;
+  line-height: 36px;
+  margin-bottom: 40px;
+}
+.server-ensure .rules .rules-items p span {
+  color: #BF2A30;
+}
+.about-us {
+  overflow: hidden;
+}
+.about-us .container .img-items {
+  margin: 120px 0;
+}
+.about-us .container .img-items img {
+  height: 150px;
+}
+.about-us .container .list {
+  background: #bf2a30;
+  border-radius: 10px;
+  padding: 33px 0;
+  font-family: MicrosoftYaHei;
+  margin-bottom: 98px;
+}
+.about-us .container .list p {
+  margin: 14px 67px;
+  font-size: 24px;
+  color: #fff;
+  font-weight: Regular;
+}
+.connect-us .container {
+  text-align: center;
+}
+.connect-us .container .about-logo {
+  width: 625px;
+  margin: 100px 0;
+}
+.connect-us .container div {
+  margin-bottom: 126px;
+}
+.connect-us .container div img {
+  display: block;
+  height: 25px;
+  margin-top: 18px;
+  margin-left: 350px;
+}
+.dogAlliance-index {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.dogAlliance-index .banner {
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  font-size: 0;
+  height: 536px;
+  background: #EFD3A6 url("../../image/dogAlliance/banner.png") no-repeat center center;
+  background-size: cover;
+}
+.dogAlliance-index .banner-btn {
+  height: 536px;
+  position: relative;
+  box-sizing: border-box;
+}
+.dogAlliance-index .banner-btn button {
+  position: absolute;
+  top: 200px;
+  width: 40px;
+  height: 40px;
+  background: #000000;
+  opacity: 0.48;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 200;
+}
+.dogAlliance-index .banner-btn .left {
+  left: 0;
+}
+.dogAlliance-index .banner-btn .right {
+  right: 0;
+}
+.dogAlliance-index .banner-btn img {
+  width: 128px;
+  float: right;
+}
+.dogAlliance-index .full-bg {
+  background: #f2f2f2;
+}
+.dogAlliance-index .select-dog {
+  padding-bottom: 22px;
+  text-align: center;
+}
+.dogAlliance-index .select-dog .items p {
+  padding: 44px 0 22px;
+  font-size: 24px;
+  font-family: MicrosoftYaHei;
+  font-weight: 400;
+  color: #bf2a30;
+}
+.dogAlliance-index .select-dog .items img {
+  height: 378px;
+  vertical-align: top;
+}
+.dogAlliance-index .select-dog .right {
+  margin-left: 380px;
+}
+.dogAlliance-index .common-title {
+  text-align: center;
+  padding: 68px 0 37px;
+}
+.dogAlliance-index .common-title img {
+  width: 38px;
+}
+.dogAlliance-index .common-title h3 {
+  font-size: 36px;
+  font-family: MicrosoftYaHei;
+  font-weight: bold;
+  color: #333333;
+  line-height: 30px;
+  margin: 23px 0 18px;
+}
+.dogAlliance-index .common-title p {
+  font-size: 24px;
+  font-family: MicrosoftYaHei;
+  font-weight: 400;
+  color: #999999;
+  line-height: 30px;
+}
+.dogAlliance-index .common-btn {
+  text-align: center;
+  padding: 60px 0;
+}
+.dogAlliance-index .common-btn button {
+  width: 170px;
+  height: 50px;
+  background: #bf2a30;
+  border-radius: 25px;
+  font-size: 22px;
+  font-family: MicrosoftYaHei;
+  font-weight: 400;
+  color: #ffffff;
+}
+.dogAlliance-index .hot-dog .type-items {
+  margin: 0 10px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+.dogAlliance-index .hot-dog .type-items h3 {
+  width: 100%;
+  font-size: 30px;
+  font-family: MicrosoftYaHei;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 60px;
+  height: 60px;
+  background: #bf2a30;
+  border-radius: 10px 10px 0px 0px;
+}
+.dogAlliance-index .hot-dog .type-items .img {
+  width: 103px;
+  height: 103px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: inline-block;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.dogAlliance-index .hot-dog .type-items .img img {
+  height: 100%;
+}
+.dogAlliance-index .hot-dog .type-items p {
+  font-size: 21px;
+  font-family: MicrosoftYaHei;
+  font-weight: 400;
+  color: #333333;
+  line-height: 31px;
+  margin-bottom: 28px;
+}
+.dogAlliance-index .new-dog .dog-list .items {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  width: 386px;
+  background-color: #fff;
+  margin: 0 8px;
+}
+.dogAlliance-index .new-dog .dog-list .items .img-head {
+  width: 100%;
+  height: 550px;
+}
+.dogAlliance-index .new-dog .dog-list .items .tips {
+  position: absolute;
+  left: 0;
+  top: 19px;
+  width: 80px;
+  height: 40px;
+  line-height: 40px;
+  background: #bf2a30;
+  border-radius: 0px 20px 20px 0px;
+  font-size: 20px;
+  font-family: MicrosoftYaHei;
+  font-weight: 400;
+  color: #ffffff;
+}
+.dogAlliance-index .new-dog .dog-list .items .dog-info {
+  margin: 0 19px;
+  text-align: left;
+}
+.dogAlliance-index .new-dog .dog-list .items .dog-info .dog-name {
+  font-size: 24px;
+  font-family: MicrosoftYaHei;
+  font-weight: 400;
+  color: #1c1c1c;
+  padding: 15px 0;
+  border-bottom: 1px solid #eeeeee;
+}
+.dogAlliance-index .new-dog .dog-list .items .dog-info .dog-des img {
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+}
+.dogAlliance-index .new-dog .dog-list .items .dog-info .dog-des span {
+  font-size: 16px;
+  font-family: MicrosoftYaHei;
+  font-weight: 400;
+  color: #333333;
+  line-height: 30px;
+  vertical-align: middle;
+  margin: 0 6px;
+}
+.dogAlliance-index .new-dog .dog-list .items .dog-info .dog-des-sp span {
+  color: #BF2A30;
+}
+.dogAlliance-index .new-dog .dog-list .items-small {
+  margin-top: 20px;
+}
+.dogAlliance-index .new-dog .dog-list .items-small .img-head-small {
+  height: 191px;
+  width: 100%;
+}
+.dogAlliance-index .information {
+  margin-bottom: 60px;
+}
+.dogAlliance-index .information .flex-base {
+  background-color: #f8f8f8;
+}
+.dogAlliance-index .information .flex-base .flex1 {
+  margin: 0 9px;
+  border-radius: 10px 5px 5px 5px;
+  overflow: hidden;
+}
+.dogAlliance-index .information .flex-base .flex1 h3 {
+  height: 30px;
+  font-size: 30px;
+  font-family: MicrosoftYaHei;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 30px;
+  background-color: #BF2A30;
+  padding: 15px;
+  text-align: center;
+}
+.dogAlliance-index .information .flex-base .flex1 ul {
+  list-style-type: disc;
+}
+.dogAlliance-index .information .flex-base .flex1 ul li {
+  font-size: 18px;
+  font-family: MicrosoftYaHei;
+  font-weight: 400;
+  color: #333333;
+  line-height: 30px;
+  padding: 17px 0;
+  border-bottom: 1px solid #eeeeee;
+}
+.dogAlliance-index .information .flex-base .flex1 ul li span {
+  margin: 0 16px 0 55px ;
+}
+.dogAlliance-index .information .flex-base .flex1 ul .light {
+  color: #BF2A30;
+}
+.dogAlliance-index aside {
+  position: fixed;
+  bottom: 180px;
+  right: 60px;
+  overflow: hidden;
+}
+.dogAlliance-index aside div {
+  width: 130px;
+  height: 130px;
+  text-align: center;
+  margin-top: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 2px #aaa;
+}
+.dogAlliance-index aside div img {
+  width: 66px;
+  margin-top: 10px 0;
+}
+.dogAlliance-index aside div p {
+  font-size: 24px;
+  font-family: MicrosoftYaHei;
+  font-weight: 400;
+  color: #333333;
+}
