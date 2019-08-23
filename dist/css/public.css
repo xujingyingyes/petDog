@@ -280,6 +280,16 @@ div{
 .bg-inherit{
     background-position: inherit;
 }
+/* section 路径 && 介绍 */
+.ms-des{
+	margin-bottom: 40px;
+}
+.ms-des .ms-des-history{
+	font-size:18px;
+	font-weight: 400;
+	padding: 20px 0;
+	letter-spacing: 2px;
+}
 /* 底部 */
 .footer-box{
     background: #9D242B;

@@ -34,6 +34,7 @@
     color:#333;
     border-radius: 5px;
     white-space:nowrap;
+    cursor: pointer;
 }
 .screen-box .list .term:hover{
     background: #BF2A30;
