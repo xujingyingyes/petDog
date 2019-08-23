@@ -234,7 +234,8 @@ div{
 	flex-direction: column;
 	align-items: center;
 	cursor: pointer;
-	color: black;
+    color: black;
+    font-size: 18px;
 	text-decoration: none;
 }
 /* 导航下面的线 */
