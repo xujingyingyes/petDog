@@ -24,6 +24,7 @@
   margin-top: 23px;
 }
 .dog-card-wrapper .dog-card .card {
+  height: 282px;
   display: block;
 }
 .dog-card-wrapper .dog-card .content {
@@ -63,20 +64,52 @@
 @media screen and (min-width: 1920px) {
   .dog-slide-left,
   .dog-slide-right {
-    display: block;
+    display: block !important;
   }
 }
 .dog-slide-left {
+  width: 202px;
+  height: 560px;
   position: fixed;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
   top: 440px;
   left: 91px;
   display: none;
+}
+.dog-slide-left img {
+  display: block;
+}
+.dog-slide-left img.margin {
+  margin: 20px 0;
+}
+.dog-slide-left img.icon {
+  position: absolute;
+  top: -55px;
+  left: -14px;
 }
 .dog-slide-right {
   position: fixed;
   top: 440px;
   right: 73px;
   display: none;
+  width: 202px;
+  height: 560px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+}
+.dog-slide-right img {
+  display: block;
+}
+.dog-slide-right img.margin {
+  margin: 20px 0;
+}
+.dog-slide-right img.icon {
+  position: absolute;
+  top: -40px;
+  left: 40px;
 }
 .link-explain {
   margin-top: 16px;
@@ -91,4 +124,13 @@
 }
 .link-explain li p {
   float: left;
+}
+.common-title {
+  padding: 30px 0 0 0;
+}
+.common-title .title {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1;
+  margin-top: 24px;
 }

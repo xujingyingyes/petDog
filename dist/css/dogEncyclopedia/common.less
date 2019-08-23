@@ -23,6 +23,7 @@
     float: left;
     margin-top: 23px;
     .card {
+      height: 282px;
       display: block;
     }
     .content {
@@ -65,12 +66,28 @@
 @media screen and (min-width: 1920px) {
   .dog-slide-left,
   .dog-slide-right {
-    display: block;
+    display: block !important;
   }
 }
 
 .dog-slide-left {
+  width: 202px;
+  height: 560px;
   position: fixed;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  img {
+    display: block;
+  }
+  img.margin {
+    margin: 20px 0;
+  }
+  img.icon {
+    position: absolute;
+    top: -55px;
+    left: -14px;
+  }
   top: 440px;
   left: 91px;
   display: none;
@@ -81,6 +98,22 @@
   top: 440px;
   right: 73px;
   display: none;
+  width: 202px;
+  height: 560px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  img {
+    display: block;
+  }
+  img.margin {
+    margin: 20px 0;
+  }
+  img.icon {
+    position: absolute;
+    top: -40px;
+    left: 40px;
+  }
 }
 
 .link-explain {
@@ -95,5 +128,15 @@
     p {
       float: left;
     }
+  }
+}
+
+.common-title {
+  padding: 30px 0 0 0;
+  .title {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1;
+    margin-top: 24px;
   }
 }
