@@ -43,6 +43,20 @@
 .parameter-box  .items .value{
     color:#333;
 }
+.parameter-box  .items  .go{
+    height:40px;
+    width: 180px;
+    margin-top: 10px;
+    padding-left:20px;
+    border-radius:20px;
+    font-size:18px;
+    color:#fff;
+    text-align: center;
+    font-weight:400;
+    line-height:40px;
+    background:#CC3333 url('../../image/dogAll/shop_icon.png') no-repeat 20px;
+}
+
 .detail-content .details{
     padding-top:20px;
     padding-bottom: 40px;

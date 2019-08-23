@@ -34,6 +34,7 @@
     color:#333;
     border-radius: 5px;
     white-space:nowrap;
+    cursor: pointer;
 }
 .screen-box .list .term:hover{
     background: #BF2A30;
@@ -76,6 +77,8 @@
     padding: 15px 0;
 }
 .list-items .details .title{
+    display: block;
+    box-sizing: border-box;
     padding-left:40px;
     margin-bottom:20px;
     font-size:24px;
@@ -84,6 +87,7 @@
     color:#333;
     line-height:30px;
     background: url('../../image/dogAll/vip.png') no-repeat left;
+    cursor: pointer;
 }
 .list-items .details .label{
     padding-left: 20px;

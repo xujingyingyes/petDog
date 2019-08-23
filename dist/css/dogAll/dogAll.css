@@ -99,7 +99,8 @@
     overflow: hidden;
     margin-bottom: 20px;
     position: relative;
-    background: #f5f5d5;
+    background: url('../../image/dogAll/detials_dog.png') no-repeat center;
+    background-size:285px 250px;
     margin-right: 20px;
 }
 .alphabet-list .items:last-child,
