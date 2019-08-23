@@ -461,4 +461,254 @@
         }
     }
 }
+// 公共样式
+// 分类选择样式
+.screen-box{
+    background:#F5F5F5;
+    padding: 20px;
+    color:#333;
+    font-size:18px;
+    line-height: 30px;
+}
+.screen-box .screen-items{
+   margin-bottom: 20px;
+}
+.screen-box .kind{
+    width: 65px;
+    color:#999;
+}
+.screen-box .all{
+    width: 50px;
+    color:#BF2A30;
+    padding-right: 10px;
+    height: 30px;
+}
+.screen-box .list .term{
+    align-items: flex-start;
+    height: 30px;
+    padding:0 10px;
+    line-height: 30px;
+    color:#333;
+    border-radius: 5px;
+    white-space:nowrap;
+    cursor: pointer;
+}
+.screen-box .list .term:hover{
+    background: #BF2A30;
+    color:#fff;
+}
+.screen-box .more{
+    width:65px;
+    height:30px;
+    margin-left: 20px;
+    text-align: center;
+    line-height: 30px;
+    background:rgba(191,42,48,1);
+    border-radius:5px;
+    color:#fff;
+}
 
+.dog-detail{
+    overflow: hidden;
+    padding: 30px 0;
+    .dog-pic{
+        .big-pic{
+            width: 400px;
+            height: 400px;
+            text-align: center;
+            border:1px solid rgba(217,217,217,1);
+            img{
+                width: 350px;
+                height: 350px;
+                font-size: 0;
+                vertical-align: middle;
+                margin-top: 25px;
+            }
+        }
+        .small-pic{
+            width: 400px;
+            height: 81px;
+            position: relative;
+            margin-top: 20px;
+            .small-pic-list{
+                position: relative;
+                margin: 0 20px;
+                img{
+                    width: 81px;
+                    height: 81px;
+                    margin-right: 4px;
+                }
+            }
+            .pic-btn{
+                position: absolute;
+                width: 100%;
+                top: 50%;
+                left: 0;
+                margin-top: -15px;
+                height: 31px;
+                p{
+                    color: #D9D9D9;
+                    background-color: #fff;
+                    font-size: 20px;
+                    outline: none;
+                    cursor: pointer;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+    // 狗狗详情信息
+    .dog-info{
+        margin-left: 495px;
+        .fix-bg{
+            width: 30px;
+            height: 27px;
+        }
+        h3{
+            font-size:22px;
+            font-family:MicrosoftYaHei;
+            font-weight:400;
+            color:rgba(51,51,51,1);
+            line-height:30px;
+        }
+        .price{
+            padding: 22px 40px;
+            background:rgba(242,242,242,1);
+            border-radius:5px;
+            margin: 22px 0;
+            p{
+                span{
+                    font-size:18px;
+                    font-family:MicrosoftYaHei;
+                    font-weight:400;
+                    color:rgba(0,0,0,1);
+                    line-height:30px;
+                }
+                .price-det{
+                    color:#BF2A30;
+                }
+            }
+            div{
+                font-size:14px;
+                font-family:MicrosoftYaHei;
+                font-weight:400;
+                color:rgba(102,102,102,1);
+                line-height:30px;
+                margin-top: 16px;
+            }
+        }
+        .info-list{
+            text-align: center;
+            .info-items{
+                border-right:1px solid rgba(230,230,230,1); 
+                p{
+                    font-size:18px;
+                    font-family:MicrosoftYaHei;
+                    font-weight:400;
+                    color:rgba(51,51,51,1);
+                    line-height:30px;
+                }
+                div{
+                    font-size:20px;
+                    font-family:MicrosoftYaHei;
+                    font-weight:400;
+                    color:rgba(191,42,48,1);
+                    line-height:30px;
+                    margin-top: 14px;
+                }
+            }
+            .border-none{
+                border: none;
+            }
+        }
+        .phone{
+            margin-top: 31px;
+            span{
+                font-size:18px;
+                font-family:MicrosoftYaHei;
+                font-weight:400;
+                color:rgba(51,51,51,1);
+                line-height:30px;
+                margin-right: 76px;
+            }
+        }
+        .select-list{
+            margin-top: 40px;
+            .select-items{
+                overflow: hidden;
+                padding: 20px;
+                display: inline-block;
+                border-radius:5px;
+                img{
+                    width: 20px;
+                    height: 22px;
+                    vertical-align: middle;
+                }
+                span{
+                    font-size:18px;
+                    font-family:MicrosoftYaHei;
+                    font-weight:bold;
+                    color:rgba(254,254,254,1);
+                    line-height:30px;
+                    vertical-align: middle;
+                }
+            }
+            .dianpu{
+                background-color: #BF2A30;
+            }
+            .zixun{
+                background-color: #FF6600;
+                margin-left: 30px;
+            }
+            .weixin{
+                background-color: #6CBD00;
+                margin-left: 30px;
+            }
+        }
+        .tips{
+            span{
+                font-size:14px;
+                font-family:MicrosoftYaHei;
+                font-weight:400;
+                color:rgba(102,102,102,1);
+                line-height:30px;
+            }
+        }
+    }
+    .dog-info-detail{
+        padding: 20px;
+        background:rgba(242,242,242,1);
+        margin-top: 40px;
+        h4{
+            font-size:18px;
+            font-family:MicrosoftYaHei;
+            font-weight:bold;
+            color:rgba(51,51,51,1);
+            line-height:30px;
+        }
+        div{
+            margin-top: 20px;
+            span{
+                font-size:16px;
+                font-family:MicrosoftYaHei;
+                font-weight:400;
+                color:rgba(51,51,51,1);
+                line-height:30px;
+            }
+        }
+    }
+    .server-descripe{
+        margin-top: 39px;
+        font-size:16px;
+        font-family:MicrosoftYaHei;
+        font-weight:400;
+        color:rgba(51,51,51,1);
+        line-height:30px;
+        p{
+            margin-top: 14px;
+        }
+    }
+    .sepc{
+        color: #BF2A30;
+    }
+}
