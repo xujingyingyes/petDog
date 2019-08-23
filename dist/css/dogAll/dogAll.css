@@ -7,12 +7,29 @@
     /* height: 538px; */
     overflow: hidden;
     background: #666666;
+    position: relative;
     /* background: url('../../image/dogAll/banner.png') no-repeat center; */
 }
 .banner-box .banner-pic{
     display: block;
     max-width: 100%;
     margin: 0 auto;
+}
+.banner-box .left-btn{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left:12%;
+    top:45%;
+    background: url('../../image/dogAll/switch-left.png') no-repeat center;
+}
+.banner-box .right-btn{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right:12%;
+    top:45%;
+    background: url('../../image/dogAll/switch-left.png') no-repeat center;
 }
 .section-title{
     padding: 40px 0;

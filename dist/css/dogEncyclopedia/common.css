@@ -1,0 +1,136 @@
+.bread-crumbs {
+  font-weight: 400;
+  color: #333333;
+}
+.bread-crumbs li {
+  float: left;
+}
+.bread-crumbs li a {
+  color: inherit;
+}
+.bread-crumbs li a:hover {
+  text-decoration: underline;
+}
+.dog-card-wrapper {
+  padding-top: 9px;
+}
+.dog-card-wrapper .dog-card {
+  width: 388px;
+  background: #fff;
+  border-radius: 5px;
+  color: #333;
+  box-shadow: 0 0 20px 0px #f5f5f5;
+  float: left;
+  margin-top: 23px;
+}
+.dog-card-wrapper .dog-card .card {
+  height: 282px;
+  display: block;
+}
+.dog-card-wrapper .dog-card .content {
+  padding: 20px;
+}
+.dog-card-wrapper .dog-card .content h2 {
+  font-size: 18px;
+  line-height: 1;
+  font-weight: 400;
+}
+.dog-card-wrapper .dog-card .content p:nth-of-type(1) {
+  font-size: 14px;
+  line-height: 1;
+  margin: 10px 0;
+  color: #666666;
+}
+.dog-card-wrapper .dog-card .content .words {
+  line-height: 18px;
+  color: #666666;
+}
+.dog-card-wrapper .dog-card .content .see-more {
+  width: 94px;
+  height: 27px;
+  background-color: #bf2a30;
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+  line-height: 28px;
+  border-radius: 14px;
+  margin-top: 7px;
+  float: right;
+}
+.dog-card-wrapper .dog-card:nth-child(3n-1) {
+  margin-left: 16px;
+  margin-right: 17px;
+}
+@media screen and (min-width: 1920px) {
+  .dog-slide-left,
+  .dog-slide-right {
+    display: block !important;
+  }
+}
+.dog-slide-left {
+  width: 202px;
+  height: 560px;
+  position: fixed;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  top: 440px;
+  left: 91px;
+  display: none;
+}
+.dog-slide-left img {
+  display: block;
+}
+.dog-slide-left img.margin {
+  margin: 20px 0;
+}
+.dog-slide-left img.icon {
+  position: absolute;
+  top: -55px;
+  left: -14px;
+}
+.dog-slide-right {
+  position: fixed;
+  top: 440px;
+  right: 73px;
+  display: none;
+  width: 202px;
+  height: 560px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+}
+.dog-slide-right img {
+  display: block;
+}
+.dog-slide-right img.margin {
+  margin: 20px 0;
+}
+.dog-slide-right img.icon {
+  position: absolute;
+  top: -40px;
+  left: 40px;
+}
+.link-explain {
+  margin-top: 16px;
+}
+.link-explain li {
+  float: left;
+  margin-right: 18px;
+}
+.link-explain li img {
+  float: left;
+  margin-right: 6px;
+}
+.link-explain li p {
+  float: left;
+}
+.common-title {
+  padding: 30px 0 0 0;
+}
+.common-title .title {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1;
+  margin-top: 24px;
+}

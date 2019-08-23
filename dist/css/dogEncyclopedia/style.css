@@ -1,0 +1,264 @@
+.margin-auto {
+  width: 1200px;
+  margin: 0 auto;
+}
+.li-style {
+  font-size: 14px;
+  line-height: 30px;
+}
+.li-style p:nth-of-type(1) {
+  font-weight: 500;
+}
+.li-style li {
+  font-weight: 500;
+}
+.li-style li::before {
+  content: "\2022";
+  color: #cc3333;
+  font-weight: bold;
+  display: inline-block;
+}
+.dogEncyclopedia img {
+  display: block;
+}
+.dogEncyclopedia a:hover {
+  text-decoration: underline;
+}
+.dogEncyclopedia .banner {
+  width: 100%;
+}
+.dogEncyclopedia .content-wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+.dogEncyclopedia .content-wrapper .content1 {
+  height: 1461px;
+  background-color: #fdf6e6;
+}
+.dogEncyclopedia .content-wrapper .content1 .top-content {
+  height: 610px;
+  background-color: #fff;
+  -webkit-transform: skewY(-10deg) translate(0px, -170px);
+      -ms-transform: skewY(-10deg) translate(0px, -170px);
+          transform: skewY(-10deg) translate(0px, -170px);
+  position: relative;
+}
+.dogEncyclopedia .content-wrapper .content1 .top-content .content {
+  width: 1200px;
+  margin: 0 auto;
+  -webkit-transform: skewY(10deg) translate(0px, 170px);
+      -ms-transform: skewY(10deg) translate(0px, 170px);
+          transform: skewY(10deg) translate(0px, 170px);
+}
+.dogEncyclopedia .content-wrapper .content1 .top-content .content .title {
+  margin-top: 40px;
+}
+.dogEncyclopedia .content-wrapper .content1 .top-content .content img {
+  float: left;
+  margin-top: 13px;
+}
+.dogEncyclopedia .content-wrapper .content1 .top-content .content ul {
+  float: left;
+  width: 285px;
+  margin: 90px 0 0 14px;
+  font-size: 14px;
+  line-height: 30px;
+}
+.dogEncyclopedia .content-wrapper .content1 .top-content .content ul p:nth-of-type(1) {
+  font-weight: 500;
+}
+.dogEncyclopedia .content-wrapper .content1 .top-content .content ul li {
+  font-weight: 500;
+}
+.dogEncyclopedia .content-wrapper .content1 .top-content .content ul li::before {
+  content: "\2022";
+  color: #cc3333;
+  font-weight: bold;
+  display: inline-block;
+}
+.dogEncyclopedia .content-wrapper .content1 .content-right {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: -120px;
+}
+.dogEncyclopedia .content-wrapper .content1 .content-right .wrapper {
+  float: right;
+}
+.dogEncyclopedia .content-wrapper .content1 .content-right .wrapper .title {
+  padding-right: 40px;
+}
+.dogEncyclopedia .content-wrapper .content1 .content-right .wrapper img {
+  margin-top: 30px;
+  margin-right: -40px;
+  float: right;
+}
+.dogEncyclopedia .content-wrapper .content1 .content-right ul {
+  float: right;
+  width: 280px;
+  margin-right: -100px;
+  margin-top: 180px;
+  font-size: 14px;
+  line-height: 30px;
+}
+.dogEncyclopedia .content-wrapper .content1 .content-right ul p:nth-of-type(1) {
+  font-weight: 500;
+}
+.dogEncyclopedia .content-wrapper .content1 .content-right ul li {
+  font-weight: 500;
+}
+.dogEncyclopedia .content-wrapper .content1 .content-right ul li::before {
+  content: "\2022";
+  color: #cc3333;
+  font-weight: bold;
+  display: inline-block;
+}
+.dogEncyclopedia .content-wrapper .content1 .content-left {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.dogEncyclopedia .content-wrapper .content1 .content-left img {
+  float: left;
+  margin-top: 135px;
+  margin-left: -120px;
+}
+.dogEncyclopedia .content-wrapper .content1 .content-left ul {
+  float: left;
+  width: 360px;
+  margin-top: 102px;
+  font-size: 14px;
+  line-height: 30px;
+}
+.dogEncyclopedia .content-wrapper .content1 .content-left ul p:nth-of-type(1) {
+  font-weight: 500;
+}
+.dogEncyclopedia .content-wrapper .content1 .content-left ul li {
+  font-weight: 500;
+}
+.dogEncyclopedia .content-wrapper .content1 .content-left ul li::before {
+  content: "\2022";
+  color: #cc3333;
+  font-weight: bold;
+  display: inline-block;
+}
+.dogEncyclopedia .content-wrapper .content2 {
+  overflow: hidden;
+  height: 1513px;
+  background-color: #fdf6e6;
+}
+.dogEncyclopedia .content-wrapper .content2 .top-content {
+  height: 660px;
+  background-color: #fff;
+  -webkit-transform: skewY(10deg) translate(0px, -170px);
+      -ms-transform: skewY(10deg) translate(0px, -170px);
+          transform: skewY(10deg) translate(0px, -170px);
+}
+.dogEncyclopedia .content-wrapper .content2 .top-content .content {
+  width: 1200px;
+  margin: 0 auto;
+  -webkit-transform: skewY(-10deg) translate(0px, 170px);
+      -ms-transform: skewY(-10deg) translate(0px, 170px);
+          transform: skewY(-10deg) translate(0px, 170px);
+  margin-top: 40px;
+}
+.dogEncyclopedia .content-wrapper .content2 .top-content .content .wrapper {
+  float: right;
+}
+.dogEncyclopedia .content-wrapper .content2 .top-content .content .wrapper img {
+  float: right;
+  margin-top: 14px;
+}
+.dogEncyclopedia .content-wrapper .content2 .top-content .content .wrapper .title {
+  padding-right: 40px;
+}
+.dogEncyclopedia .content-wrapper .content2 .top-content .content ul {
+  float: right;
+  width: 280px;
+  margin-right: -100px;
+  margin-top: 180px;
+  font-size: 14px;
+  line-height: 30px;
+}
+.dogEncyclopedia .content-wrapper .content2 .top-content .content ul p:nth-of-type(1) {
+  font-weight: 500;
+}
+.dogEncyclopedia .content-wrapper .content2 .top-content .content ul li {
+  font-weight: 500;
+}
+.dogEncyclopedia .content-wrapper .content2 .top-content .content ul li::before {
+  content: "\2022";
+  color: #cc3333;
+  font-weight: bold;
+  display: inline-block;
+}
+.dogEncyclopedia .content-wrapper .content2 .content-left {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: -120px;
+}
+.dogEncyclopedia .content-wrapper .content2 .content-left .wrapper img {
+  float: left;
+  margin-top: 30px;
+}
+.dogEncyclopedia .content-wrapper .content2 .content-left .wrapper ul {
+  float: left;
+  margin-top: 102px;
+  margin-left: 23px;
+  font-size: 14px;
+  line-height: 30px;
+}
+.dogEncyclopedia .content-wrapper .content2 .content-left .wrapper ul p:nth-of-type(1) {
+  font-weight: 500;
+}
+.dogEncyclopedia .content-wrapper .content2 .content-left .wrapper ul li {
+  font-weight: 500;
+}
+.dogEncyclopedia .content-wrapper .content2 .content-left .wrapper ul li::before {
+  content: "\2022";
+  color: #cc3333;
+  font-weight: bold;
+  display: inline-block;
+}
+.dogEncyclopedia .content-wrapper .content2 .content-right .wrapper {
+  float: right;
+}
+.dogEncyclopedia .content-wrapper .content2 .content-right .wrapper img {
+  margin-top: 147px;
+}
+.dogEncyclopedia .content-wrapper .content2 .content-right .wrapper .title {
+  padding-right: 40px;
+}
+.dogEncyclopedia .content-wrapper .content2 .content-right ul {
+  float: right;
+  margin-top: 135px;
+  font-size: 14px;
+  line-height: 30px;
+}
+.dogEncyclopedia .content-wrapper .content2 .content-right ul p:nth-of-type(1) {
+  font-weight: 500;
+}
+.dogEncyclopedia .content-wrapper .content2 .content-right ul li {
+  font-weight: 500;
+}
+.dogEncyclopedia .content-wrapper .content2 .content-right ul li::before {
+  content: "\2022";
+  color: #cc3333;
+  font-weight: bold;
+  display: inline-block;
+}
+.dogEncyclopedia .content-wrapper .title p {
+  line-height: 1;
+}
+.dogEncyclopedia .content-wrapper .title p:nth-child(1) {
+  font-weight: 400;
+  color: #bf2a30;
+  font-size: 18px;
+}
+.dogEncyclopedia .content-wrapper .title p:nth-child(2) {
+  color: #fa8f92;
+  font-size: 14px;
+  margin-top: 15px;
+}
+.dogEncyclopedia .content-wrapper .title a {
+  color: inherit;
+}
