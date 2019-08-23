@@ -1,4 +1,5 @@
 /* 热门学校 */
+@charset "utf-8";
 .popular-school{
 	overflow: scroll;
 	overflow-x: hidden; 

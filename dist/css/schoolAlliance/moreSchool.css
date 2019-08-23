@@ -1,3 +1,5 @@
+/* 推荐学校 */
+@charset "utf-8";
 .more-school{
 	overflow: scroll;
 	overflow-x: hidden; 
@@ -5,16 +7,6 @@
 } 
 .ms-family{
 	font-family: MicrosoftYaHei;
-}
-/* section 路径 && 介绍 */
-.ms-des{
-	margin-bottom: 40px;
-}
-.ms-des .ms-des-history{
-	font-size:18px;
-	font-weight: 400;
-	padding: 20px 0;
-	letter-spacing: 2px;
 }
 /* 推荐学校首页的info */
 .ms-des .ms-des-info{
