@@ -1,0 +1,116 @@
+.dog-detail {
+  margin-top: 60px;
+  & > img {
+    float: left;
+  }
+  .detail {
+    float: left;
+    width: 1200px - 460px;
+    text-align: left;
+    thead {
+      font-weight: 400;
+      color: #333;
+      tr:first-child {
+        th:first-child {
+          width: 60%;
+          font-size: 30px;
+        }
+        th:last-child {
+          width: 40%;
+          text-align: right;
+          font-size: 16px;
+          color: #666666;
+          img {
+            vertical-align: middle;
+          }
+        }
+      }
+      tr:nth-child(2) > th {
+        color: #999999;
+        font-size: 18px;
+        padding-top: 11px;
+      }
+      tr > th {
+        padding-left: 48px;
+        line-height: 1;
+      }
+    }
+    tbody {
+      font-size: 18px;
+      tr:first-child {
+        td {
+          padding-top: 25px;
+        }
+      }
+      tr {
+        td:not(:last-child) {
+          padding-bottom: 30px;
+          padding-left: 48px;
+          line-height: 1;
+          span:first-child {
+            // display: inline-block;
+            width: 100px;
+            color: #999;
+          }
+        }
+      }
+      .buy-btn {
+        width: 105px;
+        height: 40px;
+        font-size: 20px;
+        color: #cc3333;
+        border: 1px solid rgba(204, 51, 51, 1);
+      }
+      .price-red {
+        font-size: 25px;
+        color: #cc3333;
+        font-weight: 400;
+      }
+    }
+  }
+}
+.dog-shopping {
+  margin-top: 100px;
+  .box:not(:nth-child(4n)) {
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  .box {
+    width: 285px;
+    height: 120px + 250px;
+    background-color: #f2f2f2;
+    float: left;
+    .info > p {
+      padding: 9px 20px 0 20px;
+      color: #333333;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 30px;
+    }
+    .info {
+      .price {
+        .icon {
+          width: 58px;
+          height: 30px;
+          background: rgba(191, 42, 48, 1);
+          border-radius: 5px;
+          color: #fff;
+          font-size: 16px;
+          font-weight: 400;
+          margin-left: 11px;
+        }
+        img {
+          margin-left: 9px;
+          vertical-align: middle;
+        }
+        .money {
+          font-size: 18px;
+          color: #bf2a30;
+          font-weight: bold;
+          text-align: right;
+          margin-left: 93px;
+        }
+      }
+    }
+  }
+}
