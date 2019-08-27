@@ -99,10 +99,6 @@
 .list-info .dl-img{
 	height: 264px;
 	width: 100%;
-}
-.dl-img img{
-	width: 100%;
-	height: 100%;
 	border-radius: 10px;
 }
 /* card 的info */
@@ -195,11 +191,12 @@
 }
 .detail-card .card-info{
 	width: 48%;
-	margin:0 20px 20px 0;
-	height: 586px;
+	margin:0 20px 40px 0;
+	height: 600px;
 	float: left;
 	border-radius:5px;
 	background: #9D242B;
+	position: relative;
 }
 .detail-card .card-info:nth-child(1){
 	opacity:0.52;
@@ -209,6 +206,9 @@
 }
 .detail-card .card-info:nth-child(3){
 	opacity:0.9;
+}
+.detail-card .card-info:nth-child(even){
+	margin: 0 0 40px 20px;
 }
 .card-info .dc-title{
 	color: #ffffff;
@@ -226,7 +226,12 @@
 	font-size: 10px;
 	line-height: 20px;
 	color: #FEFDFD;
-	padding: 10px 34px 39px 29px;
+	padding: 20px 34px 39px 29px;
+}
+.card-info .bg-img{
+	position: absolute;
+	bottom: 0;
+	left: 0;
 }
 .dc-content p{
 	line-height: 23px;
@@ -253,8 +258,11 @@
 	box-shadow:0px 3px 11px 1px #f9f9f9;
 	width: 23%;
 	height: 100%;
-	margin-right: 2%;
+	margin:0 2.5% 0 0;
 	float: left;
+}
+.ds-case .case-info:nth-child(4){
+	margin: 0 0 0 0%;
 }
 .case-info .case-img{
 	height: 581px;

@@ -70,7 +70,6 @@
   }
 }
 .dog-shopping {
-  margin-top: 100px;
   .box:not(:nth-child(4n)) {
     margin-right: 20px;
     margin-bottom: 20px;
@@ -112,5 +111,90 @@
         }
       }
     }
+  }
+}
+// 我要买狗页面 热门狗狗list
+.buy-dog{
+  margin-top: 30px;
+  .box:nth-child(5) {
+    margin-left: 3px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+  .box:nth-child(10) {
+    margin-left: 3px;
+    margin-right: 0px;
+  }
+  .box {
+    width: 220px;
+    height: 10px + 240px;
+    float: left;
+    margin-right: 23px;
+    img{
+      width: 220px;
+      border-radius: 5px;
+    }
+    .info > p {
+      color: #333333;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 30px;
+    }
+    .info {
+      .price {
+        .money {
+          font-size: 18px;
+          color: #bf2a30;
+          font-weight: bold;
+          text-align: right;
+        }
+      }
+    }
+  }
+}
+// 我要买狗页面 简介 && 描述
+.buy-dog-content{
+  .buy-dog-img{
+    width: 267px;
+    height: 369px;
+    background: rgba(245,245,245,1);
+    font-size: 18px;
+    font-weight: 400;
+    .title{
+      margin-top: 20px;
+    }
+    .img{
+      margin-top: 30px;
+      margin-bottom: 20px;
+    }
+    .des{
+      div{
+        line-height: 36px;
+        padding-left: 20px; 
+      }
+    }
+  }
+  .buy-dog-des{
+    padding: 23px 11px 30px 19px;
+    .title{
+      font-size: 24px;
+      img{
+        margin-right: 20px;
+      }
+    }
+    .des{
+      font-size: 16px;
+      line-height: 34px;
+      padding-top: 33px;
+      letter-spacing: 3px;
+    }
+  }
+}
+// 我要买狗 热门狗狗 title
+.hot-dog-title{
+  font-size: 24px;
+  margin: 30px 0;
+  img{
+    margin-right: 20px;
   }
 }
