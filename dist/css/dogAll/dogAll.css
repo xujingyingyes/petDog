@@ -69,6 +69,10 @@
     border-radius: 5px;
     cursor: pointer;
 }
+.activeItems{
+    background: #BF2A30;
+    color:#fff;
+}
 .shape-list .items:hover{
    background: #BF2A30;
    color:#fff;
@@ -83,10 +87,8 @@
     width: 150px;
     height: 40px;
     border-radius: 20px;
-    background: #BF2A30;
     font-size:20px;
     line-height: 40px;
-    color:#fff;
     text-align: center;
     cursor: pointer;
 }
