@@ -379,6 +379,7 @@
 }
 .home-wrap .swiper-pagination .swiper-pagination-bullet {
   margin: 0 4px;
+  outline: none;
 }
 .home-wrap .swiper-pagination .swiper-pagination-bullet-active {
   width: 60px;
