@@ -26,6 +26,9 @@
     margin: 0 4% 40px 0;
     float: left;
 }
+.ic-des-info .info-list:nth-child(even){
+    margin: 0 0 40px 3%;
+}
 .info-list .list-img{
     padding: 48px 50px;
 }

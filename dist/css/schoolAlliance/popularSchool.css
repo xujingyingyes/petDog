@@ -61,9 +61,13 @@
 }
 .ps-des-info .info-list{
     box-shadow:0px 3px 11px 1px #f9f9f9;
-	width: 31%;
+	width: 32%;
 	float: left;
+	margin: 0px 1.8% 30px 0;
 	margin-bottom: 30px;
+}
+.ps-des-info .info-list:nth-child(3n){
+	margin: 0 0 30px 0;
 }
 .info-list .list-img{
 	width:100%;
