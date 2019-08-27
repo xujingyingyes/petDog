@@ -47,7 +47,7 @@
     }
     .part {
       .common-box {
-        padding: 55px 0 60px 0;
+        padding: 55px 0 120px 0;
         .box-tit {
           margin-bottom: 38px;
           text-align: center;
@@ -259,7 +259,7 @@
             display: block;
           }
         }
-        .mb-margin-zero{
+        .mb-margin-zero {
           margin-bottom: 0;
         }
       }
@@ -297,12 +297,13 @@
     }
   }
   .index-fixed-left {
-    width: 202px;
+    width: 150px;
     background: #fcf7f7;
     position: fixed;
-    left: 0;
+    left: 70px;
     top: 10%;
     z-index: 10;
+    display: none;
     .left-pic {
       position: absolute;
       z-index: 1;
@@ -311,22 +312,25 @@
     ul {
       padding: 21px 20px 0 20px;
       li {
-        width: 160px;
-        height: 160px;
+        width: 110px;
+        height: 110px;
         margin-bottom: 20px;
         img {
+          width: 110px;
+          height: 110px;
           border-radius: 5px;
         }
       }
     }
   }
   .index-fixed-right {
-    width: 202px;
+    width: 150px;
     background: #fcf7f7;
     position: fixed;
-    right: 0;
+    right: 70px;
     top: 10%;
     z-index: 10;
+    display: none;
     .right-pic {
       position: absolute;
       z-index: 1;
@@ -336,19 +340,70 @@
     ul {
       padding: 21px 20px 0 20px;
       li {
-        width: 160px;
-        height: 160px;
+        width: 110px;
+        height: 110px;
         margin-bottom: 20px;
         img {
+          width: 110px;
+          height: 110px;
           border-radius: 5px;
         }
       }
     }
   }
-  .index-fixed-contact{
+  .index-fixed-contact {
     position: fixed;
     right: 0;
-    top: 60%;
+    top: 50%;
     z-index: 10;
+    display: none;
   }
+  @media screen and (min-width: 1920px) {
+    .index-fixed-contact,
+    .index-fixed-right,
+    .index-fixed-left {
+      display: block !important;
+    }
+  }
+  //swiper style
+  .swiper-container {
+    .swiper-slide {
+      width: 387px;
+      height: 518px;
+      box-shadow: 0 8px 30px #f5f5f5;
+      border-radius: 10px;
+      .name {
+        width: 100%;
+        height:63px;
+        line-height: 63px;
+        background:rgba(0,0,0,.5);
+        text-align: center;
+        color: #fff;
+        font-size: 24px;
+        font-weight: 400;
+        position: absolute;
+        margin-top: -63px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+      }
+    }
+  }
+  .swiper-pagination {
+    width: 1200px;
+    margin-top: 40px;
+    padding-bottom: 90px;
+    .swiper-pagination-bullet {
+      margin: 0 4px;
+    }
+    .swiper-pagination-bullet-active {
+      width: 60px;
+      height: 8px;
+      background: rgba(191,42,48,1);
+      border-radius: 4px;
+    }
+  }
+  /* .swiper-container-horizontal>.swiper-pagination-bullets, 
+    .swiper-pagination-custom, .swiper-pagination-fraction{
+      bottom: -50px;
+    } */
 }
