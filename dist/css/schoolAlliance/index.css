@@ -101,6 +101,10 @@
 	width: 100%;
 	border-radius: 10px;
 }
+.dl-img:nth-child(1),
+.dl-img:nth-child(4){
+	background-position: 27% 24%;
+}
 /* card 的info */
 .detail-list .list-info .dl-content{
 	padding-top: 20px;
@@ -109,6 +113,7 @@
 .dl-content .dl-float{
 	position: relative;
 	font-size: 18px;
+	padding: 10px 10px;
 }
 .dl-float .dl-right{
 	position: absolute;

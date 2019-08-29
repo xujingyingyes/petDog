@@ -5,16 +5,6 @@
 	overflow-x: hidden; 
 	color: #333333;
 } 
-/* section 路径 && 介绍 */
-.cd-des{
-	margin-bottom: 40px;
-}
-.cd-des .cd-des-history{
-	font-size:18px;
-	font-weight: 400;
-	padding: 20px 0;
-	letter-spacing: 2px;
-}
 /* 内容 */
 .cd-des .cd-des-info{
     flex-wrap: wrap;

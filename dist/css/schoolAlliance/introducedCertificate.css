@@ -5,18 +5,8 @@
 	overflow-x: hidden; 
 	color: #333333;
 } 
-/* section 路径 && 介绍 */
-.ic-des{
-	margin-bottom: 40px;
-}
-.ic-des .ic-des-history{
-	font-size:18px;
-	font-weight: 400;
-	padding: 20px 0;
-	letter-spacing: 2px;
-}
 /* 内容 */
-.ic-des .ic-des-info{
+.ic-des-info{
     flex-wrap: wrap;
 }
 .ic-des-info .info-list{

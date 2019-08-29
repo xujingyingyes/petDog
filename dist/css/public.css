@@ -285,10 +285,11 @@ div{
 .ms-des{
 	margin-bottom: 40px;
 }
-.ms-des .ms-des-history{
+.ms-des .ms-des-history,
+.ms-des .ms-des-history h1{
 	font-size:18px;
 	font-weight: 400;
-	padding: 20px 0;
+	padding: 10px 0;
 	letter-spacing: 2px;
 }
 /* 底部 */

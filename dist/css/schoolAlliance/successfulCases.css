@@ -6,10 +6,10 @@
 	color: #333333;
 } 
 /* section 路径 && 介绍 */
-.sc-des{
+.ms-des{
 	margin-bottom: 40px;
 }
-.sc-des .sc-des-history{
+.sc-des-history{
 	font-size:18px;
 	font-weight: 400;
 	padding: 20px 0;
@@ -93,29 +93,55 @@
     background:rgba(255,255,255,1);
     border-radius:10px;
     margin: 140px auto 0 auto;
+    position: relative;
 }
 .info-case-des .des-content{
     padding: 90px 20px 0 20px;
-}
-.des-content p{
     line-height: 25px;
+    overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;
+}
+/*  收起状态下 收起隐藏 */
+.des-content .content-big-down{
+    display: none;
+}
+/* 点击展开后加的class */
+.des-content-up{
+    height: 340px;
+    display: block!important;
+}
+/* 点击展开后 显示收起的文案 */
+.des-content-up .content-big-down{
+    display: block;
+}
+/* 点击展开后 隐藏展开的文案 */
+.des-content-up .content-big-up{
+    display: none;
 }
 /* 展开的文案以及icon */
-.des-content .click-unfold{
-    position: relative;
-}
-.click-unfold .unfold-text{
+.des-content .unfold-text{
     position: absolute;
     right: 3%;
     color: #29AAE3;
     font-weight: 400;
+    cursor: pointer;
 }
-.unfold-text .unfold-icon{
+.unfold-text .unfold-icon,
+.unfold-text .unfold-icon-down{
     width: 5px;
     height: 5px;
-    border-top: 2px solid #29AAE3;
-    border-right: 2px solid #29AAE3;
     transform: rotate(135deg);
     display: inline-block;
     margin-left: 2px;
+}
+.unfold-text .unfold-icon{
+    border-top: 2px solid #29AAE3;
+    border-right: 2px solid #29AAE3;
+}
+.unfold-text .unfold-icon-down{
+    border-bottom: 2px solid #29AAE3;
+    border-left: 2px solid #29AAE3;
 }

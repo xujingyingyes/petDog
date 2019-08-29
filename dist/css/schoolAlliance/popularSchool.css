@@ -5,12 +5,6 @@
 	overflow-x: hidden; 
 	color: #333333;
 } 
-.ps-des .ps-des-history{
-	font-size:18px;
-	font-weight: 400;
-	padding: 20px 0;
-	letter-spacing: 2px;
-}
 /* 热门学校-city */
 .detail-city{
 	width:1200px;
@@ -54,7 +48,7 @@
 	color: #ffffff;
 }
 /* 热门学校list */
-.ps-des .ps-des-info{
+.ms-des .ps-des-info{
 	margin-top: 60px;
     flex-wrap: wrap;
     width: 100%;

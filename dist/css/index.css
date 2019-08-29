@@ -81,9 +81,12 @@
 }
 .home-wrap .home .part .common-box .box-cnt .card {
   width: 382px;
-  margin-right: 18px;
+  margin-right: 26px;
   border-radius: 5px;
   background: #fff;
+}
+.home-wrap .home .part .common-box .box-cnt .card:nth-child(3) {
+  margin-right: 0;
 }
 .home-wrap .home .part .common-box .box-cnt .card .card-cover {
   width: 100%;
@@ -94,7 +97,7 @@
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
-.home-wrap .home .part .common-box .box-cnt .card h2 {
+.home-wrap .home .part .common-box .box-cnt .card h1 {
   padding: 20px 20px 16px 0;
   font-size: 24px;
   font-family: MicrosoftYaHei;
@@ -103,19 +106,19 @@
   border-bottom: 1px solid #f5f5f5;
   line-height: 33px;
 }
-.home-wrap .home .part .common-box .box-cnt .card h2 em {
+.home-wrap .home .part .common-box .box-cnt .card h1 em {
   font-size: 15px;
   font-family: SourceHanSansCN;
   font-weight: 400;
   color: #dd2525;
 }
-.home-wrap .home .part .common-box .box-cnt .card h2 em i {
+.home-wrap .home .part .common-box .box-cnt .card h1 em i {
   width: 12px;
   height: 7px;
   margin-right: 8px;
   display: block;
 }
-.home-wrap .home .part .common-box .box-cnt .card h2 span i {
+.home-wrap .home .part .common-box .box-cnt .card h1 span i {
   margin-top: 6px;
   margin-right: 8px;
 }
@@ -155,6 +158,9 @@
   width: 104px;
   height: 104px;
   margin-bottom: 29px;
+}
+.home-wrap .home .part .common-box .box-cnt .card .card-cat .cat-list .list-item dt img {
+  border-radius: 50%;
 }
 .home-wrap .home .part .common-box .box-cnt .card .card-cat .cat-list .list-item dd {
   font-size: 21px;
@@ -201,7 +207,7 @@
   height: 190px;
   overflow: hidden;
 }
-.home-wrap .home .part .common-box .box-cnt .school-right .card-group .card h2 {
+.home-wrap .home .part .common-box .box-cnt .school-right .card-group .card h1 {
   font-size: 18px;
   color: #1c1c1c;
 }
@@ -222,10 +228,12 @@
 .home-wrap .home .part .common-box .box-cnt .play-wrap .photo-play .play-box .cover {
   width: 284px;
   height: 284px;
-  border-radius: 50%;
   position: absolute;
   z-index: 2;
   top: -142px;
+}
+.home-wrap .home .part .common-box .box-cnt .play-wrap .photo-play .play-box .cover img {
+  border-radius: 50%;
 }
 .home-wrap .home .part .common-box .box-cnt .play-wrap .photo-play .play-box .info {
   padding: 20px 10px 0 10px;
@@ -267,7 +275,11 @@
   background: #dbdbdb;
 }
 .home-wrap .home .footer .footer-logo p {
-  margin: 0 auto;
+  padding: 60px 0;
+}
+.home-wrap .home .footer .footer-logo p img {
+  float: left;
+  margin-right: 20px;
 }
 .home-wrap .home .footer .footer-info {
   color: #929292;
