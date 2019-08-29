@@ -3,6 +3,7 @@
 .school-alliance{
 	overflow: scroll;
 	overflow-x: hidden; 
+	font-family: MicrosoftYaHei;
 } 
 .slideshow-wrapper{
 
@@ -118,6 +119,15 @@
 .dl-float .dl-right{
 	position: absolute;
 	right: 5%;
+	top: 30%;
+}
+.dl-right img{
+	margin-right: 9px;
+}
+/* card 第二行 */
+.content-des img{
+	width: 19px;
+	height: 21px;
 }
 .dl-content p{
 	line-height: 20px;
