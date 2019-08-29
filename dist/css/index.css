@@ -24,8 +24,40 @@
   width: 1200px;
   margin: 0 auto;
 }
+.home-wrap .home .bannar {
+  position: relative;
+  /* 下面是前/后按钮代码，如果不需要删除即可 */
+}
 .home-wrap .home .bannar img {
   margin: 0 auto;
+}
+.home-wrap .home .bannar .prev,
+.home-wrap .home .bannar .next {
+  position: absolute;
+  left: 3%;
+  top: 50%;
+  display: block;
+  width: 40px;
+  height: 40px;
+  background: url(../image/arrow-left.png) no-repeat;
+  filter: alpha(opacity=50);
+  opacity: 0.5;
+}
+.home-wrap .home .bannar .prev {
+  left: auto;
+  right: 3%;
+  background: url(../image/arrow-right.png) no-repeat;
+}
+.home-wrap .home .bannar .prev:hover,
+.home-wrap .home .bannar .next:hover {
+  filter: alpha(opacity=100);
+  opacity: 1;
+}
+.home-wrap .home .bannar .prevStop {
+  display: none;
+}
+.home-wrap .home .bannar .nextStop {
+  display: none;
 }
 .home-wrap .home .cat {
   height: 250px;

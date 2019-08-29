@@ -1,147 +1,194 @@
 /* 成功案例 */
+
 @charset "utf-8";
-.successful-cases{
-	overflow: scroll;
-	overflow-x: hidden; 
-	color: #333333;
-} 
+.successful-cases {
+    overflow: scroll;
+    overflow-x: hidden;
+    color: #333333;
+}
+
+
 /* section 路径 && 介绍 */
-.ms-des{
-	margin-bottom: 40px;
+
+.ms-des {
+    margin-bottom: 40px;
 }
-.sc-des-history{
-	font-size:18px;
-	font-weight: 400;
-	padding: 20px 0;
-	letter-spacing: 2px;
+
+.sc-des-history {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 20px 0;
+    letter-spacing: 2px;
 }
+
+
 /* 毕业合照 */
-.sc-photo{
-    margin-top: 40px!important;
+
+.sc-photo {
+    margin-top: 40px !important;
     position: relative;
 }
-.sc-photo .sc-photo-title{
 
-}
-.sc-photo .sc-photo-info{
+.sc-photo .sc-photo-title {}
 
+.sc-photo .sc-photo-info {
+    height: 397px;
+    overflow: hidden;
 }
+
 .sc-photo .sc-photo-left,
-.sc-photo .sc-photo-right{
+.sc-photo .sc-photo-right {
     position: absolute;
-    width:40px;
-    height:40px;
+    width: 40px;
+    height: 40px;
     top: 56%;
 }
-.sc-photo .sc-photo-left{
+
+.sc-photo .sc-photo-left {
     left: -6%;
 }
-.sc-photo .sc-photo-right{
+
+.sc-photo .sc-photo-right {
     right: -3%;
 }
-.sc-photo-info .info-img{
-	width:31%;
-	margin-right: 2%;
-	height:397px;
-    border-radius:10px;
+
+.sc-photo-info .info-img {
+    width: 31%;
+    margin-right: 20px;
+    height: 397px;
+    border-radius: 10px;
     float: left;
 }
+
+
 /* 成功学员 */
-.sc-trainees{
-    height:790px;
-    background:rgba(242,242,242,1);
-    margin-top: 40px!important;
+
+.sc-trainees {
+    height: 790px;
+    background: rgba(242, 242, 242, 1);
+    margin-top: 40px !important;
     position: relative;
     padding-top: 60px;
 }
-.sc-trainees-info{
+
+.sc-trainees ul {
+    height: 545px;
+    overflow: hidden;
+}
+
+.sc-trainees-info {
     margin-top: 40px;
     position: relative;
 }
+
 .sc-trainees-info .sc-trainees-left,
-.sc-trainees-info .sc-trainees-right{
+.sc-trainees-info .sc-trainees-right {
     position: absolute;
-    width:40px;
-    height:40px;
+    width: 40px;
+    height: 40px;
     top: 37%;
 }
-.sc-trainees-info .sc-trainees-left{
+
+.sc-trainees-info .sc-trainees-left {
     left: -6%;
 }
-.sc-trainees-info .sc-trainees-right{
+
+.sc-trainees-info .sc-trainees-right {
     right: -3%;
 }
-.sc-trainees-info .info-case{
-	width:31%;
-	margin-right: 2%;
-	height:545px;
-    border-radius:10px;
+
+.sc-trainees-info .info-case {
+    width: 31%;
+    margin-right: 20px;
+    height: 545px;
+    border-radius: 10px;
     position: relative;
     float: left;
 }
-.info-case .info-case-img{
+
+.info-case .info-case-img {
     position: absolute;
     left: 20%;
-    width:213px;
-    height:213px;
-    border-radius:50%;
+    width: 213px;
+    height: 213px;
+    border-radius: 50%;
 }
-.info-case .info-case-des{
+
+.info-case .info-case-des {
     width: 100%;
-    height:350px;
-    box-shadow:0px 3px 11px 1px #f9f9f9;
-    background:rgba(255,255,255,1);
-    border-radius:10px;
+    height: 350px;
+    box-shadow: 0px 3px 11px 1px #f9f9f9;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 10px;
     margin: 140px auto 0 auto;
     position: relative;
 }
-.info-case-des .des-content{
+
+.info-case-des .des-content {
     padding: 90px 20px 0 20px;
     line-height: 25px;
-    overflow : hidden;
+    overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
     -webkit-line-clamp: 7;
     -webkit-box-orient: vertical;
 }
+
+
 /*  收起状态下 收起隐藏 */
-.des-content .content-big-down{
+
+.des-content .content-big-down {
     display: none;
 }
+
+
 /* 点击展开后加的class */
-.des-content-up{
+
+.des-content-up {
     height: 340px;
-    display: block!important;
+    display: block !important;
 }
+
+
 /* 点击展开后 显示收起的文案 */
-.des-content-up .content-big-down{
+
+.des-content-up .content-big-down {
     display: block;
 }
+
+
 /* 点击展开后 隐藏展开的文案 */
-.des-content-up .content-big-up{
+
+.des-content-up .content-big-up {
     display: none;
 }
+
+
 /* 展开的文案以及icon */
-.des-content .unfold-text{
+
+.des-content .unfold-text {
     position: absolute;
     right: 3%;
-    color: #29AAE3;
+    color: #29aae3;
     font-weight: 400;
     cursor: pointer;
 }
+
 .unfold-text .unfold-icon,
-.unfold-text .unfold-icon-down{
+.unfold-text .unfold-icon-down {
     width: 5px;
     height: 5px;
     transform: rotate(135deg);
     display: inline-block;
     margin-left: 2px;
 }
-.unfold-text .unfold-icon{
-    border-top: 2px solid #29AAE3;
-    border-right: 2px solid #29AAE3;
+
+.unfold-text .unfold-icon {
+    border-top: 2px solid #29aae3;
+    border-right: 2px solid #29aae3;
 }
-.unfold-text .unfold-icon-down{
-    border-bottom: 2px solid #29AAE3;
-    border-left: 2px solid #29AAE3;
+
+.unfold-text .unfold-icon-down {
+    border-bottom: 2px solid #29aae3;
+    border-left: 2px solid #29aae3;
 }
