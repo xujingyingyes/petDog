@@ -1,369 +1,457 @@
-/* 狗狗联盟首页 */
-@charset "utf-8";
-.school-alliance{
-	overflow: scroll;
-	overflow-x: hidden; 
-	font-family: MicrosoftYaHei;
-} 
-.slideshow-wrapper{
+/* ����������ҳ */
 
+@charset "gbk";
+.school-alliance {
+    overflow: scroll;
+    overflow-x: hidden;
+    font-family: MicrosoftYaHei;
 }
-.slideshow-wrapper .sw-content{
 
+.slideshow-wrapper {}
+
+.slideshow-wrapper .sw-content {}
+
+.sw-content .sw-content-left {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 39%;
+    left: 10%;
+    background-image: url(../../image/schoolAlliance/switch-left.png);
 }
-.sw-content .sw-content-left{
-	position: absolute;
-	width:40px;
-	height:40px;
-	top: 39%;
-	left: 10%;
-	background-image: url(../../image/schoolAlliance/switch-left.png);
+
+.sw-content .sw-content-right {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 39%;
+    right: 10%;
+    background-image: url(../../image/schoolAlliance/switch-right.png);
 }
-.sw-content .sw-content-right{
-	position: absolute;
-	width:40px;
-	height:40px;
-	top: 39%;
-	right: 10%;
-	background-image: url(../../image/schoolAlliance/switch-right.png);
-}
-.sw-content .sw-img{
-	background-image: url(../../image/schoolAlliance/school_alliance_dog.png);
+
+.sw-content .sw-img {
+    background-image: url(../../image/schoolAlliance/school_alliance_dog.png);
     width: 40%;
     height: 100%;
-	background-position: center;
-	float: left;
+    background-position: center;
+    float: left;
 }
-.sw-content .sw-text{
-	position: relative;
-	flex: 1;
-	padding: 150px 0 0 0;
-	float: left;
+
+.sw-content .sw-text {
+    position: relative;
+    flex: 1;
+    padding: 150px 0 0 0;
+    float: left;
 }
-.sw-content .sw-qr-code{
-	position: absolute;
-	color: #ffffff;
-	font-size:12px;
-	right: 13%;
+
+.sw-content .sw-qr-code {
+    position: absolute;
+    color: #ffffff;
+    font-size: 12px;
+    right: 13%;
     top: 15%;
 }
-.sw-qr-code .sw-qr-code-text{
-	margin-top: 5px;
+
+.sw-qr-code .sw-qr-code-text {
+    margin-top: 5px;
 }
-.sw-text .sw-title{
-	font-size: 48px;
+
+.sw-text .sw-title {
+    font-size: 48px;
     font-weight: bold;
-    color: rgba(255,255,255,1);
+    color: rgba(255, 255, 255, 1);
     line-height: 30px;
     padding: 40px 0;
 }
-.sw-text .sw-des{
-	flex-wrap: wrap;
-	padding-left: 50px;
+
+.sw-text .sw-des {
+    flex-wrap: wrap;
+    padding-left: 50px;
 }
-.sw-des .sw-des-title{
-	width: 50%;
-	height: 100px;
+
+.sw-des .sw-des-title {
+    width: 50%;
+    height: 100px;
     margin-bottom: 20px;
 }
-.sw-des-title .sw-des-left{
 
-}
-.sw-des-title .sw-des-right{
-	font-size: 18px;
+.sw-des-title .sw-des-left {}
+
+.sw-des-title .sw-des-right {
+    font-size: 18px;
     font-weight: bold;
-    color: rgba(255,255,255,1);
-	line-height: 30px;
-	margin-left: 20px;
+    color: rgba(255, 255, 255, 1);
+    line-height: 30px;
+    margin-left: 20px;
 }
-.detail-content{
-	padding:30px 0;
+
+.detail-content {
+    padding: 30px 0;
 }
-.dl-family{
-	font-family: MicrosoftYaHei;
+
+.dl-family {
+    font-family: MicrosoftYaHei;
 }
+
+
 /* card */
-.detail-list{
-	flex-wrap: wrap;
-	margin: 20px 0;
+
+.detail-list {
+    flex-wrap: wrap;
+    margin: 20px 0;
 }
-.detail-list .list-info{
-	height: 465px;
-	width: 30%;
-	border-radius: 0px 0px 10px 10px;
-	background: #fff;
-	box-shadow:0px 3px 11px 1px #f9f9f9;
-	margin-bottom: 20px;
-	margin: 0 40px 20px 0;
-	float: left;
+
+.detail-list .list-info {
+    height: 465px;
+    width: 30%;
+    border-radius: 0px 0px 10px 10px;
+    background: #fff;
+    box-shadow: 0px 3px 11px 1px #f9f9f9;
+    margin-bottom: 20px;
+    margin: 0 40px 20px 0;
+    float: left;
 }
-.list-info .dl-img{
-	height: 264px;
-	width: 100%;
-	border-radius: 10px;
+
+.list-info .dl-img {
+    height: 264px;
+    width: 100%;
+    border-radius: 10px;
 }
+
 .dl-img:nth-child(1),
-.dl-img:nth-child(4){
-	background-position: 27% 24%;
+.dl-img:nth-child(4) {
+    background-position: 27% 24%;
 }
-/* card 的info */
-.detail-list .list-info .dl-content{
-	padding-top: 20px;
+
+
+/* card ��info */
+
+.detail-list .list-info .dl-content {
+    padding-top: 20px;
 }
-/* card的第一行 */
-.dl-content .dl-float{
-	position: relative;
-	font-size: 18px;
-	padding: 10px 10px;
+
+
+/* card�ĵ�һ�� */
+
+.dl-content .dl-float {
+    position: relative;
+    font-size: 18px;
+    padding: 10px 10px;
 }
-.dl-float .dl-right{
-	position: absolute;
-	right: 5%;
-	top: 30%;
+
+.dl-float .dl-right {
+    position: absolute;
+    right: 5%;
+    top: 30%;
 }
-.dl-right img{
-	margin-right: 9px;
+
+.dl-right img {
+    margin-right: 9px;
 }
-/* card 第二行 */
-.content-des img{
-	width: 19px;
-	height: 21px;
+
+
+/* card �ڶ��� */
+
+.content-des img {
+    width: 19px;
+    height: 21px;
 }
-.dl-content p{
-	line-height: 20px;
-	padding: 10px 10px;
+
+.dl-content p {
+    line-height: 20px;
+    padding: 10px 10px;
 }
-.dl-content .dl-title{
-	font-weight: 500;
+
+.dl-content .dl-title {
+    font-weight: 500;
 }
-/* card的btn */
-.dl-content p  .connect-btn{
-	width:113px;
-	height:33px;
-	margin-left: 35%;
-	border-radius: 17px!important;
+
+
+/* card��btn */
+
+.dl-content p .connect-btn {
+    width: 113px;
+    height: 33px;
+    margin-left: 35%;
+    border-radius: 17px !important;
 }
-.dl-content .dl-money{
-	font-weight: bold;
+
+.dl-content .dl-money {
+    font-weight: bold;
 }
-.dl-content .t-size14{
-	font-weight: 400;
+
+.dl-content .t-size14 {
+    font-weight: 400;
 }
-/* 查看更多 */
-.see-detail{
-	margin-top: 40px;
+
+
+/* �鿴���� */
+
+.see-detail {
+    margin-top: 40px;
 }
-.see-detail .see-more{
-	width:170px;
-	height:50px;
-	font-size:22px;
+
+.see-detail .see-more {
+    width: 170px;
+    height: 50px;
+    font-size: 22px;
 }
-/* 热门学校-city */
-.detail-city{
-	width:1200px;
-	height:225px;
-	background:rgba(245,245,245,1);
-	flex-direction: column;
-	padding: 20px 0;
+
+
+/* ����ѧУ-city */
+
+.detail-city {
+    width: 1200px;
+    height: 225px;
+    background: rgba(245, 245, 245, 1);
+    flex-direction: column;
+    padding: 20px 0;
 }
-.detail-city .flex-base{
-	
+
+.detail-city .flex-base {}
+
+.flex-base .dc-left,
+.flex-base .dc-right {
+    flex: 1;
+    float: left;
 }
-.flex-base .dc-left, 
-.flex-base .dc-right{
-	flex: 1;
-	float: left;
+
+.detail-city li {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 30px;
+    padding-left: 20px;
 }
-.detail-city li{
-	font-size:18px;
-	font-weight:400;
-	line-height:30px;
-	margin-bottom: 30px;
-	padding-left: 20px;
-}
+
 .detail-city li .dc-title,
 .detail-city li .dc-all,
-.detail-city li .dc-city{
-	width: 45px;
-	text-align: center;
+.detail-city li .dc-city {
+    width: 45px;
+    text-align: center;
 }
-.dc-city-width{
-	width: 60px!important;
+
+.dc-city-width {
+    width: 60px !important;
 }
+
 .detail-city li .dc-all,
-.detail-city li .dc-city{
-	margin-right: 10px;
+.detail-city li .dc-city {
+    margin-right: 10px;
 }
-.active-city{
+
+.active-city {
     height: 30px;
-    background: rgba(191,42,48,1);
-	border-radius: 5px;
-	color: #ffffff;
+    background: rgba(191, 42, 48, 1);
+    border-radius: 5px;
+    color: #ffffff;
 }
-/* 课程介绍card  入门 初级 中 高*/
-.detail-card{
-	flex-wrap: wrap;
+
+
+/* �γ̽���card  ���� ���� �� ��*/
+
+.detail-card {
+    flex-wrap: wrap;
 }
-.detail-card .card-info{
-	width: 48%;
-	margin:0 20px 40px 0;
-	height: 600px;
-	float: left;
-	border-radius:5px;
-	background: #9D242B;
-	position: relative;
+
+.detail-card .card-info {
+    width: 48%;
+    margin: 0 20px 40px 0;
+    height: 600px;
+    float: left;
+    border-radius: 5px;
+    background: #9d242b;
+    position: relative;
 }
-.detail-card .card-info:nth-child(1){
-	opacity:0.52;
+
+.detail-card .card-info:nth-child(1) {
+    opacity: 0.52;
 }
-.detail-card .card-info:nth-child(2){
-	opacity:0.73;
+
+.detail-card .card-info:nth-child(2) {
+    opacity: 0.73;
 }
-.detail-card .card-info:nth-child(3){
-	opacity:0.9;
+
+.detail-card .card-info:nth-child(3) {
+    opacity: 0.9;
 }
-.detail-card .card-info:nth-child(even){
-	margin: 0 0 40px 20px;
+
+.detail-card .card-info:nth-child(even) {
+    margin: 0 0 40px 20px;
 }
-.card-info .dc-title{
-	color: #ffffff;
-	font-size:57px;
-	padding: 30px 0 0 0;
-	font-weight: bold;
+
+.card-info .dc-title {
+    color: #ffffff;
+    font-size: 57px;
+    padding: 30px 0 0 0;
+    font-weight: bold;
 }
-.card-info .dc-icon{
-	/* width:51px; */
-	height:45px;
-	color: #ffffff;
-	padding: 20px 0;
+
+.card-info .dc-icon {
+    /* width:51px; */
+    height: 45px;
+    color: #ffffff;
+    padding: 20px 0;
 }
-.card-info .dc-content{
-	font-size: 10px;
-	line-height: 20px;
-	color: #FEFDFD;
-	padding: 20px 34px 39px 29px;
+
+.card-info .dc-content {
+    font-size: 10px;
+    line-height: 20px;
+    color: #fefdfd;
+    padding: 20px 34px 39px 29px;
 }
-.card-info .bg-img{
-	position: absolute;
-	bottom: 0;
-	left: 0;
+
+.card-info .bg-img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
-.dc-content p{
-	line-height: 23px;
+
+.dc-content p {
+    line-height: 23px;
 }
-/* 证书介绍 */
-.case-margin{
-	margin: 0 auto;
+
+
+/* ֤����� */
+
+.case-margin {
+    margin: 0 auto;
     box-sizing: border-box;
-	width: 1200px;
-	min-width: 1000px;
+    width: 1200px;
+    min-width: 1000px;
 }
-.detail-success{
-	width: 100%;
-	background: #F5F5F5;
-	height: 776px;
+
+.detail-success {
+    width: 100%;
+    background: #f5f5f5;
+    height: 776px;
 }
-.detail-success .ds-case{
-	height: 100%;
+
+.detail-success .ds-case {
+    height: 100%;
     padding: 40px 0;
 }
-.ds-case .case-info{
-	border-radius:5px;
-	background: #ffffff;
-	box-shadow:0px 3px 11px 1px #f9f9f9;
-	width: 23%;
-	height: 100%;
-	margin:0 2.5% 0 0;
-	float: left;
+
+.ds-case .case-info {
+    border-radius: 5px;
+    background: #ffffff;
+    box-shadow: 0px 3px 11px 1px #f9f9f9;
+    width: 23%;
+    height: 100%;
+    margin: 0 2.5% 0 0;
+    float: left;
 }
-.ds-case .case-info:nth-child(4){
-	margin: 0 0 0 0%;
+
+.ds-case .case-info:nth-child(4) {
+    margin: 0 0 0 0%;
 }
-.case-info .case-img{
-	height: 581px;
-	flex-direction: column;
-	/* 363px 218px */
+
+.case-info .case-img {
+    height: 581px;
+    flex-direction: column;
+    /* 363px 218px */
 }
-.case-info .case-title{
-	margin-top: 40px;
-	padding: 10px 0;
-	font-size:30px;
-	font-weight:400;
+
+.case-info .case-title {
+    margin-top: 40px;
+    padding: 10px 0;
+    font-size: 30px;
+    font-weight: 400;
 }
-/* 成功案例 */
-.detail-pic{
-	flex-wrap: wrap;
+
+
+/* �ɹ����� */
+
+.detail-pic {
+    flex-wrap: wrap;
 }
-.detail-pic .pic-info{
-	letter-spacing: 8px;
-	font-weight:bold;
-	height: 286px;
-	width: 33%;
-	float: left;
+
+.detail-pic .pic-info {
+    letter-spacing: 8px;
+    font-weight: bold;
+    height: 286px;
+    width: 33%;
+    float: left;
 }
-.detail-pic .pic-info:nth-child(even){
-	background:rgba(157,36,43,1);
+
+.detail-pic .pic-info:nth-child(even) {
+    background: rgba(157, 36, 43, 1);
 }
-.pic-info .dp-up{
-	width: 0;
+
+.pic-info .dp-up {
+    width: 0;
     height: 0;
     border: 23px solid transparent;
-    border-bottom: 50px solid rgba(157,36,43,1);
+    border-bottom: 50px solid rgba(157, 36, 43, 1);
 }
-.pic-info .dp-down{
-	width: 0;
+
+.pic-info .dp-down {
+    width: 0;
     height: 0;
     border: 23px solid transparent;
-    border-top: 50px solid rgba(157,36,43,1);
+    border-top: 50px solid rgba(157, 36, 43, 1);
 }
-.pic-info .pic-content{
-	flex-direction: column;
-	color: #ffffff;
+
+.pic-info .pic-content {
+    flex-direction: column;
+    color: #ffffff;
 }
-.pic-info .dp-title{
-	font-size: 24px;
+
+.pic-info .dp-title {
+    font-size: 24px;
 }
-.pic-info .dp-des{
-	font-size: 16px;
+
+.pic-info .dp-des {
+    font-size: 16px;
 }
+
 .dp-left,
 .dp-right,
-.dp-top{
-	position: relative;
+.dp-top {
+    position: relative;
 }
-.dp-left{
-	background-image: url(../../image/schoolAlliance/case_dog.png);
+
+.dp-left {
+    background-image: url(../../image/schoolAlliance/case_dog.png);
     width: 40%;
     height: 100%;
     background-position: center;
 }
-.dp-right{
-	background-image: url(../../image/schoolAlliance/case_dog.png);
+
+.dp-right {
+    background-image: url(../../image/schoolAlliance/case_dog.png);
     width: 40%;
     height: 100%;
     background-position: center;
 }
-.dp-top{
-	background-image: url(../../image/schoolAlliance/case_dog.png);
+
+.dp-top {
+    background-image: url(../../image/schoolAlliance/case_dog.png);
     width: 40%;
     height: 100%;
     background-position: center;
 }
-.dp-left .dp-up{
-	bottom: -13px;
+
+.dp-left .dp-up {
+    bottom: -13px;
     left: 57px;
 }
-.dp-right .dp-up{
-	bottom: -13px;
+
+.dp-right .dp-up {
+    bottom: -13px;
     right: 57px;
 }
-.dp-top .dp-down{
-	top: -13px;
+
+.dp-top .dp-down {
+    top: -13px;
     left: 78px;
 }
+
+
 /* bottom: -13px;
     right: 57px; */
+
 .dp-up,
-.dp-down{
-	position: absolute;
+.dp-down {
+    position: absolute;
 }

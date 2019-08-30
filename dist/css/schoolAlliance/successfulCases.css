@@ -1,6 +1,6 @@
-/* 成功案例 */
+/* �ɹ����� */
 
-@charset "utf-8";
+@charset "gbk";
 .successful-cases {
     overflow: scroll;
     overflow-x: hidden;
@@ -8,7 +8,7 @@
 }
 
 
-/* section 路径 && 介绍 */
+/* section ·�� && ���� */
 
 .ms-des {
     margin-bottom: 40px;
@@ -22,7 +22,7 @@
 }
 
 
-/* 毕业合照 */
+/* ��ҵ���� */
 
 .sc-photo {
     margin-top: 40px !important;
@@ -61,7 +61,7 @@
 }
 
 
-/* 成功学员 */
+/* �ɹ�ѧԱ */
 
 .sc-trainees {
     height: 790px;
@@ -135,14 +135,14 @@
 }
 
 
-/*  收起状态下 收起隐藏 */
+/*  ����״̬�� �������� */
 
 .des-content .content-big-down {
     display: none;
 }
 
 
-/* 点击展开后加的class */
+/* ���չ����ӵ�class */
 
 .des-content-up {
     height: 340px;
@@ -150,21 +150,21 @@
 }
 
 
-/* 点击展开后 显示收起的文案 */
+/* ���չ���� ��ʾ������İ� */
 
 .des-content-up .content-big-down {
     display: block;
 }
 
 
-/* 点击展开后 隐藏展开的文案 */
+/* ���չ���� ����չ�����İ� */
 
 .des-content-up .content-big-up {
     display: none;
 }
 
 
-/* 展开的文案以及icon */
+/* չ�����İ��Լ�icon */
 
 .des-content .unfold-text {
     position: absolute;

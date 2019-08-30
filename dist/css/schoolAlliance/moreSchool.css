@@ -1,185 +1,221 @@
-/* 推荐学校 */
-@charset "utf-8";
-.more-school{
-	overflow: scroll;
-	overflow-x: hidden; 
-	color: #333333;
-} 
-.ms-family{
-	font-family: MicrosoftYaHei;
+/* �Ƽ�ѧУ */
+
+@charset "gbk";
+.more-school {
+    overflow: scroll;
+    overflow-x: hidden;
+    color: #333333;
 }
-/* 推荐学校首页的info */
-.ms-des .ms-des-info{
-	flex-wrap: wrap;
+
+.ms-family {
+    font-family: MicrosoftYaHei;
 }
-.ms-des-info .info-list{
-	box-shadow:0px 3px 11px 1px #f9f9f9;
-	width: 32%;
-	margin: 0px 1.8% 30px 0;
-	margin-bottom: 30px;
+
+
+/* �Ƽ�ѧУ��ҳ��info */
+
+.ms-des .ms-des-info {
+    flex-wrap: wrap;
 }
-.ms-des-info .info-list:nth-child(3n){
-	margin: 0 0 30px 0;
+
+.ms-des-info .info-list {
+    box-shadow: 0px 3px 11px 1px #f9f9f9;
+    width: 32%;
+    margin: 0px 1.8% 30px 0;
+    margin-bottom: 30px;
 }
-.ms-des-info .info-list:nth-child(3n) .list-img{
-	background-position: 70% 81%;
+
+.ms-des-info .info-list:nth-child(3n) {
+    margin: 0 0 30px 0;
 }
+
+.ms-des-info .info-list:nth-child(3n) .list-img {
+    background-position: 70% 81%;
+}
+
 .ms-des-info .info-list:nth-child(2) .list-img,
 .ms-des-info .info-list:nth-child(5) .list-img,
-.ms-des-info .info-list:nth-child(8) .list-img{
-	background-position: 70% 60%;
-}
-.info-list .list-img{
-	width:100%;
-	height:282px;
-	border-radius:5px;
-}
-.info-list .list-des{
-	padding: 50px 54px 30px 54px;
-	font-size:16px;
-	font-weight: 400;
-	line-height: 30px;
-}
-.info-list .list-btn{
-	text-align: right;
-	padding-right: 60px;
-	cursor: pointer;
-	padding: 0px 60px 30px 0;
-}
-.list-btn .more-btn{
-	width:94px;
-	height:27px;
-	border-radius: 14px!important;
-}
-.list-btn a{
-	color: #ffffff;
-	font-size: 12px;
+.ms-des-info .info-list:nth-child(8) .list-img {
+    background-position: 70% 60%;
 }
 
-.ms-des .ms-des-introduce{
-	height:431px;
-	background:rgba(245,245,245,1);
-	border-radius:5px;
-	padding: 40px 40px 40px 35px;
+.info-list .list-img {
+    width: 100%;
+    height: 282px;
+    border-radius: 5px;
 }
-.ms-des-introduce .introduce-left{
-	width:358px;
-	height:338px;
-	border-radius:5px;
-	float: left;
+
+.info-list .list-des {
+    padding: 50px 54px 30px 54px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
 }
-.ms-des-introduce .introduce-right{
-	margin-left: 60px;
-	padding: 30px 0 0 0;
-	float: left;
+
+.info-list .list-btn {
+    text-align: right;
+    padding-right: 60px;
+    cursor: pointer;
+    padding: 0px 60px 30px 0;
 }
-.introduce-right .right-title{
-	font-size:18px;
-	font-weight:bold;
+
+.list-btn .more-btn {
+    width: 94px;
+    height: 27px;
+    border-radius: 14px !important;
 }
-.introduce-right .right-des{
-	font-size:16px;
-	font-weight:400;
-	line-height: 30px;
+
+.list-btn a {
+    color: #ffffff;
+    font-size: 12px;
+}
+
+.ms-des .ms-des-introduce {
+    height: 431px;
+    background: rgba(245, 245, 245, 1);
+    border-radius: 5px;
+    padding: 40px 40px 40px 35px;
+}
+
+.ms-des-introduce .introduce-left {
+    width: 358px;
+    height: 338px;
+    border-radius: 5px;
+    float: left;
+}
+
+.ms-des-introduce .introduce-right {
+    margin-left: 60px;
+    padding: 30px 0 0 0;
+    float: left;
+}
+
+.introduce-right .right-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.introduce-right .right-des {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
     margin-top: 30px;
 }
-/* title之间空白 */
-.ms-margin-top{
-	margin-top: 30px;
-}
-/* 学校视屏 */
-.ms-school-vedio{
-	height: 793px;
-	padding: 40px 0 30px 0;
-}
-.ms-school-vedio .ms-school-title{
 
+
+/* title֮��հ� */
+
+.ms-margin-top {
+    margin-top: 30px;
 }
-.ms-school-vedio .ms-school-img{
-	width:1200px;
-	height:501px;
-	margin-top: 70px;
-	position: relative;
+
+
+/* ѧУ���� */
+
+.ms-school-vedio {
+    height: 793px;
+    padding: 40px 0 30px 0;
 }
-.ms-school-img .ms-opacity{
-	position: absolute;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
-	background:rgba(0,0,0,1);
-	opacity:0.41;
-	border-radius:5px;
+
+.ms-school-vedio .ms-school-title {}
+
+.ms-school-vedio .ms-school-img {
+    width: 1200px;
+    height: 501px;
+    margin-top: 70px;
+    position: relative;
 }
-.ms-school-img .ms-opacity-round{
-	position: absolute;
-	z-index: 2;
-	width:101px;
-	height:101px;
-	border:4px solid rgba(245,245,245,1);
-	border-radius:50%;
-	top: 44%;
+
+.ms-school-img .ms-opacity {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 1);
+    opacity: 0.41;
+    border-radius: 5px;
+}
+
+.ms-school-img .ms-opacity-round {
+    position: absolute;
+    z-index: 2;
+    width: 101px;
+    height: 101px;
+    border: 4px solid rgba(245, 245, 245, 1);
+    border-radius: 50%;
+    top: 44%;
     right: 43%;
 }
-.ms-school-img .ms-opacity-stop{
-	height: 23px;
+
+.ms-school-img .ms-opacity-stop {
+    height: 23px;
     border-style: solid;
     border-width: 23px 0 23px 40px;
     border-color: transparent transparent transparent #ffffff;
 }
-/* 课程详情 */
-.ms-class{
-	margin-top: 30px!important;
-}
-.ms-class .ms-class-title{
 
-}
-.ms-class .ms-class-detail{
 
-}
-.ms-class-detail .detail-info{
-	height:603px;
-	background:rgba(245,245,245,1);
-	border-radius:5px;
-	margin: 20px 0;
-}
-.detail-info .info-img{
-	width:50%;
-	height:603px;
-	border-radius:5px;
-	float: left;
-}
-.detail-info .info-des{
-	padding: 36px 50px;
-	float: left;
-}
-.info-des .info-des-title{
-	font-size:18px;
-	font-weight:bold;
-}
-.info-des .info-des-content{
-	font-size:14px;
-	font-weight:400;
-	margin-top: 20px;
-}
-.info-des-content p{
-	margin: 20px 0;
-	line-height: 26px;
-}
-/* 学校师资 */
-.ms-teacher{
-	margin-top: 40px!important;
-}
-.ms-teacher .ms-teacher-title{
+/* �γ����� */
 
+.ms-class {
+    margin-top: 30px !important;
 }
-.ms-teacher .ms-teacher-info{
 
+.ms-class .ms-class-title {}
+
+.ms-class .ms-class-detail {}
+
+.ms-class-detail .detail-info {
+    height: 603px;
+    background: rgba(245, 245, 245, 1);
+    border-radius: 5px;
+    margin: 20px 0;
 }
-.ms-teacher-info .info-img{
-	width:23%;
-	margin-right: 2%;
-	height:286px;
-	border-radius:5px;
-	float: left;
+
+.detail-info .info-img {
+    width: 50%;
+    height: 603px;
+    border-radius: 5px;
+    float: left;
+}
+
+.detail-info .info-des {
+    padding: 36px 50px;
+    float: left;
+}
+
+.info-des .info-des-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.info-des .info-des-content {
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.info-des-content p {
+    margin: 20px 0;
+    line-height: 26px;
+}
+
+
+/* ѧУʦ�� */
+
+.ms-teacher {
+    margin-top: 40px !important;
+}
+
+.ms-teacher .ms-teacher-title {}
+
+.ms-teacher .ms-teacher-info {}
+
+.ms-teacher-info .info-img {
+    width: 23%;
+    margin-right: 2%;
+    height: 286px;
+    border-radius: 5px;
+    float: left;
 }

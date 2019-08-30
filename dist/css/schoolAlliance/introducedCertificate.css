@@ -1,42 +1,54 @@
-/* 证书介绍 */
-@charset "utf-8";
-.introduced-certificate{
-	overflow: scroll;
-	overflow-x: hidden; 
-	color: #333333;
-} 
-/* 内容 */
-.ic-des-info{
+/* ֤����� */
+
+@charset "gbk";
+.introduced-certificate {
+    overflow: scroll;
+    overflow-x: hidden;
+    color: #333333;
+}
+
+
+/* ���� */
+
+.ic-des-info {
     flex-wrap: wrap;
 }
-.ic-des-info .info-list{
-    width:46%;
-    height:580px;
+
+.ic-des-info .info-list {
+    width: 46%;
+    height: 580px;
     position: relative;
     margin: 0 4% 40px 0;
     float: left;
 }
-.ic-des-info .info-list:nth-child(even){
+
+.ic-des-info .info-list:nth-child(even) {
     margin: 0 0 40px 3%;
 }
-.info-list .list-img{
+
+.info-list .list-img {
     padding: 48px 50px;
 }
-.list-img .img-left{
-    width:297px;
-    height:230px;
-    border-radius:5px;
+
+.list-img .img-left {
+    width: 297px;
+    height: 230px;
+    border-radius: 5px;
     z-index: -3;
     float: left;
 }
-.list-img .img-right{
-    width:159px;
-    height:231px;
-    border-radius:5px;
+
+.list-img .img-right {
+    width: 159px;
+    height: 231px;
+    border-radius: 5px;
     float: left;
 }
-/* 图片边框bg */
-.info-list .list-bg-img{
+
+
+/* ͼƬ�߿�bg */
+
+.info-list .list-bg-img {
     position: absolute;
     z-index: -2;
     top: 0;
@@ -44,20 +56,24 @@
     right: 0;
     bottom: 0;
 }
-.info-list .list-des{
+
+.info-list .list-des {
     text-align: center;
 }
+
 .list-des .des-title {
     margin-bottom: 20px;
 }
-.list-des .des-title a{
-    font-size:22px;
-    font-family:MicrosoftYaHei;
-    font-weight:400;  
+
+.list-des .des-title a {
+    font-size: 22px;
+    font-family: MicrosoftYaHei;
+    font-weight: 400;
 }
-.list-des .des-content{
-    font-size:15px;
-    font-family:MicrosoftYaHei;
-    font-weight:400;
+
+.list-des .des-content {
+    font-size: 15px;
+    font-family: MicrosoftYaHei;
+    font-weight: 400;
     line-height: 25px;
 }

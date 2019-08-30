@@ -1,11 +1,12 @@
-@charset "utf-8";
-/* 狗狗喂养注意事项页面 */
+@charset "gbk";
+/* ����ι��ע������ҳ�� */
 .dog-feeding-tips {
   font-family: MicrosoftYaHei;
   font-weight: 400;
 }
 .ms-des .dft-des-info {
-  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
 }
 .ms-des .dft-des-info .info-list {
   box-shadow: 0px 3px 11px 1px #f9f9f9;
@@ -26,7 +27,7 @@
 }
 .ms-des .dft-des-info .info-list .list-des .list-des-title {
   font-size: 16px;
-  font-weight: 400!important;
+  font-weight: 400 !important;
 }
 .ms-des .dft-des-info .info-list .list-btn {
   text-align: right;
@@ -37,7 +38,7 @@
 .ms-des .dft-des-info .info-list .list-btn .more-btn {
   width: 94px;
   height: 27px;
-  border-radius: 14px!important;
+  border-radius: 14px !important;
 }
 .ms-des .dft-des-info .info-list .list-btn a {
   color: #ffffff;

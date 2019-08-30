@@ -1,138 +1,155 @@
-@charset "utf-8";
-
-
-.bread-crumb-box{
-    font-size:18px;
+@charset "gbk";
+.bread-crumb-box {
+    font-size: 18px;
     padding: 30px 0;
     color: #333;
 }
-.screen-box{
-    background:#F5F5F5;
+
+.screen-box {
+    background: #f5f5f5;
     padding: 20px;
-    color:#333;
-    font-size:18px;
+    color: #333;
+    font-size: 18px;
     line-height: 30px;
 }
-.screen-box .screen-items{
-   margin-bottom: 20px;
+
+.screen-box .screen-items {
+    margin-bottom: 20px;
 }
-.screen-box .kind{
+
+.screen-box .kind {
     width: 65px;
-    color:#999;
+    color: #999;
 }
-.screen-box .all{
+
+.screen-box .all {
     width: 50px;
-    color:#BF2A30;
+    color: #bf2a30;
     padding-right: 10px;
     height: 30px;
 }
-.screen-box .list .term{
+
+.screen-box .list .term {
     align-items: flex-start;
     height: 30px;
-    padding:0 10px;
+    padding: 0 10px;
     line-height: 30px;
-    color:#333;
+    color: #333;
     border-radius: 5px;
-    white-space:nowrap;
+    white-space: nowrap;
     cursor: pointer;
 }
-.screen-box .list .term:hover{
-    background: #BF2A30;
-    color:#fff;
+
+.screen-box .list .term:hover {
+    background: #bf2a30;
+    color: #fff;
 }
-.screen-box .more{
-    width:65px;
-    height:30px;
+
+.screen-box .more {
+    width: 65px;
+    height: 30px;
     margin-left: 20px;
     text-align: center;
     line-height: 30px;
-    background:rgba(191,42,48,1);
-    border-radius:5px;
-    color:#fff;
+    background: rgba(191, 42, 48, 1);
+    border-radius: 5px;
+    color: #fff;
 }
 
-.data-list{
-    padding-top:32px;
+.data-list {
+    padding-top: 32px;
     padding-bottom: 30px;
 }
-.data-list .list-items{
+
+.data-list .list-items {
     margin-bottom: 20px;
 }
-.data-list .list-items .img-box{
-    width:284px;
-    height:220px;
+
+.data-list .list-items .img-box {
+    width: 284px;
+    height: 220px;
     overflow: hidden;
-    border-radius:5px;
-    background: url('../../image/dogAll/bixiong2.png') no-repeat -20px center;
+    border-radius: 5px;
+    background: url("../../image/dogAll/bixiong2.png") no-repeat -20px center;
 }
-.data-list .list-items .img-box img{
-    width:284px;
-    height:220px;
+
+.data-list .list-items .img-box img {
+    width: 284px;
+    height: 220px;
     display: block;
     margin: 0 auto;
 }
-.data-list .list-items .details{
-    height:220px;
+
+.data-list .list-items .details {
+    height: 220px;
     margin-left: 20px;
     padding: 15px 0;
 }
-.list-items .details .title{
+
+.list-items .details .title {
     display: block;
     box-sizing: border-box;
-    padding-left:40px;
-    margin-bottom:20px;
-    font-size:24px;
-    font-family:MicrosoftYaHei;
-    font-weight:400;
-    color:#333;
-    line-height:30px;
-    background: url('../../image/dogAll/vip.png') no-repeat left;
+    padding-left: 40px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-family: MicrosoftYaHei;
+    font-weight: 400;
+    color: #333;
+    line-height: 30px;
+    background: url("../../image/dogAll/vip.png") no-repeat left;
     cursor: pointer;
 }
-.list-items .details .label{
+
+.list-items .details .label {
     padding-left: 20px;
 }
-.list-items .details .label span{
+
+.list-items .details .label span {
     padding: 0 15px;
-    border:1px solid #D4D4D4;
-    line-height:30px;
-    border-radius:5px;
-    font-size:18px;
-    color:#666;
+    border: 1px solid #d4d4d4;
+    line-height: 30px;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #666;
     margin-left: 15px;
 }
-.list-items .details .price{
+
+.list-items .details .price {
     padding: 0 15px;
-    font-size:24px;
-    font-family:MicrosoftYaHei;
-    font-weight:bold;
-    color:#BF2A30;
-    line-height:30px;
+    font-size: 24px;
+    font-family: MicrosoftYaHei;
+    font-weight: bold;
+    color: #bf2a30;
+    line-height: 30px;
 }
 
-.advert-left{
+.advert-left {
     position: fixed;
-    left:10px;
-    top:18%;
+    left: 10px;
+    top: 18%;
     width: 164px;
 }
-.advert-right{
+
+.advert-right {
     position: fixed;
-    right:10px;
-    top:18%;
+    right: 10px;
+    top: 18%;
     width: 164px;
 }
-.advert-left .notes, .advert-right .notes{
-    font-size:18px;
-    font-family:MicrosoftYaHei;
-    font-weight:400;
-    color:#333;
-    line-height:30px;
+
+.advert-left .notes,
+.advert-right .notes {
+    font-size: 18px;
+    font-family: MicrosoftYaHei;
+    font-weight: 400;
+    color: #333;
+    line-height: 30px;
     text-align: center;
 }
-.advert-img{
+
+.advert-img {
     width: 164px;
     height: 127px;
-    background:url('../../image/dogAll/bixiong1.png') no-repeat -10px center;
-    margin-bottom:20px;
+    background: url("../../image/dogAll/bixiong1.png") no-repeat -10px center;
+    margin-bottom: 20px;
 }

@@ -1,5 +1,5 @@
-@charset "utf-8";
-body{font-family:'微软雅黑';color:#3a3a3a;font-size:14px;background:#fff ;}
+@charset "gbk";
+body{font-family:'??????';color:#3a3a3a;font-size:14px;background:#fff ;}
 input,textarea,button,select,a{outline:none}
 input:focus,textarea:focus,button:focus,a:focus{outline:none}
 body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd,fieldset,textarea,form{margin:0;padding:0;font-weight:300;}
@@ -15,7 +15,7 @@ button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
 textarea{overflow:auto;vertical-align:top;resize:none}
 input::-ms-clear{display:none}
 input::-ms-reveal{display:none}
-input:-webkit-autofill {background-color: transparent; background-image: none;}/*谷歌黄色background*/
+input:-webkit-autofill {background-color: transparent; background-image: none;}/*?????background*/
 b,s,i,em{font-style:normal;font-weight:inherit;text-decoration:none}
 textarea::-webkit-input-placeholder,input::-webkit-input-placeholder{color:#a3a3a3}
 textarea:-moz-placeholder,input:-moz-placeholder{color:#a3a3a3}
@@ -27,7 +27,7 @@ div:hover,input:hover,li:hover{-webkit-transition:.45s;-moz-transition: .45s;-o-
 table{border-collapse:collapse;border-spacing:0;margin:0;padding:0;border:0;table-layout:fixed}
 html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;margin:0;padding: 0;}
 
-/* public style 公共样式 全局样式、组件样式请在下面添加 */
+/* public style ??????? ?????????????????????????? */
 input[type='checkbox']{-webkit-font-smoothing:antialiased;text-rendering:optimizeSpeed;width:14px;height:14px;display:inline-block;position:relative;cursor:pointer;vertical-align:middle;margin-top:-2px;}
 input[type='checkbox']:after{content:"";vertical-align:middle;text-align:left;line-height:10px;position:absolute;cursor:pointer;height:12px;width:12px;left:0;top:0;font-size:9px;border:solid 1px #ddd;background:#fff;}
 input[type='checkbox']:checked:after{content:'\2713';font-size:20px;border:solid 1px #e8bdbd;}
@@ -43,7 +43,7 @@ div{
     box-sizing: border-box;
 }
 
-/* 网页内容1200px居中 */
+/* ???????1200px???? */
 .margin-auto {
     margin: 0 auto;
     box-sizing: border-box;
@@ -63,7 +63,7 @@ div{
     min-width: 1200px;
 }
 
-/* float布局 */
+/* float???? */
 .clearfix:before,.clearfix:after{
     content:"";
     display:table;
@@ -135,7 +135,7 @@ div{
     -khtml-opacity: 0.5;
     opacity: 0.5;
 }
-/*蒙版*/
+/*???*/
 .sy-mask{
     width: 100%;
     height: 100%;
@@ -202,7 +202,7 @@ div{
 .t-size14{
     font-size: 14px;
 }
-/* 公共的button */
+/* ??????button */
 .more-btn{
 	border-radius: 25px;
 	background: #bf2a30;
@@ -213,7 +213,7 @@ div{
 	margin-top: 6px;
 	float: left;
 }
-/* 导航css */
+/* ????css */
 .header-nav{
     cursor: pointer;
 	width: 100%;
@@ -238,7 +238,7 @@ div{
     font-size: 18px;
 	text-decoration: none;
 }
-/* 导航下面的线 */
+/* ??????????? */
 .header-list li a .header-list_line{
 	display: none;
 }
@@ -253,13 +253,13 @@ div{
 .header-list .active a .header-list_line{
 	display: block !important;
 }
-/* 导航下面的轮播图 */
+/* ????????????? */
 .slideshow-wrapper{
 	height: 540px;
 	background: #FF9C01;
 	color: #fff;
 }
-/* 公共的title居中的css 上中文，下英文 */
+/* ??????title??????css ???????????? */
 .detail-title{
 	text-align: center;
     letter-spacing: 8px;
@@ -273,15 +273,15 @@ div{
 	font-weight: 400;
 	font-size: 26px;
 }
-/* 背景图居中 */
+/* ????????? */
 .bg-center{
 	background-position: center;
 }
-/* 背景图 inherit */
+/* ????? inherit */
 .bg-inherit{
     background-position: inherit;
 }
-/* section 路径 && 介绍 */
+/* section ???? && ???? */
 .ms-des{
 	margin-bottom: 40px;
 }
@@ -292,7 +292,7 @@ div{
 	padding: 10px 0;
 	letter-spacing: 2px;
 }
-/* 底部 */
+/* ??? */
 .footer-box{
     background: #9D242B;
     height: 328px;

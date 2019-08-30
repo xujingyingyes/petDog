@@ -1,36 +1,43 @@
-/* 课程介绍 */
-@charset "utf-8";
-.introduction-course{
-	overflow: scroll;
-	overflow-x: hidden; 
-	color: #333333;
-} 
-.ic-class-detail .detail-info{
-	height:603px;
-	background:rgba(245,245,245,1);
-	border-radius:5px;
-	margin: 0 0 20px 0;
+/* �γ̽��� */
+
+@charset "gbk";
+.introduction-course {
+    overflow: scroll;
+    overflow-x: hidden;
+    color: #333333;
 }
-.detail-info .info-img{
-	width:50%;
-	height:603px;
-	border-radius:5px;
-	float: left;
+
+.ic-class-detail .detail-info {
+    height: 603px;
+    background: rgba(245, 245, 245, 1);
+    border-radius: 5px;
+    margin: 0 0 20px 0;
 }
-.detail-info .info-des{
-	padding: 36px 50px;
-	float: left;
+
+.detail-info .info-img {
+    width: 50%;
+    height: 603px;
+    border-radius: 5px;
+    float: left;
 }
-.info-des .info-des-title{
-	font-size:18px;
-	font-weight:bold;
+
+.detail-info .info-des {
+    padding: 36px 50px;
+    float: left;
 }
-.info-des .info-des-content{
-	font-size:14px;
-	font-weight:400;
-	margin-top: 20px;
+
+.info-des .info-des-title {
+    font-size: 18px;
+    font-weight: bold;
 }
-.info-des-content p{
-	margin: 20px 0;
-	line-height: 26px;
+
+.info-des .info-des-content {
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.info-des-content p {
+    margin: 20px 0;
+    line-height: 26px;
 }

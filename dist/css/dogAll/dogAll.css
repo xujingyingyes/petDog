@@ -1,8 +1,5 @@
-
-@charset "utf-8";
-
- 
-.banner-box{
+@charset "gbk";
+.banner-box {
     width: 100%;
     /* height: 538px; */
     overflow: hidden;
@@ -10,192 +7,223 @@
     position: relative;
     /* background: url('../../image/dogAll/banner.png') no-repeat center; */
 }
-.banner-box .banner-pic{
+
+.banner-box .banner-pic {
     display: block;
     max-width: 100%;
     margin: 0 auto;
 }
-.banner-box .left-btn{
+
+.banner-box .left-btn {
     width: 40px;
     height: 40px;
     position: absolute;
-    left:12%;
-    top:45%;
-    background: url('../../image/dogAll/switch-left.png') no-repeat center;
+    left: 12%;
+    top: 45%;
+    background: url("../../image/dogAll/switch-left.png") no-repeat center;
 }
-.banner-box .right-btn{
+
+.banner-box .right-btn {
     width: 40px;
     height: 40px;
     position: absolute;
-    right:12%;
-    top:45%;
-    background: url('../../image/dogAll/switch-right.png') no-repeat center;
+    right: 12%;
+    top: 45%;
+    background: url("../../image/dogAll/switch-right.png") no-repeat center;
 }
-.section-title{
+
+.section-title {
     padding: 40px 0;
     text-align: center;
 }
-.section-title .title-icon{
+
+.section-title .title-icon {
     text-align: center;
     vertical-align: middle;
     padding-bottom: 20px;
 }
-.section-title h2{
-    font-size:36px;
+
+.section-title h2 {
+    font-size: 36px;
     font-weight: bolder;
-    color:#333;
-    font-size:36px;
+    color: #333;
+    font-size: 36px;
 }
-.section-title .tit{
-    font-size:24px;
-    color:#999;
+
+.section-title .tit {
+    font-size: 24px;
+    color: #999;
     padding: 10px 0;
 }
 
-/* 浣撳瀷 */
-.shape-section{
+
+/* 体型 */
+
+.shape-section {
     background: #fff;
 }
 
 .shape-list {
     padding-bottom: 30px;
-    color:#666;
+    color: #666;
 }
-.shape-list .items{
+
+.shape-list .items {
     padding: 0 10px;
     height: 35px;
     line-height: 35px;
-    font-size:18px;
+    font-size: 18px;
     border-radius: 5px;
     cursor: pointer;
     min-width: 70px;
     text-align: center;
 }
+
 .activeItems,
 .activeItems a,
-.shape-list .items:hover{
-    background: #BF2A30;
-    color:#fff;
+.shape-list .items:hover {
+    background: #bf2a30;
+    color: #fff;
 }
-.shape-list .items:hover{
-   cursor: pointer;
+
+.shape-list .items:hover {
+    cursor: pointer;
 }
-.shape-list .head .kind{
-   text-align: center;
-   font-size:16px;
-   padding-top: 10px;
+
+.shape-list .head .kind {
+    text-align: center;
+    font-size: 16px;
+    padding-top: 10px;
 }
+
 .shape-list .more-btn,
-.shape-list .more-btn a{
+.shape-list .more-btn a {
     width: 150px;
     height: 40px;
     border-radius: 20px;
-    font-size:20px;
+    font-size: 20px;
     line-height: 40px;
     text-align: center;
     cursor: pointer;
     color: #ffffff;
 }
 
-/* 瀛楁瘝绱㈠紩 */
-.alphabet-section{
-    background: #F2F2F2;
+
+/* 字母索引 */
+
+.alphabet-section {
+    background: #f2f2f2;
     padding-bottom: 30px;
 }
+
 .content .search-box span,
-.content .search-box span a{
+.content .search-box span a {
     font-weight: bold;
     cursor: pointer;
     font-size: 24px;
-} 
-.content .search-box span a{
-    margin-right:25px;
 }
-.content .search-box span:last-child{
-    margin-right:0px;
-} 
+
+.content .search-box span a {
+    margin-right: 25px;
+}
+
+.content .search-box span:last-child {
+    margin-right: 0px;
+}
+
 .active-search a,
-.content .search-box a:hover{
-    color:#BF2A30;
+.content .search-box a:hover {
+    color: #bf2a30;
     font-weight: bolder;
-} 
-.alphabet-list,.ranking-list {
-    flex-wrap:  wrap;
 }
-.alphabet-list .items, 
-.ranking-list .items{
+
+.alphabet-list,
+.ranking-list {
+    flex-wrap: wrap;
+}
+
+.alphabet-list .items,
+.ranking-list .items {
     width: 285px;
     height: 250px;
     border-radius: 6px;
     overflow: hidden;
     margin-bottom: 20px;
     position: relative;
-    background: url('../../image/dogAll/detials_dog.png') no-repeat center;
-    background-size:285px 250px;
+    background: url("../../image/dogAll/detials_dog.png") no-repeat center;
+    background-size: 285px 250px;
     margin-right: 20px;
 }
+
 .alphabet-list .items:last-child,
-.ranking-list .items:last-child{
+.ranking-list .items:last-child {
     margin-right: 0;
 }
 
-.recommend-tit{
+.recommend-tit {
     padding: 20px;
     line-height: 40px;
-    font-size:24px;
-    color:#BF2A30;
+    font-size: 24px;
+    color: #bf2a30;
     font-weight: 400;
 }
+
 .alphabet-list .items .name,
-.ranking-list .items .name{
+.ranking-list .items .name {
     position: absolute;
-    left:0;
+    left: 0;
     bottom: 0;
     width: 100%;
     height: 36px;
     overflow: hidden;
-    background:rgba(0,0,0,0.5);
-    font-size:18px;
+    background: rgba(0, 0, 0, 0.5);
+    font-size: 18px;
     line-height: 36px;
     color: #fff;
     text-align: center;
 }
 
-/* 鍔熻兘 */
-.function-list,.features-list {
+
+/* 功能 */
+
+.function-list,
+.features-list {
     padding-bottom: 60px;
     background: #fff;
-    font-size:24px;
+    font-size: 24px;
 }
+
 .function-list .items,
-.features-list .items{
+.features-list .items {
     line-height: 40px;
-    font-size:24px;
-    color:#444444;
-    margin-right:90px;
+    font-size: 24px;
+    color: #444444;
+    margin-right: 90px;
     cursor: pointer;
-    width:130px;
-    height:40px;
+    width: 130px;
+    height: 40px;
     text-align: center;
 }
+
 .function-list .items a,
-.features-list .items a{
+.features-list .items a {
     display: block;
-    border-radius:5px;
+    border-radius: 5px;
 }
+
 .function-list .items:last-child,
-.features-list .items:last-child{
-    margin-right:0;
+.features-list .items:last-child {
+    margin-right: 0;
 }
+
 .function-list .items a:hover,
 .features-list .items a:hover,
-.active-fn a{
-    background:#BF2A30;
-    color:#fff;
+.active-fn a {
+    background: #bf2a30;
+    color: #fff;
 }
 
-.ranking-section{
-    background: #F2F2F2;
+.ranking-section {
+    background: #f2f2f2;
     padding-bottom: 30px;
 }
-
