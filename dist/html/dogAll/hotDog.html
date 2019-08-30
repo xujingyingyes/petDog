@@ -11,23 +11,129 @@
   <title>热门狗狗</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta content="always" name="referrer">
+  <link rel="stylesheet" href="../../css/dogAll/hotDog.css">
+  <link rel="stylesheet" href="../../css/dogAlliance/index.css">
   <link rel="stylesheet" href="../../css/public.css">
-  
+  <style>
+  .main{
+    padding: 40px 0;
+  }
+  </style>
 </head>
 
 <body>
-<div class="main">
-    <div class="margin-auto">
-      
+<div class="main dogAlliance-index">
+    <div class="margin-auto hot-dog">
+        <div class="detail-title">
+            <img src="../../image/dogAll/title_icon.png" alt="">
+            <div class="dt-en t-333">热门狗狗</div>
+            <div class="dt-english t-999">Popular Dog</div>
+        </div>
+        <div class="type-dog flex-base">
+            <div class="type-items flex1">
+                <h3>小型犬</h3>
+                <ul class="flex-base type-dog-card">
+                    <li class="flex1">
+                        <div class="img">
+                            <img src="../../image/dogAlliance/dog1.png" />
+                        </div>
+                        <p>博美</p>
+                    </li>
+                    <li class="flex1">
+                        <div class="img">
+                            <img src="../../image/dogAlliance/dog1.png" />
+                        </div>
+                        <p>比熊</p>
+                    </li>
+                    <li class="flex1">
+                        <div class="img">
+                            <img src="../../image/dogAlliance/dog1.png" />
+                        </div>
+                        <p>泰迪</p>
+                    </li>
+                </ul>
+                <a href="./letterIndex.html"><div class="see-more more-btn">查看更多</div></a>
+            </div>
+            <div class="type-items flex1">
+                <h3>中型犬</h3>
+                <ul class="flex-base type-dog-card">
+                    <li class="flex1">
+                        <div class="img">
+                            <img src="../../image/dogAlliance/dog1.png" />
+                        </div>
+                        <p>边牧</p>
+                    </li>
+                    <li class="flex1">
+                        <div class="img">
+                            <img src="../../image/dogAlliance/dog1.png" />
+                        </div>
+                        <p>柴犬</p>
+                    </li>
+                    <li class="flex1">
+                        <div class="img">
+                            <img src="../../image/dogAlliance/dog1.png" />
+                        </div>
+                        <p>哈士奇</p>
+                    </li>
+                </ul>
+                <a href="./letterIndex.html"><div class="see-more more-btn">查看更多</div></a>
+            </div>
+            <div class="type-items flex1">
+                <h3>中型犬</h3>
+                <ul class="flex-base type-dog-card">
+                    <li class="flex1">
+                        <div class="img">
+                            <img src="../../image/dogAlliance/dog1.png" />
+                        </div>
+                        <p>阿拉斯加</p>
+                    </li>
+                    <li class="flex1">
+                        <div class="img">
+                            <img src="../../image/dogAlliance/dog1.png" />
+                        </div>
+                        <p>秋田</p>
+                    </li>
+                    <li class="flex1">
+                        <div class="img">
+                            <img src="../../image/dogAlliance/dog1.png" />
+                        </div>
+                        <p>德牧</p>
+                    </li>
+                </ul>
+                <a href="./letterIndex.html"><div class="see-more more-btn">查看更多</div></a>
+            </div>
+        </div>
+        <div class="click-up-btn">
+            <button>收起<img src="../../image/index-icon-2.png" alt=""> </button>
+        </div>
     </div>
 </div>
 
 
-<script src="js/jquery/dist/jquery.min.js"></script>
+<script src="../../js/jquery/dist/jquery.min.js"></script>
 <!--[if lte IE 9]>
 <script src="js/jquery/xdomain.js"></script>
 <![endif]-->
+<script>
+    var html = [
+            '<li class="flex1">',
+            '   <div class="img">',
+            '       <img src="../../image/dogAlliance/dog1.png" />',
+            '   </div>',
+            '   <p>博美</p>',
+            '</li>'
+        ];
+        var count = 9;
 
+        $(function() {
+            $(".type-dog-card")
+                .children()
+                .remove();
+            while (count--) {
+                $(".type-dog-card").append(html.join(""));
+            }
+        });
+</script>
 
 </body>
 

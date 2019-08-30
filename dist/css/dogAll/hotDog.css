@@ -1,0 +1,24 @@
+.see-more {
+  width: 170px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 22px;
+  margin: 20px auto;
+}
+.click-up-btn {
+  text-align: center;
+  padding: 60px 0;
+}
+.click-up-btn button {
+  border: 1px solid #bf2a30;
+  border-radius: 5px;
+  width: 304px;
+  height: 60px;
+  font-size: 24px;
+  color: #bf2a30;
+}
+.click-up-btn button img {
+  width: 21px;
+  height: 20px;
+  margin-left: 15px;
+}
