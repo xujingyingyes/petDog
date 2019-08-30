@@ -359,7 +359,6 @@
   right: 70px;
   top: 10%;
   z-index: 10;
-  display: none;
 }
 .home-wrap .index-fixed-right .right-pic {
   position: absolute;
@@ -385,14 +384,6 @@
   right: 0;
   top: 50%;
   z-index: 10;
-  display: none;
-}
-@media screen and (min-width: 1920px) {
-  .home-wrap .index-fixed-contact,
-  .home-wrap .index-fixed-right,
-  .home-wrap .index-fixed-left {
-    display: block !important;
-  }
 }
 .home-wrap .swiper-container .swiper-slide {
   width: 387px;

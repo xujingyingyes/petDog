@@ -61,12 +61,6 @@
   margin-left: 16px;
   margin-right: 17px;
 }
-@media screen and (min-width: 1920px) {
-  .dog-slide-left,
-  .dog-slide-right {
-    display: block !important;
-  }
-}
 .dog-slide-left {
   width: 150px;
   position: fixed;
@@ -74,7 +68,6 @@
   border-radius: 5px;
   top: 10%;
   left: 91px;
-  display: none;
 }
 .dog-slide-left img {
   display: block;
@@ -96,7 +89,6 @@
   top: 10%;
   width: 150px;
   right: 73px;
-  display: none;
   padding: 20px;
   border-radius: 5px;
 }
