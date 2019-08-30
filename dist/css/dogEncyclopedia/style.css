@@ -262,3 +262,6 @@
 .dogEncyclopedia .content-wrapper .title a {
   color: inherit;
 }
+.dogEncyclopedia .footer-box {
+  margin-top: 0;
+}
