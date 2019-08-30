@@ -132,32 +132,33 @@
     display: -webkit-box;
     -webkit-line-clamp: 7;
     -webkit-box-orient: vertical;
+    word-break:break-all;
 }
 
 
 /*  ����״̬�� �������� */
 
-.des-content .content-big-down {
+.info-case-des .content-big-down {
     display: none;
 }
 
 
 /* ���չ����ӵ�class */
 
-.des-content-up {
+.des-content-up .des-content{
     height: 340px;
     display: block !important;
 }
 
 
-/* ���չ���� ��ʾ������İ� */
+/* ���չ����? ��ʾ������İ�? */
 
 .des-content-up .content-big-down {
     display: block;
 }
 
 
-/* ���չ���� ����չ�����İ� */
+/* ���չ����? ����չ�����İ� */
 
 .des-content-up .content-big-up {
     display: none;
@@ -166,7 +167,7 @@
 
 /* չ�����İ��Լ�icon */
 
-.des-content .unfold-text {
+.info-case-des .unfold-text {
     position: absolute;
     right: 3%;
     color: #29aae3;

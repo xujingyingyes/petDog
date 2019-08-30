@@ -43,12 +43,18 @@
 .content .list ul {
     padding-bottom: 20px;
 }
-
-.content .list li.items {
+.content .list li.items a{
     box-sizing: border-box;
-    padding: 5px 20px;
     float: left;
     font-size: 18px;
     background: rgba(245, 245, 245, 1);
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+.activeItems,
+.activeItems a,
+.content .list li.items a:hover{
+    background: #bf2a30!important;
+    color: #fff;
     border-radius: 5px;
 }

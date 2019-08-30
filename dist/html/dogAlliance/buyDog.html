@@ -103,21 +103,20 @@
             </div>
             <div class="buy-dog clearfix">
                 <div class="box">
-                    <img src="../../image/dogAlliance/buy_dog.png" alt="" />
-                    <div class="info">
-                        <p>
-                            顶级 · 约克夏幼犬 不怕...
-                        </p>
-                        <div class="price">
-                            <span class="money">￥2000</span>
-                            <!-- <img src="../../image/dogAll/vip.png" alt="" />
-                            <span class="money">￥2000</span> -->
+                    <a href="./dogDetails/taidiDetail.html">
+                        <img src="../../image/dogAlliance/buy_dog.png" alt="" />
+                        <div class="info">
+                            <p>
+                                顶级 · 约克夏幼犬 不怕...
+                            </p>
+                            <div class="price">
+                                <span class="money">￥2000</span>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>
-
         <div class="footer-box mt0">
             <div class="footer-content">
                 <div class="dh flex-base clearfix">
@@ -167,6 +166,7 @@
                 </div>
             </div>
         </div>
+
     </section>
 
     <script src="../../js/jquery/dist/jquery.min.js"></script>
@@ -176,6 +176,7 @@
     <script>
         var html = [
             '<div class="box">',
+            '    <a href="./dogDetails/taidiDetail.html">',
             '        <img src="../../image/dogAlliance/buy_dog.png" alt="" />',
             '        <div class="info">',
             "            <p>",
@@ -185,7 +186,8 @@
             '                <span class="money">￥2000</span>',
             "            </div>",
             "        </div>",
-            "    </div>"
+            '    </a>',
+            "</div>"
         ];
         var count = 5 * 2;
         $(function() {
