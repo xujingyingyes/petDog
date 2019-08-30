@@ -134,7 +134,7 @@
     display: -webkit-box;
     -webkit-line-clamp: 7;
     -webkit-box-orient: vertical;
-    word-break:break-all;
+    word-break: break-all;
 }
 
 
@@ -147,7 +147,7 @@
 
 /* ���չ����ӵ�class */
 
-.des-content-up .des-content{
+.des-content-up .des-content {
     height: 340px;
     display: block !important;
 }
