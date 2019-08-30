@@ -2,5 +2,6 @@
   "less.compile": {
     "compress": false, // true => remove surplus whitespace
     "autoprefixer": "Firefox >= 20,ie 9,Safari >= 6"
-  }
+  },
+  "files.encoding": "gbk"
 }
