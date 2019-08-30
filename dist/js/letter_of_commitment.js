@@ -1,22 +1,22 @@
 $(function () {
     var myCanvas = $('#myCanvas')[0];
-    //ç®€å•åœ°æ£€æµ‹å½“å‰æµè§ˆå™¨æ˜¯å¦æ”¯æŒCanvaså¯¹è±¡ï¼Œä»¥å…åœ¨ä¸€äº›ä¸æ”¯æŒhtml5çš„æµè§ˆå™¨ä¸­æç¤ºè¯­æ³•é”™è¯¯
+    //¼òµ¥µØ¼ì²âµ±Ç°ä¯ÀÀÆ÷ÊÇ·ñÖ§³ÖCanvas¶ÔÏó£¬ÒÔÃâÔÚÒ»Ğ©²»Ö§³Öhtml5µÄä¯ÀÀÆ÷ÖĞÌáÊ¾Óï·¨´íÎó
     if(myCanvas.getContext){
-        // è·å–å¯¹åº”çš„CanvasRenderingContext2Då¯¹è±¡(ç”»ç¬”)
+        // »ñÈ¡¶ÔÓ¦µÄCanvasRenderingContext2D¶ÔÏó(»­±Ê)
         var ctx = myCanvas.getContext("2d");
-        // åˆ›å»ºæ–°çš„å›¾ç‰‡å¯¹è±¡
+        // ´´½¨ĞÂµÄÍ¼Æ¬¶ÔÏó
         var img = new Image();
-        // æŒ‡å®šå›¾ç‰‡çš„URL
+        // Ö¸¶¨Í¼Æ¬µÄURL
         img.src = "../../image/info/letter_of_commitment.jpg";
-        // æµè§ˆå™¨åŠ è½½å›¾ç‰‡å®Œæ¯•åå†ç»˜åˆ¶å›¾ç‰‡
+        // ä¯ÀÀÆ÷¼ÓÔØÍ¼Æ¬Íê±ÏºóÔÙ»æÖÆÍ¼Æ¬
         img.onload = function(){
-            // ä»¥Canvasç”»å¸ƒä¸Šçš„åæ ‡(10,10)ä¸ºèµ·å§‹ç‚¹ï¼Œç»˜åˆ¶å›¾åƒ
+            // ÒÔCanvas»­²¼ÉÏµÄ×ø±ê(10,10)ÎªÆğÊ¼µã£¬»æÖÆÍ¼Ïñ
             ctx.drawImage(img, 0, 0);
         };
     } else {
         $('.commitment').removeClass('hide').addClass('show-img');
     }
-    // ç¦æ­¢å³é”®èœå•
+    // ½ûÖ¹ÓÒ¼ü²Ëµ¥
     $(myCanvas).bind('contextmenu', function(e){
         return false;
     });

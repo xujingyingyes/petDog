@@ -35,8 +35,8 @@ $(function() {
         return {
             prod: '//api.sy8.com/eurekaFrontBK/',
             beta: '//api.sy9.com/eurekaFrontBK/',
-            yc: 'http://10.52.2.53:7011/', // å‹æµ‹
-            dev: 'http://10.52.2.203:7011/', //å¼€å‘
+            yc: 'http://10.52.2.53:7011/', // Ñ¹²â
+            dev: 'http://10.52.2.203:7011/', //¿ª·¢
             tempprod: '//api.shangyingjr.com/eurekaFrontBK/',
             preprod: '//api.shangyingjf.com/eurekaFrontBK/',
         }[env]
@@ -45,21 +45,21 @@ $(function() {
     var $$ = {
         months: [1,2,3,4,5,6,7,8,9,10,11,12],
         Webapi: {
-            contentindex: ENV + 'api/content/shangYi/list', //å•†èµ¢æ±‡åˆ—è¡¨
-            contentdetail: ENV + 'api/content/shangYi/detail', //å•†èµ¢æ±‡è¯¦æƒ…
+            contentindex: ENV + 'api/content/shangYi/list', //ÉÌÓ®»ãÁĞ±í
+            contentdetail: ENV + 'api/content/shangYi/detail', //ÉÌÓ®»ãÏêÇé
             bannerList: ENV + 'api/content/banner',
-            notice: ENV + 'api/content/notice/list', // é¦–é¡µå…¬å‘Š
-            noticedetail: ENV + 'api/content/notice/detail', //å…¬å‘Šè¯¦æƒ…
-            helplist: ENV + 'api/content/help/list', //å¸®åŠ©ä¸­å¿ƒ
+            notice: ENV + 'api/content/notice/list', // Ê×Ò³¹«¸æ
+            noticedetail: ENV + 'api/content/notice/detail', //¹«¸æÏêÇé
+            helplist: ENV + 'api/content/help/list', //°ïÖúÖĞĞÄ
             blank: ENV + 'api/content/notice/list',
-            getfriendAward:  ENV + 'api/config/getfriendAward', // å¥½å‹æŠ•èµ„å¥–åŠ±è®¾ç½®
-            queryOperateData: ENV + 'api/report/queryOperateData'  //è¿è¥æ•°æ®æŠ¥è¡¨æ¥å£
+            getfriendAward:  ENV + 'api/config/getfriendAward', // ºÃÓÑÍ¶×Ê½±ÀøÉèÖÃ
+            queryOperateData: ENV + 'api/report/queryOperateData'  //ÔËÓªÊı¾İ±¨±í½Ó¿Ú
         },
         getUrlParam: function(name) {
-            var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)"); //æ„é€ ä¸€ä¸ªå«æœ‰ç›®æ ‡å‚æ•°çš„æ­£åˆ™è¡¨è¾¾å¼å¯¹è±¡
-            var r = window.location.search.substr(1).match(reg); //åŒ¹é…ç›®æ ‡å‚æ•°
+            var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)"); //¹¹ÔìÒ»¸öº¬ÓĞÄ¿±ê²ÎÊıµÄÕıÔò±í´ïÊ½¶ÔÏó
+            var r = window.location.search.substr(1).match(reg); //Æ¥ÅäÄ¿±ê²ÎÊı
             if (r != null) return unescape(r[2]);
-            return null; //è¿”å›å‚æ•°å€¼
+            return null; //·µ»Ø²ÎÊıÖµ
         },
         autoNotice: function(eleID, interval) {
             var ele = eleID,
@@ -113,15 +113,15 @@ $(function() {
             };
         nav.push('<div class="tab-top">');
         nav.push('    <div class="margin clearfix idTabs" id="aboutUsTab">');
-        nav.push('        <a class="tab-bar fl" href="/html/info/introduce.html">å…¬å¸ä»‹ç»</a>');
-        nav.push('        <a class="tab-bar fl" href="/html/info/record_info.html">å¤‡æ¡ˆä¿¡æ¯</a>');
-        nav.push('        <a class="tab-bar fl" href="/html/info/operation_report.html">è¿è¥æŠ¥å‘Š</a>');
-        nav.push('        <a class="tab-bar fl" href="/html/info/safety_guarantee.html">å®‰å…¨ä¿éšœ</a>');
-        nav.push('        <a class="tab-bar fl" href="/html/info/audit_info.html">å®¡æ ¸ä¿¡æ¯</a>');
-        nav.push('        <a class="tab-bar fl" href="/html/info/laws.html">æ³•å¾‹æ³•è§„</a>');
-        nav.push('        <a class="tab-bar fl" href="/html/info/major_matters.html">é‡å¤§äº‹é¡¹</a>');
-        nav.push('        <a class="tab-bar fl" href="/html/info/letter_of_commitment.html">æ³•äººæ‰¿è¯ºä¹¦</a>');
-        nav.push('        <a class="tab-bar fl selected" href="/html/info/contact_us.html">è”ç³»æˆ‘ä»¬</a>');
+        nav.push('        <a class="tab-bar fl" href="/html/info/introduce.html">¹«Ë¾½éÉÜ</a>');
+        nav.push('        <a class="tab-bar fl" href="/html/info/record_info.html">±¸°¸ĞÅÏ¢</a>');
+        nav.push('        <a class="tab-bar fl" href="/html/info/operation_report.html">ÔËÓª±¨¸æ</a>');
+        nav.push('        <a class="tab-bar fl" href="/html/info/safety_guarantee.html">°²È«±£ÕÏ</a>');
+        nav.push('        <a class="tab-bar fl" href="/html/info/audit_info.html">ÉóºËĞÅÏ¢</a>');
+        nav.push('        <a class="tab-bar fl" href="/html/info/laws.html">·¨ÂÉ·¨¹æ</a>');
+        nav.push('        <a class="tab-bar fl" href="/html/info/major_matters.html">ÖØ´óÊÂÏî</a>');
+        nav.push('        <a class="tab-bar fl" href="/html/info/letter_of_commitment.html">·¨ÈË³ĞÅµÊé</a>');
+        nav.push('        <a class="tab-bar fl selected" href="/html/info/contact_us.html">ÁªÏµÎÒÃÇ</a>');
         nav.push('    </div>');
         nav.push('</div>');
         $('#main').prepend(nav.join(''));
@@ -130,7 +130,7 @@ $(function() {
     function setHeader() {
         var headers = [];
         var $head;
-        var $myPath = location.pathname.replace(/^\/dist\/|^\//, ''); //å¼€å‘|ç”Ÿäº§
+        var $myPath = location.pathname.replace(/^\/dist\/|^\//, ''); //¿ª·¢|Éú²ú
         var $pathName = '';
         if ($myPath.match(/info/)) {
             $pathName = '/html/info/introduce.html';
@@ -142,15 +142,15 @@ $(function() {
         headers.push('<div class="placehd"></div>');
         headers.push('<div id="head">');
         headers.push('     <div class="top clearfix">');
-        headers.push('          <div class="margin0"> æœåŠ¡çƒ­çº¿ 400-728-5588ï¼ˆå·¥ä½œæ—¥9:00-18:00ï¼‰');
+        headers.push('          <div class="margin0"> ·şÎñÈÈÏß 400-728-5588£¨¹¤×÷ÈÕ9:00-18:00£©');
         headers.push('             <div class="top-r clearfix fr\">' );
-        headers.push('                  <a href="/notice.html" class="fl note"><span class="icon-notice top-icon"></span>å¹³å°å…¬å‘Š');
+        headers.push('                  <a href="/notice.html" class="fl note"><span class="icon-notice top-icon"></span>Æ½Ì¨¹«¸æ');
         headers.push('                      <div class="showit bg-no"></div>');
         headers.push('                  </a>');
-        headers.push('                  <a href="javascript:volid(0);" class="fl note"><span class="icon-wechat top-icon"></span>å¾®ä¿¡å…¬ä¼—å·');
+        headers.push('                  <a href="javascript:volid(0);" class="fl note"><span class="icon-wechat top-icon"></span>Î¢ĞÅ¹«ÖÚºÅ');
         headers.push('                      <div class="showit"><img src="/image/gongzhonghao.png" alt="" width="130"></div>');
         headers.push('                  </a>');
-        headers.push('                  <a href="javascript:volid(0);" class="fl note"><span class="icon-download top-icon"></span>ä¸‹è½½APPç«¯');
+        headers.push('                  <a href="javascript:volid(0);" class="fl note"><span class="icon-download top-icon"></span>ÏÂÔØAPP¶Ë');
         headers.push('                      <div class="showit"><img src="/image/download-app.png" alt="" width="130"></div>');
         headers.push('                  </a>');
         headers.push('              </div>');
@@ -162,10 +162,10 @@ $(function() {
         headers.push('          </div>');
         headers.push('         <div class="nav fr">');
         headers.push('              <ul class="clearfix">');
-        headers.push('                  <li class="fl"><a href="/index.html" class="">é¦–é¡µ</a></li>');
-        headers.push('                  <li class="fl"><a href="/syConverge.html" class="">å•†èµ¢æ±‡</a></li>');
-        headers.push('                  <li class="fl"><a href="/problem.html" class="">å¸¸è§é—®é¢˜</a></li>');
-        headers.push('                  <li class="fl"><a href="/html/info/introduce.html" class="">ä¿¡æ¯æŠ«éœ²</a></li>');
+        headers.push('                  <li class="fl"><a href="/index.html" class="">Ê×Ò³</a></li>');
+        headers.push('                  <li class="fl"><a href="/syConverge.html" class="">ÉÌÓ®»ã</a></li>');
+        headers.push('                  <li class="fl"><a href="/problem.html" class="">³£¼ûÎÊÌâ</a></li>');
+        headers.push('                  <li class="fl"><a href="/html/info/introduce.html" class="">ĞÅÏ¢ÅûÂ¶</a></li>');
         headers.push('              </ul>');
         headers.push('         </div>');
         headers.push('      </div>');
@@ -183,7 +183,7 @@ $(function() {
         }
         $active.addClass('active');
 
-        //é¡¶éƒ¨
+        //¶¥²¿
         (function() {
             var a_on = $('.top-r a');
             a_on.each(function(index) {
@@ -211,34 +211,34 @@ $(function() {
         footers.push('<footer id="bottom-footer">');
         footers.push('   <div id="bottom">');
         footers.push('      <div class="margin-footer">');
-        footers.push('         <p class="tit">è´¢å¯Œäºä½ ï¼Œè§¦æ‰‹å¯åŠ</p>');
+        footers.push('         <p class="tit">²Æ¸»ÓÚÄã£¬´¥ÊÖ¿É¼°</p>');
         footers.push('         <div class="line"></div>');
         footers.push('         <ul class="Column clearfix">');
         footers.push('              <li class="about-us fl">');
-        footers.push('                 <p class="dt">å…³äºæˆ‘ä»¬</p>');
+        footers.push('                 <p class="dt">¹ØÓÚÎÒÃÇ</p>');
         footers.push('                  <div class="link">');
-        footers.push('                           <a href="/html/info/introduce.html">å…¬å¸ä»‹ç»</a>');
-        // footers.push('                           <a href="/html/info/introduce.html?position=team">ç®¡ç†å›¢é˜Ÿ</a>');
-        footers.push('                           <a href="/html/info/introduce.html?position=culture">ä¼ä¸šæ–‡åŒ–</a>');
-        footers.push('                           <a href="/html/info/safety_guarantee.html">å®‰å…¨ä¿éšœ</a><br>');
-        footers.push('                           <a href="/notice.html">å¹³å°å…¬å‘Š</a>');
-        footers.push('                           <a href="/problem.html">å¸¸è§é—®é¢˜</a>');
+        footers.push('                           <a href="/html/info/introduce.html">¹«Ë¾½éÉÜ</a>');
+        // footers.push('                           <a href="/html/info/introduce.html?position=team">¹ÜÀíÍÅ¶Ó</a>');
+        footers.push('                           <a href="/html/info/introduce.html?position=culture">ÆóÒµÎÄ»¯</a>');
+        footers.push('                           <a href="/html/info/safety_guarantee.html">°²È«±£ÕÏ</a><br>');
+        footers.push('                           <a href="/notice.html">Æ½Ì¨¹«¸æ</a>');
+        footers.push('                           <a href="/problem.html">³£¼ûÎÊÌâ</a>');
         footers.push('                   </div>');
         footers.push('              </li>');
         footers.push('               <li class="hot-line fl">');
-        footers.push('                  <p class="dt">æœåŠ¡çƒ­çº¿<span class="f18">&nbsp;&nbsp;(å’¨è¯¢/æŠ•è¯‰/ä¸¾æŠ¥)</span></p><p class="tel">400-728-5588</p> <p>æœåŠ¡æ—¶é—´ï¼šå·¥ä½œæ—¥9:00-18:00</p><p>å…¬å¸ç½‘å€ï¼šwww.sy8.com</p><p>å…¬å¸é‚®ç®±ï¼šcs@sy8.com</p>');
+        footers.push('                  <p class="dt">·şÎñÈÈÏß<span class="f18">&nbsp;&nbsp;(×ÉÑ¯/Í¶Ëß/¾Ù±¨)</span></p><p class="tel">400-728-5588</p> <p>·şÎñÊ±¼ä£º¹¤×÷ÈÕ9:00-18:00</p><p>¹«Ë¾ÍøÖ·£ºwww.sy8.com</p><p>¹«Ë¾ÓÊÏä£ºcs@sy8.com</p>');
         footers.push('               </li>')
         footers.push('               <li class="QR fl clearfix">');
-        footers.push('                   <div class="QR-box fl"><img src="/image/download-app.png" alt=""><span>ä¸‹è½½APP<br>å•†èµ¢é‡‘æœ</span></div>');
-        footers.push('                   <div class="QR-box fl"><img src="/image/gongzhonghao.png" alt=""><span>å…³æ³¨å¾®ä¿¡å…¬ä¼—å·<br>gh_f4e1a07bbe55</span></div>');
-        footers.push('                   <div class="QR-box fl"> <img src="/image/kefu.png" alt="">åœ¨çº¿å®¢æœ  </div>');
+        footers.push('                   <div class="QR-box fl"><img src="/image/download-app.png" alt=""><span>ÏÂÔØAPP<br>ÉÌÓ®½ğ·ş</span></div>');
+        footers.push('                   <div class="QR-box fl"><img src="/image/gongzhonghao.png" alt=""><span>¹Ø×¢Î¢ĞÅ¹«ÖÚºÅ<br>gh_f4e1a07bbe55</span></div>');
+        footers.push('                   <div class="QR-box fl"> <img src="/image/kefu.png" alt="">ÔÚÏß¿Í·ş  </div>');
         footers.push('               </li>');
         footers.push('           </ul>');
         footers.push('        </div>');
         footers.push('    </div>');
         footers.push('    <div id="back">');
         footers.push('         <div class="margin-footer clearfix">');
-        footers.push('              Copyright Â© 2015-2017 å•†èµ¢ç½‘ <span>|</span><a href="http://www.miitbeian.gov.cn" target="_blank" class="underline hover-fff">æ²ªICPå¤‡15024345å·-1</a><span>|</span>ä¸Šæµ·å•†èµ¢ä¹ç‚¹äº’è”ç½‘é‡‘èä¿¡æ¯æœåŠ¡æœ‰é™å…¬å¸');
+        footers.push('              Copyright ? 2015-2017 ÉÌÓ®Íø <span>|</span><a href="http://www.miitbeian.gov.cn" target="_blank" class="underline hover-fff">»¦ICP±¸15024345ºÅ-1</a><span>|</span>ÉÏº£ÉÌÓ®ÀÖµã»¥ÁªÍø½ğÈÚĞÅÏ¢·şÎñÓĞÏŞ¹«Ë¾');
         footers.push('               <div class="img-box fr">');
         footers.push('                  <a href="http://webscan.360.cn/index/checkwebsite/url/www.sy8.com"  target="_blank"><img src="/image/360.png" alt="" width="86"></a>');
         footers.push('                  <a href="https://trustsealinfo.verisign.com/splash?form_file=fdf/splash.fdf&dn=www.sy8.com&lang=zh_cn"  target="_blank"><img src="/image/norton.png" alt="" width="86"></a>');
@@ -256,7 +256,7 @@ $(function() {
         var service = [];
         if (document.getElementById('kefu')) { return; }
         service.push('<div id="kefu">');
-        service.push('<div class="title clearfix" id="title">å•†èµ¢é‡‘æœåœ¨çº¿å®¢æœ <div class="fr closeit"><span class="icon-close"></span></div></div>');
+        service.push('<div class="title clearfix" id="title">ÉÌÓ®½ğ·şÔÚÏß¿Í·ş <div class="fr closeit"><span class="icon-close"></span></div></div>');
         service.push('<iframe id="iframeId" name="myframe" src="https://www.sobot.com/chat/h5/index.html?sysNum=a36c58ed16154b7e884246f62507f07a" width="400" height="360" scrolling="no" style="background-color: transparent;" frameborder="0">');
         service.push(' </iframe>');
         service.push('</div>');
@@ -278,15 +278,15 @@ $(function() {
         stair.push('<section class="stair">');
         stair.push('<ul> <li class="floor">');
         stair.push('            <span class="icon-kefu icons"></span>');
-        stair.push('           <div class="layer"><div class="ver text"> åœ¨çº¿å®¢æœ</div></div>');
+        stair.push('           <div class="layer"><div class="ver text"> ÔÚÏß¿Í·ş</div></div>');
         stair.push('     </li>');
         stair.push('     <li class="floor">');
         stair.push('            <span class="icon-tel1 icons"></span>');
-        stair.push('           <div class="layer"><div class="text">  <p class="hot-line">å®¢æœçƒ­çº¿</p><p class="tel">400-728-5588</p> </div> </div>');
+        stair.push('           <div class="layer"><div class="text">  <p class="hot-line">¿Í·şÈÈÏß</p><p class="tel">400-728-5588</p> </div> </div>');
         stair.push('      </li>');
         stair.push('     <li class="floor">');
         stair.push('            <span class="icon-wechat2 icons"></span>');
-        stair.push('           <div class="layer"><div class="text"> <p class="sao">æ‰«æäºŒç»´ç å…³æ³¨</p> <p class="wk">å¾®ä¿¡å®¢æœ</p></div><img src="/image/kefu.png" alt="" width="106"> </div>');
+        stair.push('           <div class="layer"><div class="text"> <p class="sao">É¨Ãè¶şÎ¬Âë¹Ø×¢</p> <p class="wk">Î¢ĞÅ¿Í·ş</p></div><img src="/image/kefu.png" alt="" width="106"> </div>');
         stair.push('      </li>');
         stair.push('      <li class="floor gift">');
         stair.push('            <span class="icon-activity icons"></span>');
@@ -294,12 +294,12 @@ $(function() {
         stair.push('       </li>');
         stair.push('       <li class="floor back-top">');
         stair.push('             <span class="icon-top icons"></span>');
-        stair.push('            <div class="layer"><div class="ver text">è¿”å›é¡¶ç«¯</div></div>');
+        stair.push('            <div class="layer"><div class="ver text">·µ»Ø¶¥¶Ë</div></div>');
         stair.push('       </li> </ul>');
         stair.push(' </section>');
         $('#stair').append(stair.join(''));
 
-        //ä¾§è¾¹æ 
+        //²à±ßÀ¸
         (function() {
             var stairs = $('.stair li');
 

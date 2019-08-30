@@ -7,7 +7,7 @@ $(function(){
             $('.my-canvas').addClass('hide');
             $('.canvas-box').addClass('show-bg');
         } else {
-            // ç¦æ­¢å³é”®èœå•
+            // ½ûÖ¹ÓÒ¼ü²Ëµ¥
             $(el).bind('contextmenu', function(e){
                 return false;
             });
@@ -16,7 +16,7 @@ $(function(){
                     r = el.width / 2;
             ctx.beginPath();
             ctx.lineWidth = lineWidth;
-            // æ¸å˜è‰²
+            // ½¥±äÉ«
             if(color === 'blue') {
                 color = ctx.createLinearGradient(0,0,170,0);
                 color.addColorStop('', '#6A9DDD');
@@ -30,7 +30,7 @@ $(function(){
             ctx.strokeStyle = color;
 
             ctx.putImageData(ctx.getImageData(0, 0, 190, 190), 0, 0);
-            // ç»˜åˆ¶ arc(xåæ ‡, yåæ ‡, råŠå¾„, èµ·å§‹, ç»“æŸ, falseé¡ºæ—¶é’ˆ);
+            // »æÖÆ arc(x×ø±ê, y×ø±ê, r°ë¾¶, ÆğÊ¼, ½áÊø, falseË³Ê±Õë);
             ctx.arc(r, r, (r - lineWidth / 2), start, end, false);
             ctx.stroke();
         }
