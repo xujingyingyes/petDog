@@ -85,7 +85,8 @@
    font-size:16px;
    padding-top: 10px;
 }
-.shape-list .more-btn{
+.shape-list .more-btn,
+.shape-list .more-btn a{
     width: 150px;
     height: 40px;
     border-radius: 20px;
@@ -93,19 +94,28 @@
     line-height: 40px;
     text-align: center;
     cursor: pointer;
+    color: #ffffff;
 }
 
 /* 字母索引 */
 .alphabet-section{
     background: #F2F2F2;
+    padding-bottom: 30px;
 }
-.content .search-box span{
+.content .search-box span,
+.content .search-box span a{
     font-weight: bold;
-    padding: 0 5px;
     cursor: pointer;
-    margin-right:20px;
+    font-size: 24px;
 } 
-.content .search-box span:hover{
+.content .search-box span a{
+    margin-right:25px;
+}
+.content .search-box span:last-child{
+    margin-right:0px;
+} 
+.active-search a,
+.content .search-box a:hover{
     color:#BF2A30;
     font-weight: bolder;
 } 
@@ -134,6 +144,7 @@
     line-height: 40px;
     font-size:24px;
     color:#BF2A30;
+    font-weight: 400;
 }
 .alphabet-list .items .name,
 .ranking-list .items .name{
@@ -158,27 +169,33 @@
 }
 .function-list .items,
 .features-list .items{
-    width:130px;
-    height:40px;
     line-height: 40px;
-    border-radius:5px;
     font-size:24px;
     color:#444444;
     margin-right:90px;
     cursor: pointer;
+    width:130px;
+    height:40px;
     text-align: center;
+}
+.function-list .items a,
+.features-list .items a{
+    display: block;
+    border-radius:5px;
 }
 .function-list .items:last-child,
 .features-list .items:last-child{
     margin-right:0;
 }
-.function-list .items:hover,
-.features-list .items:hover{
+.function-list .items a:hover,
+.features-list .items a:hover,
+.active-fn a{
     background:#BF2A30;
     color:#fff;
 }
 
 .ranking-section{
     background: #F2F2F2;
+    padding-bottom: 30px;
 }
 
