@@ -7,24 +7,26 @@
     font-family: MicrosoftYaHei;
 }
 
-.slideshow-wrapper {}
+.slideshow-wrapper {
+    position: relative;
+}
 
 .slideshow-wrapper .sw-content {}
 
-.sw-content .sw-content-left {
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    top: 39%;
-    left: 10%;
-    background-image: url(../../image/schoolAlliance/switch-left.png);
-}
-
+.sw-content .sw-content-left,
 .sw-content .sw-content-right {
     position: absolute;
     width: 40px;
     height: 40px;
-    top: 39%;
+    top: 44%;
+    
+} 
+.sw-content .sw-content-left{
+    background-image: url(../../image/schoolAlliance/switch-left.png);
+    left: 10%;
+}
+
+.sw-content .sw-content-right {
     right: 10%;
     background-image: url(../../image/schoolAlliance/switch-right.png);
 }
@@ -48,7 +50,7 @@
     position: absolute;
     color: #ffffff;
     font-size: 12px;
-    right: 13%;
+    right: 230px;
     top: 15%;
 }
 
@@ -312,7 +314,7 @@
 }
 
 
-/* ֤����� */
+/* ֤�����? */
 
 .case-margin {
     margin: 0 auto;
