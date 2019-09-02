@@ -14,6 +14,7 @@
     <link rel="shortcut icon" href="../../favicon.ico" />
     <link rel="stylesheet" href="../../css/public.css" />
     <link rel="stylesheet" href="../../css/dogEncyclopedia/common.css" />
+    <link rel="stylesheet" href="../../css/pagination.css" />
     <style>
         .container {
             padding: 30px 0 0 0;
@@ -146,6 +147,7 @@
                 <img class="margin" src="../../image/dogEncyclopedia/dog8.png" />
                 <img src="../../image/dogEncyclopedia/dog10.png" />
             </div>
+            <div class="pagination"></div>
         </div>
         <div class="footer-box">
             <div class="footer-content">
@@ -198,6 +200,7 @@
         </div>
     </div>
     <script src="../../js/jquery/dist/jquery.min.js"></script>
+    <script src="../../js/pagination.min.js"></script>
     <script>
         var html = [
             '<div class="dog-card">',
@@ -212,14 +215,34 @@
             "        </div>",
             "    </div>"
         ];
-        var count = 9;
+        $(".pagination").pagination({
+            dataSource: [1, 2, 3, 4, 5, 6, 7],
+            pageSize: 2,
+            showGoInput: true,
+            showGoButton: true,
+            prevText: "上一页",
+            nextText: "下一页",
+            callback: function(data, pagination) {
+                console.log(pagination);
+                var count = 9;
 
-        $(function() {
-            $(".dog-card-wrapper")
-                .children()
-                .remove();
-            while (count--) {
-                $(".dog-card-wrapper").append(html.join(""));
+                $(pagination.el)
+                    .children(".paginationjs-go-input")
+                    .before(
+                        "<div class='paginationjs-total'>共" +
+                        pagination.totalNumber +
+                        "条/" +
+                        Math.ceil(pagination.totalNumber / pagination.pageSize) +
+                        "页</div>"
+                    );
+
+                // render dom
+                $(".dog-card-wrapper")
+                    .children()
+                    .remove();
+                while (count--) {
+                    $(".dog-card-wrapper").append(html.join(""));
+                }
             }
         });
     </script>
