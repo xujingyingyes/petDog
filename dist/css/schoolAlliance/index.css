@@ -23,11 +23,11 @@
 } 
 .sw-content .sw-content-left{
     background-image: url(../../image/schoolAlliance/switch-left.png);
-    left: 10%;
+    left: 14%;
 }
 
 .sw-content .sw-content-right {
-    right: 10%;
+    right: 14%;
     background-image: url(../../image/schoolAlliance/switch-right.png);
 }
 
@@ -51,7 +51,7 @@
     color: #ffffff;
     font-size: 12px;
     right: 230px;
-    top: 15%;
+    top: 14%;
 }
 
 .sw-qr-code .sw-qr-code-text {
