@@ -134,6 +134,8 @@
     right: 0;
     background: #000000;
     opacity: 0.41;
+    /* IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=41)";
     border-radius: 5px;
 }
 

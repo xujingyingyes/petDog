@@ -268,14 +268,20 @@
 
 .detail-card .card-info:nth-child(1) {
     opacity: 0.52;
+    /* IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=52)";
 }
 
 .detail-card .card-info:nth-child(2) {
     opacity: 0.73;
+    /* IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=73)";
 }
 
 .detail-card .card-info:nth-child(3) {
     opacity: 0.9;
+    /* IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
 }
 
 .detail-card .card-info:nth-child(even) {
