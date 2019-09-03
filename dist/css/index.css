@@ -24,6 +24,7 @@
 .home-wrap .home .bannar {
   position: relative;
   height: 538px;
+  width: 100%;
 }
 .home-wrap .home .bannar img {
   width: 100%;
@@ -300,6 +301,11 @@
 }
 .home-wrap .home .part .hot-school .box-cnt .card {
   box-shadow: 0 5px 17px #fafafa;
+  -webkit-box-shadow: 0 5px 17px #fafafa;
+  -moz-box-shadow: 0 5px 17px #fafafa;
+  /* IE8 strength是阴影大小，direction是阴影方位，单位为度，可以为负数，color是阴影颜色*/
+  -ms-filter: progid:DXImageTransform.Microsoft.Shadow(Color=#fafafa, Strength=17, Direction=0), progid:DXImageTransform.Microsoft.Shadow(Color=#fafafa, Strength=17, Direction=90), progid:DXImageTransform.Microsoft.Shadow(Color=#fafafa, Strength=17, Direction=180), progid:DXImageTransform.Microsoft.Shadow(Color=#fafafa, Strength=17, Direction=270);
+  filter: progid:DXImageTransform.Microsoft.Shadow(Color=#fafafa, Strength=17, Direction=0), progid:DXImageTransform.Microsoft.Shadow(Color=#fafafa, Strength=17, Direction=90), progid:DXImageTransform.Microsoft.Shadow(Color=#fafafa, Strength=17, Direction=180), progid:DXImageTransform.Microsoft.Shadow(Color=#fafafa, Strength=17, Direction=270);
 }
 .home-wrap .home .footer {
   text-align: center;

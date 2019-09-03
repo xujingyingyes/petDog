@@ -118,7 +118,18 @@
 .info-case .info-case-des {
     width: 100%;
     /* height: 350px; */
-    box-shadow: 0px 3px 11px 1px #f9f9f9;
+    box-shadow: 0px 0px 1px #f9f9f9;
+    -webkit-box-shadow: 0 0 1px #f9f9f9;
+    -moz-box-shadow: 0 0 1px #f9f9f9;
+    /* IE8 strength是阴影大小，direction是阴影方位，单位为度，可以为负数，color是阴影颜色*/
+    -ms-filter:progid:DXImageTransform.Microsoft.Shadow(Color=#f9f9f9, Strength=1, Direction=0),
+    progid:DXImageTransform.Microsoft.Shadow(Color=#f9f9f9, Strength=1, Direction=90),
+    progid:DXImageTransform.Microsoft.Shadow(Color=#f9f9f9, Strength=1, Direction=180),
+    progid:DXImageTransform.Microsoft.Shadow(Color=#f9f9f9, Strength=1, Direction=270);
+    filter: progid:DXImageTransform.Microsoft.Shadow(Color=#f9f9f9, Strength=1, Direction=0),
+            progid:DXImageTransform.Microsoft.Shadow(Color=#f9f9f9, Strength=1, Direction=90),
+            progid:DXImageTransform.Microsoft.Shadow(Color=#f9f9f9, Strength=1, Direction=180),
+            progid:DXImageTransform.Microsoft.Shadow(Color=#f9f9f9, Strength=1, Direction=270);
     background: #ffffff;
     border-radius: 10px;
     margin: 140px auto 0 auto;

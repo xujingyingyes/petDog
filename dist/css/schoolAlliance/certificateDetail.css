@@ -1,4 +1,4 @@
-/* Ö¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ */
+/* Ö¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿? */
 
 @charset "gbk";
 .certificate-detail {
@@ -19,7 +19,18 @@
     height: 875px;
     border-radius: 5px;
     margin-bottom: 30px;
-    box-shadow: 0px 3px 11px 1px #f9f9f9;
+    box-shadow: 0px 0px 1px #f9f9f9;
+    -webkit-box-shadow: 0 0 1px #f9f9f9;
+    -moz-box-shadow: 0 0 1px #f9f9f9;
+    /* IE8 strengthÊÇÒõÓ°´óÐ¡£¬directionÊÇÒõÓ°·½Î»£¬µ¥Î»Îª¶È£¬¿ÉÒÔÎª¸ºÊý£¬colorÊÇÒõÓ°ÑÕÉ«*/
+    -ms-filter:progid:DXImageTransform.Microsoft.Shadow(Color=#f9f9f9, Strength=1, Direction=0),
+    progid:DXImageTransform.Microsoft.Shadow(Color=#f9f9f9, Strength=1, Direction=90),
+    progid:DXImageTransform.Microsoft.Shadow(Color=#f9f9f9, Strength=1, Direction=180),
+    progid:DXImageTransform.Microsoft.Shadow(Color=#f9f9f9, Strength=1, Direction=270);
+    filter: progid:DXImageTransform.Microsoft.Shadow(Color=#f9f9f9, Strength=1, Direction=0),
+            progid:DXImageTransform.Microsoft.Shadow(Color=#f9f9f9, Strength=1, Direction=90),
+            progid:DXImageTransform.Microsoft.Shadow(Color=#f9f9f9, Strength=1, Direction=180),
+            progid:DXImageTransform.Microsoft.Shadow(Color=#f9f9f9, Strength=1, Direction=270);
 }
 
 .cd-info-list .cd-list-left {

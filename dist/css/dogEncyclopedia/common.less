@@ -19,7 +19,18 @@
     background: #fff;
     border-radius: 5px;
     color: #333;
-    box-shadow: 0 0 20px 0px #f5f5f5;
+    box-shadow: 0 0 1px #f5f5f5;
+    -webkit-box-shadow: 0 0 1px #f5f5f5;
+    -moz-box-shadow: 0 0 1px #f5f5f5;
+    /* IE8 strength是阴影大小，direction是阴影方位，单位为度，可以为负数，color是阴影颜色*/
+    -ms-filter:progid:DXImageTransform.Microsoft.Shadow(Color=#f5f5f5, Strength=1, Direction=0),
+    progid:DXImageTransform.Microsoft.Shadow(Color=#f5f5f5, Strength=1, Direction=90),
+    progid:DXImageTransform.Microsoft.Shadow(Color=#f5f5f5, Strength=1, Direction=180),
+    progid:DXImageTransform.Microsoft.Shadow(Color=#f5f5f5, Strength=1, Direction=270);
+    filter: progid:DXImageTransform.Microsoft.Shadow(Color=#f5f5f5, Strength=1, Direction=0),
+            progid:DXImageTransform.Microsoft.Shadow(Color=#f5f5f5, Strength=1, Direction=90),
+            progid:DXImageTransform.Microsoft.Shadow(Color=#f5f5f5, Strength=1, Direction=180),
+            progid:DXImageTransform.Microsoft.Shadow(Color=#f5f5f5, Strength=1, Direction=270);
     float: left;
     margin-top: 23px;
     .card {
