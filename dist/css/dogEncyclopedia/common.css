@@ -20,6 +20,7 @@
   border-radius: 5px;
   color: #333;
   box-shadow: 0 0 20px 0px #f5f5f5;
+  filter: progid:DXImageTransform.Microsoft.Shadow(color='#f5f5f5', Direction=-600, Strength=20);
   float: left;
   margin-top: 23px;
 }
@@ -35,7 +36,7 @@
   line-height: 1;
   font-weight: 400;
 }
-.dog-card-wrapper .dog-card .content p:nth-of-type(1) {
+.dog-card-wrapper .dog-card .content .date {
   font-size: 14px;
   line-height: 1;
   margin: 10px 0;
@@ -57,9 +58,12 @@
   margin-top: 7px;
   float: right;
 }
-.dog-card-wrapper .dog-card:nth-child(3n-1) {
-  margin-left: 16px;
-  margin-right: 17px;
+.dog-card-wrapper .dog-card {
+  margin-right: 16px;
+  margin-top: 17px;
+}
+.dog-card-wrapper .no-margin {
+  margin-right: 0;
 }
 .dog-slide-left {
   width: 150px;
@@ -129,4 +133,7 @@
   font-weight: 400;
   line-height: 1;
   margin-top: 24px;
+}
+.header-list li a {
+  margin-left: 40px;
 }

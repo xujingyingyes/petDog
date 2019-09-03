@@ -6,7 +6,7 @@
   font-size: 14px;
   line-height: 30px;
 }
-.li-style p:nth-of-type(1) {
+.li-style p:first-child {
   font-weight: 500;
 }
 .li-style li {
@@ -39,7 +39,6 @@
   height: 610px;
   background-color: #fff;
   -webkit-transform: skewY(-10deg) translate(0px, -170px);
-      -ms-transform: skewY(-10deg) translate(0px, -170px);
           transform: skewY(-10deg) translate(0px, -170px);
   position: relative;
 }
@@ -47,7 +46,6 @@
   width: 1200px;
   margin: 0 auto;
   -webkit-transform: skewY(10deg) translate(0px, 170px);
-      -ms-transform: skewY(10deg) translate(0px, 170px);
           transform: skewY(10deg) translate(0px, 170px);
 }
 .dogEncyclopedia .content-wrapper .content1 .top-content .content .title {
@@ -64,7 +62,7 @@
   font-size: 14px;
   line-height: 30px;
 }
-.dogEncyclopedia .content-wrapper .content1 .top-content .content ul p:nth-of-type(1) {
+.dogEncyclopedia .content-wrapper .content1 .top-content .content ul p:first-child {
   font-weight: 500;
 }
 .dogEncyclopedia .content-wrapper .content1 .top-content .content ul li {
@@ -100,7 +98,7 @@
   font-size: 14px;
   line-height: 30px;
 }
-.dogEncyclopedia .content-wrapper .content1 .content-right ul p:nth-of-type(1) {
+.dogEncyclopedia .content-wrapper .content1 .content-right ul p:first-child {
   font-weight: 500;
 }
 .dogEncyclopedia .content-wrapper .content1 .content-right ul li {
@@ -129,7 +127,7 @@
   font-size: 14px;
   line-height: 30px;
 }
-.dogEncyclopedia .content-wrapper .content1 .content-left ul p:nth-of-type(1) {
+.dogEncyclopedia .content-wrapper .content1 .content-left ul p:first-child {
   font-weight: 500;
 }
 .dogEncyclopedia .content-wrapper .content1 .content-left ul li {
@@ -150,14 +148,12 @@
   height: 660px;
   background-color: #fff;
   -webkit-transform: skewY(10deg) translate(0px, -170px);
-      -ms-transform: skewY(10deg) translate(0px, -170px);
           transform: skewY(10deg) translate(0px, -170px);
 }
 .dogEncyclopedia .content-wrapper .content2 .top-content .content {
   width: 1200px;
   margin: 0 auto;
   -webkit-transform: skewY(-10deg) translate(0px, 170px);
-      -ms-transform: skewY(-10deg) translate(0px, 170px);
           transform: skewY(-10deg) translate(0px, 170px);
   margin-top: 40px;
 }
@@ -179,7 +175,7 @@
   font-size: 14px;
   line-height: 30px;
 }
-.dogEncyclopedia .content-wrapper .content2 .top-content .content ul p:nth-of-type(1) {
+.dogEncyclopedia .content-wrapper .content2 .top-content .content ul p:first-child {
   font-weight: 500;
 }
 .dogEncyclopedia .content-wrapper .content2 .top-content .content ul li {
@@ -207,7 +203,7 @@
   font-size: 14px;
   line-height: 30px;
 }
-.dogEncyclopedia .content-wrapper .content2 .content-left .wrapper ul p:nth-of-type(1) {
+.dogEncyclopedia .content-wrapper .content2 .content-left .wrapper ul p:first-child {
   font-weight: 500;
 }
 .dogEncyclopedia .content-wrapper .content2 .content-left .wrapper ul li {
@@ -234,7 +230,7 @@
   font-size: 14px;
   line-height: 30px;
 }
-.dogEncyclopedia .content-wrapper .content2 .content-right ul p:nth-of-type(1) {
+.dogEncyclopedia .content-wrapper .content2 .content-right ul p:first-child {
   font-weight: 500;
 }
 .dogEncyclopedia .content-wrapper .content2 .content-right ul li {
@@ -249,12 +245,12 @@
 .dogEncyclopedia .content-wrapper .title p {
   line-height: 1;
 }
-.dogEncyclopedia .content-wrapper .title p:nth-child(1) {
+.dogEncyclopedia .content-wrapper .title p:first-child {
   font-weight: 400;
   color: #bf2a30;
   font-size: 18px;
 }
-.dogEncyclopedia .content-wrapper .title p:nth-child(2) {
+.dogEncyclopedia .content-wrapper .title p:first-child + p {
   color: #fa8f92;
   font-size: 14px;
   margin-top: 15px;
@@ -264,4 +260,7 @@
 }
 .dogEncyclopedia .footer-box {
   margin-top: 0;
+}
+.dogEncyclopedia .header-list li a {
+  margin-left: 40px;
 }

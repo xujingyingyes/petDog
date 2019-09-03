@@ -12,7 +12,7 @@
 .li-style {
   font-size: 14px;
   line-height: 30px;
-  p:nth-of-type(1) {
+  p:first-child {
     font-weight: 500;
   }
   li {
@@ -171,12 +171,12 @@
       p {
         line-height: 1;
       }
-      p:nth-child(1) {
+      p:first-child {
         font-weight: 400;
         color: #bf2a30;
         font-size: 18px;
       }
-      p:nth-child(2) {
+      p:first-child + p {
         color: #fa8f92;
         font-size: 14px;
         margin-top: 15px;
@@ -188,5 +188,12 @@
   }
   .footer-box {
     margin-top: 0;
+  }
+  .header-list {
+    li {
+      a {
+        margin-left: 40px;
+      }
+    }
   }
 }
