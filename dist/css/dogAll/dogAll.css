@@ -57,7 +57,7 @@
 }
 
 
-/* ÌåÐÍ */
+/* ï¿½ï¿½ï¿½ï¿½ */
 
 .shape-section {
     background: #fff;
@@ -109,7 +109,7 @@
 }
 
 
-/* ×ÖÄ¸Ë÷Òý */
+/* ï¿½ï¿½Ä¸ï¿½ï¿½ï¿½ï¿½ */
 
 .alphabet-section {
     background: #f2f2f2;
@@ -146,6 +146,7 @@
 .ranking-list .items {
     width: 285px;
     height: 250px;
+    float: left;
     border-radius: 6px;
     overflow: hidden;
     margin-bottom: 20px;
@@ -176,7 +177,14 @@
     width: 100%;
     height: 36px;
     overflow: hidden;
-    background: #00000080;
+    background: #000;
+    filter: alpha(opacity=80);
+    -moz-opacity: 0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.5;
+    /* IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    background: rgba(0, 0, 0, 0.5);
     font-size: 18px;
     line-height: 36px;
     color: #fff;
@@ -184,7 +192,7 @@
 }
 
 
-/* ¹¦ÄÜ */
+/* ï¿½ï¿½ï¿½ï¿½ */
 
 .function-list,
 .features-list {
@@ -203,6 +211,7 @@
     width: 130px;
     height: 40px;
     text-align: center;
+    float: left;
 }
 
 .function-list .items a,
@@ -226,4 +235,11 @@
 .ranking-section {
     background: #f2f2f2;
     padding-bottom: 30px;
+}
+
+.alphabet-list .items.last-item, 
+.ranking-list .items.last-item,
+.content .function-list .items.last-item,
+.content .features-list .items.last-item{
+    margin-right: 0;
 }
