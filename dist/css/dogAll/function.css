@@ -54,6 +54,8 @@
     width: 379px;
     height: 440px;
     box-shadow: 0 0 3px #7c7c7c42;
+    position: relative;
+    behavior: url("../../polyfill/PIE/PIE.htc");
     padding: 30px 30px;
     background: #ffffff;
     border-radius: 5px;

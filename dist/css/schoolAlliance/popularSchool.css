@@ -70,6 +70,8 @@
 
 .ps-des-info .info-list {
     box-shadow: 0px 3px 11px 1px #f9f9f9;
+    position: relative;
+    behavior: url("../../polyfill/PIE/PIE.htc");
     width: 32%;
     float: left;
     margin: 0px 1.8% 30px 0;

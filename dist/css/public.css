@@ -370,12 +370,10 @@ div {
 }
 
 .box-shadow {
-    -moz-box-shadow: 3px 5px 10px #d5d5d5;
-    -webkit-box-shadow: 3px 5px 10px #d5d5d5;
     box-shadow: 3px 5px 10px #d5d5d5;
-    filter: progid: DXImageTransform.Microsoft.Shadow(color='#d5d5d5', Direction=125, Strength=9);
+    position: relative;
+    behavior: url("../polyfill/PIE/PIE.htc");
 }
-
 .text-over {
     display: -webkit-box;
     overflow: hidden;
@@ -456,6 +454,8 @@ div {
     height: 92px;
     min-width: 1200px;
     box-shadow: 0px 1px 3px #ddd;
+    position: relative;
+    behavior: url("../polyfill/PIE/PIE.htc");
 }
 
 .header-list {

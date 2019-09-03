@@ -1,5 +1,5 @@
 @charset "gbk";
-/* ����ι��ע������ҳ�� */
+/* 锟斤拷锟斤拷喂锟斤拷注锟斤拷锟斤拷锟斤拷页锟斤拷 */
 .dog-feeding-tips {
   font-family: MicrosoftYaHei;
   font-weight: 400;
@@ -10,6 +10,8 @@
 }
 .ms-des .dft-des-info .info-list {
   box-shadow: 0px 3px 11px 1px #f9f9f9;
+  position: relative;
+  behavior: url("../../polyfill/PIE/PIE.htc");
   width: 31%;
   margin-right: 2%;
   margin-bottom: 30px;

@@ -1,4 +1,4 @@
-/* ֤��������� */
+/* ֤���������? */
 
 @charset "gbk";
 .certificate-detail {
@@ -20,6 +20,8 @@
     border-radius: 5px;
     margin-bottom: 30px;
     box-shadow: 0px 3px 11px 1px #f9f9f9;
+    position: relative;
+    behavior: url("../../polyfill/PIE/PIE.htc");
 }
 
 .cd-info-list .cd-list-left {
