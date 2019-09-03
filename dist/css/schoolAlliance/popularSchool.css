@@ -13,7 +13,7 @@
 .detail-city {
     width: 1200px;
     height: 225px;
-    background: rgba(245, 245, 245, 1);
+    background: #f5f5f5;
     flex-direction: column;
     padding: 20px 0;
 }
@@ -54,7 +54,7 @@
 
 .active-city {
     height: 30px;
-    background: rgba(191, 42, 48, 1);
+    background: #bf2a30;
     border-radius: 5px;
     color: #ffffff;
 }
