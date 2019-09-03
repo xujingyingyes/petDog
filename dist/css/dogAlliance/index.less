@@ -292,18 +292,9 @@
             margin: 0 10px;
             text-align: center;
             background: #ffffff;
-            box-shadow: 0px 0px 1px #f9f9f9;
-            -webkit-box-shadow: 0 0 1px #f9f9f9;
-            -moz-box-shadow: 0 0 1px #f9f9f9;
-            /* IE8 strength是阴影大小，direction是阴影方位，单位为度，可以为负数，color是阴影颜色*/
-            -ms-filter:progid:DXImageTransform.Microsoft.Shadow(Color=#f9f9f9, Strength=1, Direction=0),
-            progid:DXImageTransform.Microsoft.Shadow(Color=#f9f9f9, Strength=1, Direction=90),
-            progid:DXImageTransform.Microsoft.Shadow(Color=#f9f9f9, Strength=1, Direction=180),
-            progid:DXImageTransform.Microsoft.Shadow(Color=#f9f9f9, Strength=1, Direction=270);
-            filter: progid:DXImageTransform.Microsoft.Shadow(Color=#f9f9f9, Strength=1, Direction=0),
-                    progid:DXImageTransform.Microsoft.Shadow(Color=#f9f9f9, Strength=1, Direction=90),
-                    progid:DXImageTransform.Microsoft.Shadow(Color=#f9f9f9, Strength=1, Direction=180),
-                    progid:DXImageTransform.Microsoft.Shadow(Color=#f9f9f9, Strength=1, Direction=270);
+            box-shadow: 0px 3px 11px 1px #f9f9f9;
+            position: relative;
+            behavior: url("../../polyfill/PIE/PIE.htc");
             .type-dog-card{
                 flex-wrap: wrap;
             }
@@ -467,6 +458,8 @@
             margin-top: 20px;
             background-color: #fff;
             box-shadow: 0 0 2px #aaa;
+            position: relative;
+            behavior: url("../../polyfill/PIE/PIE.htc");
             img{
                 width: 66px;
                 margin-top: 10px 0;
