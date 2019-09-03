@@ -44,6 +44,7 @@
     flex: 1;
     padding: 150px 0 0 0;
     float: left;
+    width: 570px;
 }
 
 .sw-content .sw-qr-code {
@@ -72,12 +73,14 @@
 }
 
 .sw-des .sw-des-title {
-    width: 50%;
+    width: 48%;
     height: 100px;
     margin-bottom: 20px;
 }
 
-.sw-des-title .sw-des-left {}
+.sw-des-title .sw-des-left {
+    
+}
 
 .sw-des-title .sw-des-right {
     font-size: 18px;
@@ -218,6 +221,7 @@
 .flex-base .dc-right {
     flex: 1;
     float: left;
+    width: 50%;
 }
 
 .detail-city li {
@@ -226,6 +230,8 @@
     line-height: 30px;
     margin-bottom: 30px;
     padding-left: 20px;
+    float: left;
+    width: 100%;
 }
 
 .detail-city li .dc-title,
@@ -233,6 +239,7 @@
 .detail-city li .dc-city {
     width: 45px;
     text-align: center;
+    float: left;
 }
 
 .dc-city-width {
@@ -268,19 +275,31 @@
     position: relative;
 }
 
-.detail-card .card-info:nth-child(1) {
+.detail-card .card-info.op-bg1 {
+    background: #9d242b;
+    filter: alpha(opacity=52);
+    -moz-opacity: 0.52;
+    -khtml-opacity: 0.52;
     opacity: 0.52;
     /* IE 8 */
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=52)";
 }
 
-.detail-card .card-info:nth-child(2) {
+.detail-card .card-info.op-bg2 {
+    background: #9d242b;
+    filter: alpha(opacity=73);
+    -moz-opacity: 0.73;
+    -khtml-opacity: 0.73;
     opacity: 0.73;
     /* IE 8 */
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=73)";
 }
 
-.detail-card .card-info:nth-child(3) {
+.detail-card .card-info.op-bg3 {
+    background: #9d242b;
+    filter: alpha(opacity=90);
+    -moz-opacity: 0.9;
+    -khtml-opacity: 0.9;
     opacity: 0.9;
     /* IE 8 */
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
@@ -354,7 +373,7 @@
     float: left;
 }
 
-.ds-case .case-info:nth-child(4) {
+.ds-case .case-info.last-margin {
     margin: 0 0 0 0%;
 }
 
@@ -386,7 +405,7 @@
     float: left;
 }
 
-.detail-pic .pic-info:nth-child(even) {
+.detail-pic .pic-info.pic-bg {
     background: #9d242b;
 }
 
@@ -407,6 +426,7 @@
 .pic-info .pic-content {
     flex-direction: column;
     color: #ffffff;
+    margin: 29% auto;
 }
 
 .pic-info .dp-title {

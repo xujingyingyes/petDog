@@ -1,4 +1,4 @@
-/* ֤����� */
+/* ֤�����? */
 
 @charset "gbk";
 .introduced-certificate {
@@ -22,12 +22,14 @@
     float: left;
 }
 
-.ic-des-info .info-list:nth-child(even) {
+.ic-des-info .info-list.list-margin {
     margin: 0 0 40px 3%;
 }
 
 .info-list .list-img {
-    padding: 48px 50px;
+    padding: 48px 0 48px 50px;
+    width: 100%;
+    height: 300px;
 }
 
 .list-img .img-left {
@@ -59,6 +61,8 @@
 
 .info-list .list-des {
     text-align: center;
+    width: 100%;
+    height: 200px;
 }
 
 .list-des .des-title {

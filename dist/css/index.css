@@ -18,6 +18,7 @@
 .home-wrap .home .bannar {
   position: relative;
   height: 538px;
+  overflow: hidden;
 }
 .home-wrap .home .bannar img {
   width: 100%;

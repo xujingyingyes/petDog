@@ -57,6 +57,8 @@
     margin-right: 20px;
     height: 397px;
     border-radius: 10px;
+    position: relative;
+    behavior: url("../../polyfill/PIE/PIE.htc");
     float: left;
 }
 
@@ -103,6 +105,7 @@
     height: 545px;
     border-radius: 10px;
     position: relative;
+    behavior: url("../../polyfill/PIE/PIE.htc");
     float: left;
 }
 
@@ -131,6 +134,7 @@
 .info-case-des .des-content {
     padding: 90px 20px 0 20px;
     line-height: 25px;
+    height: 268px;
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
