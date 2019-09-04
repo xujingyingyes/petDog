@@ -13,6 +13,9 @@
     <meta content="always" name="referrer" />
     <link rel="stylesheet" href="../../css/schoolAlliance/successfulCases.css" />
     <link rel="stylesheet" href="../../css/public.css" />
+    <!--[if lt IE 9]>
+      <script src="../../polyfill/html5shiv.min.js"></script>
+    <![endif]-->
 </head>
 
 <body>
@@ -245,7 +248,6 @@
     <script src="../../js/plugins.js"></script>
     <!--[if lte IE 9]>
       <script src="../../js/jquery/xdomain.js"></script>
-      <script src="../../polyfill/PIE/PIE.htc"></script>
     <![endif]-->
     <script type="text/javascript">
         $(document).ready(function() {
@@ -271,21 +273,21 @@
             $(".sc-photo1").slide({
                 mainCell: "ul",
                 autoPage: true,
-                effect: "left",
+                effect: "leftLoop",
                 autoPlay: true,
                 vis: 3
             });
             $(".sc-photo2").slide({
                 mainCell: "ul",
                 autoPage: true,
-                effect: "left",
+                effect: "leftLoop",
                 autoPlay: true,
                 vis: 3
             });
             $(".sc-trainees-info").slide({
                 mainCell: "ul",
                 autoPage: true,
-                effect: "left",
+                effect: "leftLoop",
                 autoPlay: true,
                 vis: 3
             });
