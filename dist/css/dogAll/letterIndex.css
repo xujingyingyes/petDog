@@ -43,6 +43,10 @@
 .content .list ul {
     padding-bottom: 20px;
 }
+.content .list ul li{
+    float: left;
+    margin: 0 18px;
+}
 .content .list li.items a{
     box-sizing: border-box;
     float: left;
