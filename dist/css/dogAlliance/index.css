@@ -1,5 +1,5 @@
 .mt0 {
-  margin-top: 0!important;
+  margin-top: 0 !important;
 }
 .server-ensure .container {
   overflow: hidden;
@@ -45,6 +45,14 @@
   height: 200px;
   background: #ffffff;
   border-radius: 10px;
+  padding-left: 80px;
+}
+.server-ensure .container .top-promise .ensure-list li.no-margin {
+  margin-right: 0;
+}
+.server-ensure .container .top-promise .ensure-list li {
+  float: left;
+  margin-right: 180px;
 }
 .server-ensure .container .top-promise .ensure-list li img {
   width: 62px;
@@ -123,7 +131,7 @@
   margin-bottom: 40px;
 }
 .server-ensure .rules .rules-items p span {
-  color: #BF2A30;
+  color: #bf2a30;
 }
 .about-us {
   overflow: hidden;
@@ -140,6 +148,7 @@
   padding: 33px 0;
   font-family: MicrosoftYaHei;
   margin-bottom: 98px;
+  behavior: url(../../polyfill/PIE/PIE.htc);
 }
 .about-us .container .list p {
   margin: 14px 67px;
@@ -172,10 +181,8 @@
   width: 100%;
   position: absolute;
   text-align: center;
-  font-size: 0;
+  display: block;
   height: 536px;
-  background: #EFD3A6 url("../../image/dogAlliance/banner.png") no-repeat center center;
-  background-size: cover;
 }
 .dogAlliance-index .banner-btn {
   height: 536px;
@@ -258,17 +265,23 @@
   text-align: center;
   padding: 60px 0;
 }
-.dogAlliance-index .common-btn button {
+.dogAlliance-index .common-btn a {
   width: 170px;
   height: 50px;
-  background: #bf2a30;
+  display: inline-block;
+  line-height: 50px;
+  background-color: #bf2a30;
   border-radius: 25px;
   font-size: 22px;
   font-family: MicrosoftYaHei;
   font-weight: 400;
+  color: #fff;
 }
-.dogAlliance-index .common-btn button a {
-  color: #ffffff;
+.dogAlliance-index .hot-dog .type-dog {
+  margin: 0 auto;
+}
+.dogAlliance-index .hot-dog .no-margin {
+  margin: 0 !important;
 }
 .dogAlliance-index .hot-dog .type-items {
   margin: 0 10px;
@@ -276,11 +289,19 @@
   background: #ffffff;
   box-shadow: 0px 3px 11px 1px #f9f9f9;
   position: relative;
-  behavior: url("../../polyfill/PIE/PIE.htc");
+  float: left;
+  behavior: url(../../polyfill/PIE/PIE.htc);
 }
-.dogAlliance-index .hot-dog .type-items .type-dog-card {
-  -webkit-flex-wrap: wrap;
-          flex-wrap: wrap;
+.dogAlliance-index .hot-dog .type-items ul {
+  padding-left: 21px;
+  padding-right: 19px;
+}
+.dogAlliance-index .hot-dog .type-items ul > li {
+  float: left;
+  margin-right: 17px;
+}
+.dogAlliance-index .hot-dog .type-items ul > li.no-margin {
+  margin-right: 0;
 }
 .dogAlliance-index .hot-dog .type-items h3 {
   width: 100%;
@@ -291,7 +312,9 @@
   line-height: 60px;
   height: 60px;
   background: #bf2a30;
-  border-radius: 10px 10px 0px 0px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  behavior: url(../../polyfill/PIE/PIE.htc);
 }
 .dogAlliance-index .hot-dog .type-items .img {
   width: 103px;
@@ -302,6 +325,7 @@
   text-align: center;
   margin-top: 30px;
   margin-bottom: 10px;
+  behavior: url(../../polyfill/PIE/PIE.htc);
 }
 .dogAlliance-index .hot-dog .type-items .img img {
   height: 100%;
@@ -314,6 +338,9 @@
   line-height: 31px;
   margin-bottom: 28px;
 }
+.dogAlliance-index .new-dog .dog-list .no-margin {
+  margin: 0 !important;
+}
 .dogAlliance-index .new-dog .dog-list .items {
   position: relative;
   overflow: hidden;
@@ -321,6 +348,7 @@
   width: 386px;
   background-color: #fff;
   margin: 0 8px;
+  float: left;
 }
 .dogAlliance-index .new-dog .dog-list .items .img-head {
   width: 100%;
@@ -367,7 +395,7 @@
   margin: 0 6px;
 }
 .dogAlliance-index .new-dog .dog-list .items .dog-info .dog-des-sp span {
-  color: #BF2A30;
+  color: #bf2a30;
 }
 .dogAlliance-index .new-dog .dog-list .items-small {
   margin-top: 20px;
@@ -379,29 +407,32 @@
 .dogAlliance-index .information {
   margin-bottom: 60px;
 }
-.dogAlliance-index .information .flex-base {
-  background-color: #f8f8f8;
+.dogAlliance-index .information .flex-base1 .no-margin {
+  margin: 0 !important;
 }
-.dogAlliance-index .information .flex-base .flex1 {
+.dogAlliance-index .information .flex-base1 .flex11 {
+  background-color: #f8f8f8;
+  width: 386px;
   margin: 0 9px;
   border-radius: 10px 5px 5px 5px;
   overflow: hidden;
+  float: left;
 }
-.dogAlliance-index .information .flex-base .flex1 h3 {
+.dogAlliance-index .information .flex-base1 .flex11 h3 {
   height: 30px;
   font-size: 30px;
   font-family: MicrosoftYaHei;
   font-weight: 400;
   color: #ffffff;
   line-height: 30px;
-  background-color: #BF2A30;
+  background-color: #bf2a30;
   padding: 15px;
   text-align: center;
 }
-.dogAlliance-index .information .flex-base .flex1 ul {
+.dogAlliance-index .information .flex-base1 .flex11 ul {
   list-style-type: disc;
 }
-.dogAlliance-index .information .flex-base .flex1 ul li {
+.dogAlliance-index .information .flex-base1 .flex11 ul li {
   font-size: 18px;
   font-family: MicrosoftYaHei;
   font-weight: 400;
@@ -410,11 +441,11 @@
   padding: 17px 0;
   border-bottom: 1px solid #eeeeee;
 }
-.dogAlliance-index .information .flex-base .flex1 ul li span {
-  margin: 0 16px 0 55px ;
+.dogAlliance-index .information .flex-base1 .flex11 ul li span {
+  margin: 0 16px 0 55px;
 }
-.dogAlliance-index .information .flex-base .flex1 ul .light {
-  color: #BF2A30;
+.dogAlliance-index .information .flex-base1 .flex11 ul .light {
+  color: #bf2a30;
 }
 .dogAlliance-index aside {
   position: fixed;
@@ -443,7 +474,7 @@
   color: #333333;
 }
 .screen-box {
-  background: #F5F5F5;
+  background: #f5f5f5;
   padding: 20px;
   color: #333;
   font-size: 18px;
@@ -458,7 +489,7 @@
 }
 .screen-box .all {
   width: 50px;
-  color: #BF2A30;
+  color: #bf2a30;
   padding-right: 10px;
   height: 30px;
 }
@@ -476,7 +507,7 @@
   cursor: pointer;
 }
 .screen-box .list .term:hover {
-  background: #BF2A30;
+  background: #bf2a30;
   color: #fff;
 }
 .screen-box .more {
@@ -530,7 +561,7 @@
   height: 31px;
 }
 .dog-detail .dog-pic .small-pic .pic-btn p {
-  color: #D9D9D9;
+  color: #d9d9d9;
   background-color: #fff;
   font-size: 20px;
   outline: none;
@@ -565,7 +596,7 @@
   line-height: 30px;
 }
 .dog-detail .dog-info .price p .price-det {
-  color: #BF2A30;
+  color: #bf2a30;
 }
 .dog-detail .dog-info .price div {
   font-size: 14px;
@@ -577,9 +608,12 @@
 }
 .dog-detail .dog-info .info-list {
   text-align: center;
+  height: 80px;
 }
 .dog-detail .dog-info .info-list .info-items {
+  width: 176px;
   border-right: 1px solid #e6e6e6;
+  float: left;
 }
 .dog-detail .dog-info .info-list .info-items p {
   font-size: 18px;
@@ -633,14 +667,14 @@
   vertical-align: middle;
 }
 .dog-detail .dog-info .select-list .dianpu {
-  background-color: #BF2A30;
+  background-color: #bf2a30;
 }
 .dog-detail .dog-info .select-list .zixun {
-  background-color: #FF6600;
+  background-color: #ff6600;
   margin-left: 30px;
 }
 .dog-detail .dog-info .select-list .weixin {
-  background-color: #6CBD00;
+  background-color: #6cbd00;
   margin-left: 30px;
 }
 .dog-detail .dog-info .tips span {
@@ -684,5 +718,5 @@
   margin-top: 14px;
 }
 .dog-detail .sepc {
-  color: #BF2A30;
+  color: #bf2a30;
 }
