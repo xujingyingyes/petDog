@@ -1,6 +1,6 @@
 @charset "gbk";
 body {
-    font-family: "Microsoft YaHei", "Î¢ÈíÑÅºÚ";
+    font-family: "Microsoft YaHei", "Î¢ï¿½ï¿½ï¿½Åºï¿½";
     color: #3a3a3a;
     font-size: 14px;
     background: #fff;
@@ -580,8 +580,23 @@ div {
     float: left;
 }
 
+
 .footer-content .dh .items:last-child .flex-base {
     justify-content: flex-end;
+    height: 42px;
+}
+
+.footer-content .dh .items .flex-base .icon{
+    float: left;
+    height: 42px;
+}
+.footer-content .dh .items .flex-base .note{
+    float: left;
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    height: 42px;
+    line-height: 42px;
 }
 
 .footer-content .items .note {
@@ -589,6 +604,7 @@ div {
     font-size: 20px;
     font-weight: bold;
 }
+
 
 .footer-content .db .about-box {
     color: #fff;
