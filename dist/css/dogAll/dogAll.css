@@ -199,6 +199,7 @@
     padding-bottom: 60px;
     background: #fff;
     font-size: 24px;
+    justify-content: space-between;
 }
 
 .function-list .items,
@@ -206,7 +207,7 @@
     line-height: 40px;
     font-size: 24px;
     color: #444444;
-    margin-right: 90px;
+    margin-right: 84px;
     cursor: pointer;
     width: 130px;
     height: 40px;
