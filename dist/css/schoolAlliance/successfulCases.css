@@ -29,13 +29,6 @@
     position: relative;
 }
 
-.sc-photo .sc-photo-title {}
-
-.sc-photo .sc-photo-info {
-    height: 397px;
-    overflow: hidden;
-}
-
 .sc-photo .sc-photo-left,
 .sc-photo .sc-photo-right {
     position: absolute;
@@ -58,7 +51,7 @@
     height: 397px;
     border-radius: 10px;
     position: relative;
-    behavior: url("../../polyfill/PIE/PIE.htc");
+    /* behavior: url("../../polyfill/PIE/PIE.htc"); */
     float: left;
 }
 
@@ -105,7 +98,7 @@
     height: 545px;
     border-radius: 10px;
     position: relative;
-    behavior: url("../../polyfill/PIE/PIE.htc");
+    /* behavior: url("../../polyfill/PIE/PIE.htc"); */
     float: left;
 }
 
@@ -122,13 +115,12 @@
     width: 100%;
     /* height: 350px; */
     box-shadow: 0px 3px 11px 1px #f9f9f9;
-    position: relative;
-    behavior: url("../../polyfill/PIE/PIE.htc");
+    /* behavior: url("../../polyfill/PIE/PIE.htc"); */
     background: #ffffff;
     border-radius: 10px;
     margin: 140px auto 0 auto;
     position: relative;
-    padding-bottom: 30px; 
+    padding-bottom: 30px;
 }
 
 .info-case-des .des-content {

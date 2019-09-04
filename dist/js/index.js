@@ -164,7 +164,6 @@ $(function() {
 
     // Ê×Ò³banner
     $(".bannar").slide({
-        titCell: ".hd ul",
         mainCell: ".bd ul",
         effect: "fold",
         autoPlay: true,

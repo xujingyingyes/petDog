@@ -295,12 +295,14 @@
     // background-color: #f9f9f9;
     .type-dog {
       margin: 0 auto;
+
     }
     .no-margin {
       margin: 0 !important;
     }
     .type-items {
       margin: 0 10px;
+      width: 31%;
       text-align: center;
       background: #ffffff;
       box-shadow: 0px 3px 11px 1px #f9f9f9;
@@ -308,8 +310,10 @@
       float: left;
       behavior: url(../../polyfill/PIE/PIE.htc);
       ul {
-        padding-left: 21px;
+        padding-left: 10px;
         padding-right: 19px;
+        width: 100%;
+        flex-wrap: wrap;
       }
       ul > li {
         float: left;
@@ -335,12 +339,15 @@
         width: 103px;
         height: 103px;
         border-radius: 50%;
+        -moz-border-radius: 50%; 
+        -webkit-border-radius: 50%;
+        behavior: url(../../polyfill/PIE/PIE.htc);
         overflow: hidden;
         display: inline-block;
         text-align: center;
         margin-top: 30px;
         margin-bottom: 10px;
-        behavior: url(../../polyfill/PIE/PIE.htc);
+        
         img {
           height: 100%;
         }

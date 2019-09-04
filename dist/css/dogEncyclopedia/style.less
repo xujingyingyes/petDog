@@ -48,6 +48,7 @@
         transform: skewY(-10deg) translate(0px, -170px);
         position: relative;
         .content {
+          position: relative;
           .margin-auto();
           .reset-tansform();
           .title {
@@ -56,12 +57,29 @@
           img {
             float: left;
             margin-top: 13px;
+            z-index: 2;
+            position: relative;
           }
           ul {
             float: left;
             width: 285px;
             margin: 90px 0 0 14px;
             .li-style();
+          }
+          .img-bg-mask{
+            position: absolute;
+            width:552px;
+            height:211px;
+            left: -29%;
+            bottom: 57px;
+            z-index: 1;
+            background: #cc3333;
+            filter: alpha(opacity=23);
+            -moz-opacity: 0.23;
+            -khtml-opacity: 0.23;
+            opacity: 0.23;
+            /* IE 8 */
+            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=23)";
           }
         }
       }
@@ -115,11 +133,15 @@
           .margin-auto();
           .reset-tansform2();
           margin-top: 40px;
+          position: relative;
+          height: 100%;
           .wrapper {
             float: right;
             img {
               float: right;
               margin-top: 14px;
+              z-index: 2;
+              position: relative;
             }
             .title {
               padding-right: 40px;
@@ -131,6 +153,21 @@
             margin-right: -100px;
             margin-top: 180px;
             .li-style();
+          }
+          .img-bg-mask{
+            position: absolute;
+            width:552px;
+            height:211px;
+            right: -30%;
+            bottom: 40%;
+            z-index: 1;
+            background: #cc3333;
+            filter: alpha(opacity=23);
+            -moz-opacity: 0.23;
+            -khtml-opacity: 0.23;
+            opacity: 0.23;
+            /* IE 8 */
+            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=23)";
           }
         }
       }
