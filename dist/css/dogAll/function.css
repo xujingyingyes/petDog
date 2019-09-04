@@ -63,8 +63,14 @@
     margin-right: 38px;
     margin-bottom: 20px;
 }
-
 .data-list .items:last-child {
+    margin-right: 0;
+}
+
+.ie8 .data-list .items {
+    margin-right: 30px;
+}
+.ie8 .data-list .items.last-items {
     margin-right: 0;
 }
 
