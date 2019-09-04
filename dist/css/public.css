@@ -484,6 +484,10 @@ div {
 .header-list_line {
     width: 40px;
     margin-top: 10px;
+    margin-left: 17px;
+}
+.header-list li a .line_margin{
+    margin-left: 0px!important;
 }
 
 .header-list .active a {
