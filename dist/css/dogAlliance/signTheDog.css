@@ -1,10 +1,192 @@
-.sign-dog-index {
-  background: #150F30;
+.sign-dog-index,
+.sign-dog-list,
+.sign-dog-loading,
+.sign-dog-see-more {
   width: 100%;
-  height: 840px;
+  height: 1080px;
   padding-top: 60px;
+  font-family: MicrosoftYaHei;
 }
-.sign-dog-index img {
+.list-detail {
+  width: 355px;
+  height: 502px;
+  background: #FCFCFC;
+  border-radius: 10px;
+  padding: 30px;
+}
+.list-detail .detail-line1 {
+  height: 100px;
+}
+.list-detail .detail-line1 .line-img {
+  float: left;
+  width: 100px;
+  height: 100px;
+}
+.list-detail .detail-line1 .line-title {
+  float: left;
+  margin-left: 19px;
+  padding-top: 12px;
+}
+.list-detail .detail-line1 .line-title .big-tit {
+  font-size: 28px;
+  font-weight: 400;
+  color: #000000;
+  line-height: 30px;
+}
+.list-detail .detail-line1 .line-title .little-title {
+  margin-top: 9px;
+}
+.list-detail .detail-line1 .line-title .little-title li {
+  font-size: 14px;
+  font-weight: 400;
+  color: #999999;
+  line-height: 21px;
+  letter-spacing: 2px;
+}
+.list-detail .detail-line2 {
+  margin-top: 30px;
+}
+.list-detail .detail-line2 .line-title {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+}
+.list-detail .detail-line2 .dog-record {
+  margin-top: 20px;
+}
+.list-detail .detail-line2 .dog-record .record-item {
+  height: 15px;
+  line-height: 15px;
+  margin: 15px 0;
+  position: relative;
+}
+.list-detail .detail-line2 .dog-record .record-item span {
+  float: left;
+  font-weight: 500;
+}
+.list-detail .detail-line2 .dog-record .record-item .container {
+  float: left;
+  width: 199px;
+  height: 10px;
   margin: 0 auto;
-  display: inline-block;
+  border: 2px solid #00BDD7;
+  line-height: 20px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  overflow: hidden;
+}
+.list-detail .detail-line2 .dog-record .record-item .time {
+  background: #00BDD7;
+  height: 100%;
+  text-align: center;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  color: #fff;
+}
+.list-detail .detail-line2 .dog-record .record-item .record-number {
+  position: absolute;
+  font-size: 12px;
+  color: #00BDD7;
+  font-weight: 400;
+  right: 28px;
+  top: -14px;
+}
+.list-detail .detail-button {
+  text-align: center;
+  margin-top: 30px;
+}
+.list-detail .detail-button button {
+  width: 215px;
+  height: 40px;
+  background: #3bccdf;
+  border-radius: 20px;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  box-shadow: 0px 3px 10px #e5ecf3;
+}
+.list-detail .detail-button a {
+  color: #ffffff;
+}
+.sign-dog-index .img {
+  margin: 0 auto;
+  display: block;
+}
+.sign-dog-list {
+  position: relative;
+}
+.sign-dog-list .list-img {
+  width: 791px;
+  height: 791px;
+  display: block;
+  margin: 0 auto;
+}
+.sign-dog-list .list-line-wrapper {
+  position: absolute;
+  height: 41px;
+  top: 172px;
+  right: 368px;
+}
+.sign-dog-list .list-line-wrapper .list-line {
+  width: 32px;
+  height: 32px;
+  border: 2px solid #ef76e3;
+  border-radius: 50%;
+  padding: 2px;
+}
+.sign-dog-list .list-line-wrapper .list-line .list-round {
+  width: 24px;
+  height: 24px;
+  background: #ed5bdf;
+  border: 2px solid #a6549e;
+  border-radius: 50%;
+}
+.sign-dog-list .list-line-wrapper .list-straight-line {
+  margin-left: -12px;
+  margin-top: -20px;
+  width: 147px;
+  height: 41px;
+}
+.sign-dog-list .list-detail {
+  position: absolute;
+  top: 159px;
+  right: 43px;
+}
+.sign-dog-loading {
+  position: relative;
+}
+.sign-dog-loading .list-img {
+  width: 828px;
+  height: 828px;
+  margin: 0 auto;
+  display: block;
+}
+.sign-dog-loading .loading-tip {
+  position: absolute;
+  top: 6%;
+  left: 12.5%;
+  width: 446px;
+  height: 222px;
+  padding: 30px 20px;
+}
+.sign-dog-loading .loading-tip .tip-title {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff9ea;
+  line-height: 30px;
+}
+.sign-dog-see-more {
+  padding: 10px 0 0 50px;
+}
+.sign-dog-see-more .list-detail {
+  float: left;
+  margin: 10px;
+  width: 350px;
+}
+.ie8 .list-line-wrapper {
+  right: 468px!important;
 }

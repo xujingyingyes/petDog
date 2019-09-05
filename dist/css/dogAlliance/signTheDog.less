@@ -1,10 +1,203 @@
-.sign-dog-index{
-    background: #150F30;
+
+.sign-dog-index,
+.sign-dog-list,
+.sign-dog-loading,
+.sign-dog-see-more{
     width: 100%;
-    height: 840px;
+    height: 1080px;
     padding-top: 60px;
-    img{
+    font-family:MicrosoftYaHei;
+}
+// common-list
+.list-detail{
+    width:355px;
+    height:502px;
+    background:#FCFCFC;
+    border-radius:10px;
+    padding: 30px;
+    .detail-line1{
+        height: 100px;
+        .line-img{
+            float: left;
+            width: 100px;
+            height: 100px;
+        }
+        .line-title{
+            float: left;
+            margin-left: 19px;
+            padding-top: 12px;
+            .big-tit{
+                font-size:28px;
+
+                font-weight:400;
+                color:#000000;
+                line-height:30px;
+            }
+            .little-title{
+                margin-top: 9px;
+                li{
+                    font-size:14px;
+                    font-weight:400;
+                    color:#999999;
+                    line-height:21px;
+                    letter-spacing: 2px;
+                }
+            }
+        }
+    }
+    .detail-line2{
+        margin-top: 30px;
+        .line-title{
+            font-size:14px;
+            font-weight:400;
+            text-align: center;
+        }
+        .dog-record{
+            margin-top: 20px;
+            .record-item{
+                height: 15px;
+                line-height: 15px;
+                margin: 15px 0;
+                position: relative;
+                span{
+                    float: left;
+                    font-weight: 500;
+                }
+                .container{
+                    float: left;
+                    width: 199px;
+                    height: 10px;
+                    margin: 0 auto;
+                    // margin-top: 100px;
+                    border:2px solid #00BDD7;
+                    line-height: 20px;
+                    border-radius: 10px;
+                    -webkit-border-radius: 10px;
+                    -moz-border-radius: 10px;
+                    overflow: hidden;
+                }
+                .time{
+                    background: #00BDD7;
+                    height: 100%;
+                    text-align: center;
+                    transition: all 0.3s ease-in-out;
+                    -webkit-transition: all 0.5s ease-in-out;
+                    -moz-transition: all 0.5s ease-in-out;
+                    color: #fff;
+                }
+                .record-number{
+                    position: absolute;
+                    font-size: 12px;
+                    color: #00BDD7;
+                    font-weight: 400;
+                    right: 28px;
+                    top: -14px;
+                }
+            }
+        }
+    }
+    .detail-button{
+        text-align: center;
+        margin-top: 30px;
+        button{
+            width:215px;
+            height:40px;
+            background:rgba(59,204,223,1);
+            border-radius:20px;
+            font-weight:400;
+            color: #ffffff;
+            font-size: 18px;
+            box-shadow: 0px 3px 10px #e5ecf3
+        }
+        a{
+            color: #ffffff;
+        }
+    }
+}
+// 血型首页
+.sign-dog-index{
+    .img{
         margin: 0 auto;
-        display: inline-block;
+        display: block;
+    }
+}
+// 血型列表页
+.sign-dog-list{
+    position: relative;
+    .list-img{
+        width: 791px;
+        height: 791px;
+        display: block;
+        margin: 0 auto;
+    }
+    .list-line-wrapper{
+        position: absolute;
+        height: 41px;
+        top: 172px;
+        right: 368px;
+        .list-line{
+            width:32px;
+            height:32px;
+            border:2px solid #ef76e3;
+            border-radius:50%;
+            padding: 2px;
+            .list-round{
+                width:24px;
+                height:24px;
+                background:#ed5bdf;
+                border:2px solid #a6549e;
+                border-radius:50%;
+            }
+        }
+        .list-straight-line{
+            margin-left: -12px;
+            margin-top:-20px;
+            width: 147px;
+            height: 41px;
+        }
+    }
+    .list-detail{
+        position: absolute;
+        top: 159px;
+        right: 43px;
+    }
+}
+// 血型loading页
+.sign-dog-loading{
+    position: relative;
+    .list-img{
+        width:828px;
+        height:828px;
+        margin: 0 auto;
+        display: block;
+    }
+    .loading-tip{
+        position: absolute;
+        top: 6%;
+        left: 12.5%;
+        width: 446px;
+        height: 222px;
+        padding: 30px 20px;
+        .tip-title{
+            text-align: center;
+            font-size:18px;
+            font-weight:bold;
+            color:rgba(255,249,234,1);
+            line-height:30px;
+        }
+    }
+}
+// 查看更多
+.sign-dog-see-more{
+    padding:10px 0 0 50px;
+    .list-detail{
+        float: left;
+        margin: 10px;
+        width: 350px;
+    }
+}
+.ie8{
+    .list-line-wrapper{
+        right: 468px!important;
     }
 }
