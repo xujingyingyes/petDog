@@ -156,14 +156,72 @@
 }
 
 .dog-blood-details{
+    font-family:MicrosoftYaHei;
     background:#e0e1e5;
+    padding: 30px 0;
 }
 .dog-blood-details .list-container{
     width:100%;
-    margin-top:20px;
-
+}
+.dog-blood-details .img-box{
+    width: 50%;
 }
 .dog-blood-details .img-box img{
+    width: 100%;
+}
+.dog-blood-details .details-box{
     width: 50%;
+    padding-left: 40px;
+}
+.dog-blood-details .details-box .name{
+    width: 100%;
+    font-size:48px;
+    color:#333;
+    padding-bottom: 40px;
+}
+.dog-blood-details .details-box .english-name{
+    height:47px;
+    font-size:24px;
+    font-weight:400;
+    color:#999;
+}
+.dog-blood-details .details-box .items{
+    font-family:MicrosoftYaHei;
+    height: 40px;
+    font-size:24px;
+    font-weight:400;
+    color:#999;
+    line-height: 24px;
+    margin-bottom: 8px;
+}
+.dog-blood-details .details-box .items span{
+    color:#333;
+    font-weight:400;
+}
+.dog-blood-details .details-box .level{
+    color:#BF2A30;
+    font-size:26px;
+}
+.dog-blood-details .details-box .level .img{
+   width: 114px;
+   vertical-align: middle;
+}
+.dog-blood-details .details-box .level p{
+    width: 45%;
+    margin-bottom: 10px;
+}
+.dog-blood-details .details-box .level .ml{
+    margin-right: 20px;
+}
+.dog-blood-details .details-box  .buy-btn{
+    width:355px;
+    height:68px;
+    background:rgba(191,42,48,1);
+    border-radius:34px;
+    color:#fff;
+    font-size:30px;
+    text-align: center;
+    line-height: 68px;
+    margin-top: 30px;
 
 }
