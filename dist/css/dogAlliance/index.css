@@ -197,6 +197,9 @@
   height: 40px;
   background: #000000;
   opacity: 0.48;
+  filter: alpha(opacity=48);
+  -moz-opacity: 0.48;
+  -khtml-opacity: 0.48;
   /* IE 8 */
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=48)";
   border-radius: 50%;
