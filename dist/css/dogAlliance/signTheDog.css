@@ -1,0 +1,10 @@
+.sign-dog-index {
+  background: #150F30;
+  width: 100%;
+  height: 840px;
+  padding-top: 60px;
+}
+.sign-dog-index img {
+  margin: 0 auto;
+  display: inline-block;
+}

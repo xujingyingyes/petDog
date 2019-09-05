@@ -36,7 +36,7 @@
     width: 297px;
     height: 230px;
     border-radius: 5px;
-    z-index: -3;
+    z-index: 1;
     float: left;
 }
 
@@ -52,7 +52,7 @@
 
 .info-list .list-bg-img {
     position: absolute;
-    z-index: -2;
+    z-index: 2;
     top: 0;
     left: 0;
     right: 0;
